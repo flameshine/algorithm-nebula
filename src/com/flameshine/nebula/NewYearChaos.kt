@@ -1,4 +1,4 @@
-package com.flameshine.nebula;
+package com.flameshine.nebula
 
 /**
  * Problem statement:
@@ -24,36 +24,31 @@ package com.flameshine.nebula;
  * Print "Too chaotic" if the state is invalid, i.e. it requires a person to have bribed more than 2 people.
  */
 
-public final class NewYearChaos {
+fun main() {
 
-    public static void main(String... args) {
+    val numbers = intArrayOf(2, 1, 3, 5, 4, 6, 8, 7)
 
-        var numbers = new int[] { 2, 1, 3, 5, 4, 8, 6, 7 };
+    println(
+        minimumBribes(numbers)
+    )
+}
 
-        System.out.println(
-            minimumBribes(numbers)
-        );
-    }
+fun minimumBribes(numbers: IntArray): Int {
 
-    private static int minimumBribes(int[] numbers) {
+    var result = 0
 
-        var result = 0;
+    for (i in numbers.indices) {
 
-        for (var i = 0; i < numbers.length; ++i) {
+        val distanceToInitialPosition = numbers[i] - (i + 1)
 
-            var distanceToInitialPosition = numbers[i] - (i + 1);
+        check(distanceToInitialPosition <= 2) { "Too chaotic" }
 
-            if (distanceToInitialPosition > 2) {
-                throw new IllegalStateException("Too chaotic");
-            }
-
-            for (var j = Math.max(0, numbers[i] - 2); j < i; ++j) {
-                if (numbers[j] > numbers[i]) {
-                    ++result;
-                }
+        for (j in 0.coerceAtLeast(numbers[i] - 2) until i) {
+            if (numbers[j] > numbers[i]) {
+                ++result
             }
         }
-
-        return result;
     }
+
+    return result
 }
