@@ -15,7 +15,7 @@ fun main() {
     )
 }
 
-fun isPalindrome(s: String): Boolean {
+private fun isPalindrome(s: String): Boolean {
 
     val result = s.filter { it.isLetterOrDigit() }
         .map { it.lowercaseChar() }

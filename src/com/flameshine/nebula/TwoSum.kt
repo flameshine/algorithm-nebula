@@ -17,7 +17,7 @@ fun main() {
     )
 }
 
-fun twoSum(nums: IntArray, target: Int): IntArray {
+private fun twoSum(nums: IntArray, target: Int): IntArray {
 
     for (i in nums.indices) {
         for (j in nums.indices) {

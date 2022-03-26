@@ -33,7 +33,7 @@ fun main() {
     )
 }
 
-fun minimumBribes(numbers: IntArray): Int {
+private fun minimumBribes(numbers: IntArray): Int {
 
     var result = 0
 

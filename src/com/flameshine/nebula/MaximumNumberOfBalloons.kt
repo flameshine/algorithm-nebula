@@ -15,7 +15,7 @@ fun main() {
     )
 }
 
-fun maxNumberOfBalloons(text: String): Int {
+private fun maxNumberOfBalloons(text: String): Int {
 
     val charactersToCount = mutableMapOf('b' to 0, 'a' to 0, 'l' to 0, 'o' to 0, 'n' to 0)
 

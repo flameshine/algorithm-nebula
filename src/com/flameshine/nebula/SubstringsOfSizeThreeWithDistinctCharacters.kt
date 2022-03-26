@@ -15,7 +15,7 @@ fun main() {
     )
 }
 
-fun countGoodSubstrings(s: String): Int {
+private fun countGoodSubstrings(s: String): Int {
 
     val substringLength = 3
 

@@ -19,7 +19,7 @@ fun main() {
     )
 }
 
-fun minimumCost(cost: IntArray): Int {
+private fun minimumCost(cost: IntArray): Int {
 
     cost.sortDescending()
 

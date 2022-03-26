@@ -18,7 +18,7 @@ fun main() {
     )
 }
 
-fun maxProduct(numbers: IntArray): Int {
+private fun maxProduct(numbers: IntArray): Int {
 
     Arrays.sort(numbers)
 

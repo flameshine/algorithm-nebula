@@ -15,12 +15,12 @@ fun main() {
     )
 }
 
-fun sortedSquares(nums: IntArray): IntArray {
+private fun sortedSquares(nums: IntArray): IntArray {
     return nums.map { square(it) }
         .sorted()
         .toIntArray()
 }
 
-fun square(n: Int): Int {
+private fun square(n: Int): Int {
     return n * n
 }
