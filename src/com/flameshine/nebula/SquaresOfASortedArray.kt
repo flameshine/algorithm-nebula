@@ -16,11 +16,7 @@ fun main() {
 }
 
 private fun sortedSquares(nums: IntArray): IntArray {
-    return nums.map { square(it) }
+    return nums.map { it * it }
         .sorted()
         .toIntArray()
-}
-
-private fun square(n: Int): Int {
-    return n * n
 }

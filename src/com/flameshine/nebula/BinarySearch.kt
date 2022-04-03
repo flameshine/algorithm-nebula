@@ -17,7 +17,7 @@ fun main() {
     )
 }
 
-fun search(nums: IntArray, target: Int): Int {
+private fun search(nums: IntArray, target: Int): Int {
     return binarySearch(nums, 0, nums.size, target)
 }
 
