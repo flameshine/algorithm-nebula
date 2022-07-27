@@ -19,12 +19,17 @@ fun main() {
 
 private fun twoSum(nums: IntArray, target: Int): IntArray {
 
+    val indexMap = mutableMapOf<Int, Int>()
+
     for (i in nums.indices) {
-        for (j in nums.indices) {
-            if (i != j && nums[i] + nums[j] == target) {
-                return intArrayOf(i, j)
-            }
+
+        val desired = target - nums[i]
+
+        indexMap[desired]?.let {
+            return intArrayOf(it, i)
         }
+
+        indexMap[nums[i]] = i
     }
 
     throw IllegalStateException("The problem should have at least one solution")
