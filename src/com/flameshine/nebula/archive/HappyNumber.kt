@@ -1,4 +1,4 @@
-package com.flameshine.nebula
+package com.flameshine.nebula.archive
 
 /**
  * Write an algorithm to determine if a number n is happy.

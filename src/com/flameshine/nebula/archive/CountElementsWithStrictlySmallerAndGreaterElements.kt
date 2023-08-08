@@ -1,4 +1,4 @@
-package com.flameshine.nebula
+package com.flameshine.nebula.archive
 
 /**
  * Given an integer array nums, return the number of elements that have both a strictly smaller and a strictly greater element appear in nums.

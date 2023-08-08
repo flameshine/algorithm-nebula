@@ -1,4 +1,4 @@
-package com.flameshine.nebula
+package com.flameshine.nebula.archive
 
 import kotlin.math.abs
 
