@@ -6,6 +6,7 @@ public final class Main {
 
     public static void main(String... args) {
         demonstrateArrayList();
+        demonstrateLinkedList();
     }
 
     private static void demonstrateArrayList() {
@@ -25,5 +26,24 @@ public final class Main {
         System.out.println(arrayList.indexOf(1));
 
         System.out.println(arrayList);
+    }
+
+    private static void demonstrateLinkedList() {
+
+        LinkedList<Integer> linkedList = new LinkedList<>();
+
+        linkedList.add(1);
+        linkedList.add(2);
+        linkedList.add(3);
+        linkedList.add(4);
+        linkedList.add(5);
+
+        linkedList.remove(3);
+
+        System.out.println(linkedList.get(0));
+
+        System.out.println(linkedList.indexOf(1));
+
+        System.out.println(linkedList);
     }
 }
