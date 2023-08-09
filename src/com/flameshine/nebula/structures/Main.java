@@ -19,5 +19,11 @@ public final class Main {
         arrayList.add(5);
 
         arrayList.remove(3);
+
+        System.out.println(arrayList.get(0));
+
+        System.out.println(arrayList.indexOf(1));
+
+        System.out.println(arrayList);
     }
 }

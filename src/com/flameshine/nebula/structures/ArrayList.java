@@ -2,7 +2,7 @@ package com.flameshine.nebula.structures;
 
 public class ArrayList<T> {
 
-    private static final int DEFAULT_CAPACITY = 3;
+    private static final int DEFAULT_CAPACITY = 5;
 
     private Object[] elements;
     private int capacity;
@@ -76,13 +76,42 @@ public class ArrayList<T> {
         elements[--size] = null;
     }
 
-    // TODO: complete
-
-    public T get(int index) {
-        return null;
+    /**
+     * Retrieves element by index.
+     */
+    public Object get(int index) {
+        return elements[index];
     }
 
+    /**
+     * Returns a position of the first occurrence of the element.
+     *
+     * 1. Find the first equal element iterating over an array and return its index.
+     * 2. Return -1 if no such element found.
+     */
+    public int indexOf(T element) {
+
+        for (var i = 0; i < size; i++) {
+            if (elements[i].equals(element)) {
+                return i;
+            }
+        }
+
+        return -1;
+    }
+
+    @Override
     public String toString() {
-        return null;
+
+        var builder = new StringBuilder("[");
+
+        for (var i = 0; i < size; i++) {
+            builder.append(elements[i]);
+            if (i != size - 1) {
+                builder.append(", ");
+            }
+        }
+
+        return builder.append("]").toString();
     }
 }
