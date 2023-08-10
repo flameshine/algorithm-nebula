@@ -14,12 +14,6 @@ public class ArrayList<T> {
         this.size = 0;
     }
 
-    public ArrayList(int capacity) {
-        this.elements = new Object[capacity];
-        this.capacity = capacity;
-        this.size = 0;
-    }
-
     /**
      * Adds element to the end of the array list.
      *

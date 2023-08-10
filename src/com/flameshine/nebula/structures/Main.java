@@ -5,8 +5,9 @@ public final class Main {
     private Main() {}
 
     public static void main(String... args) {
-        demonstrateArrayList();
-        demonstrateLinkedList();
+//        demonstrateArrayList();
+//        demonstrateLinkedList();
+        demonstrateHashTable();
     }
 
     private static void demonstrateArrayList() {
@@ -45,5 +46,16 @@ public final class Main {
         System.out.println(linkedList.indexOf(1));
 
         System.out.println(linkedList);
+    }
+
+    private static void demonstrateHashTable() {
+
+        HashTable<Integer, String> hashTable = new HashTable<>();
+
+        hashTable.put(1, "one");
+        hashTable.put(2, "two");
+        hashTable.put(3, "three");
+        hashTable.put(4, "four");
+        hashTable.put(5, "five");
     }
 }
