@@ -5,12 +5,21 @@ public final class Main {
     private Main() {}
 
     public static void main(String... args) {
+
         demonstrateArrayList();
+
+        System.out.println();
+
         demonstrateLinkedList();
+
+        System.out.println();
+
         demonstrateHashTable();
     }
 
     private static void demonstrateArrayList() {
+
+        System.out.println("ArrayList: \n");
 
         ArrayList<Integer> arrayList = new ArrayList<>();
 
@@ -31,6 +40,8 @@ public final class Main {
 
     private static void demonstrateLinkedList() {
 
+        System.out.println("LinkedList: \n");
+
         LinkedList<Integer> linkedList = new LinkedList<>();
 
         linkedList.add(1);
@@ -50,13 +61,13 @@ public final class Main {
 
     private static void demonstrateHashTable() {
 
+        System.out.println("HashTable: \n");
+
         HashTable<Integer, String> hashTable = new HashTable<>();
 
         hashTable.put(1, "one");
         hashTable.put(2, "two");
-        hashTable.put(3, "three1");
-        hashTable.put(3, "three2");
-        hashTable.put(3, "three3");
+        hashTable.put(3, "three");
         hashTable.put(4, "four");
         hashTable.put(5, "five");
 
