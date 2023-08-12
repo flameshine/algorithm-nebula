@@ -5,8 +5,8 @@ public final class Main {
     private Main() {}
 
     public static void main(String... args) {
-//        demonstrateArrayList();
-//        demonstrateLinkedList();
+        demonstrateArrayList();
+        demonstrateLinkedList();
         demonstrateHashTable();
     }
 
@@ -54,8 +54,24 @@ public final class Main {
 
         hashTable.put(1, "one");
         hashTable.put(2, "two");
-        hashTable.put(3, "three");
+        hashTable.put(3, "three1");
+        hashTable.put(3, "three2");
+        hashTable.put(3, "three3");
         hashTable.put(4, "four");
         hashTable.put(5, "five");
+
+        hashTable.remove(3);
+
+        System.out.println(hashTable.get(5));
+
+        hashTable.entrySet().forEach(System.out::println);
+
+        System.out.println(hashTable.containsKey(1));
+        System.out.println(hashTable.containsKey(6));
+
+        System.out.println(hashTable.containsValue("one"));
+        System.out.println(hashTable.containsValue("six"));
+
+        System.out.println(hashTable);
     }
 }

@@ -48,15 +48,15 @@ public class LinkedList<T> {
      */
     public void remove(T element) {
 
-        var current = head;
+        var pointer = head;
 
         Node<T> target = null;
 
-        while (current != null) {
-            if (current.data.equals(element)) {
-                target = current;
+        while (pointer != null) {
+            if (pointer.data.equals(element)) {
+                target = pointer;
             }
-            current = current.next;
+            pointer = pointer.next;
         }
 
         if (target == null) {
@@ -106,13 +106,13 @@ public class LinkedList<T> {
      */
     public int indexOf(T element) {
 
-        var current = head;
+        var pointer = head;
 
         for (var i = 0; i < size; i++) {
-            if (current.data.equals(element)) {
+            if (pointer.data.equals(element)) {
                 return i;
             }
-            current = current.next;
+            pointer = pointer.next;
         }
 
         return -1;
@@ -122,15 +122,15 @@ public class LinkedList<T> {
     public String toString() {
 
         var builder = new StringBuilder("[");
-        var current = head;
+        var pointer = head;
 
-        while (current != null) {
-            builder.append(current.data);
-            var next = current.next;
+        while (pointer != null) {
+            builder.append(pointer.data);
+            var next = pointer.next;
             if (next != null) {
                 builder.append(", ");
             }
-            current = next;
+            pointer = next;
         }
 
         return builder.append("]").toString();
