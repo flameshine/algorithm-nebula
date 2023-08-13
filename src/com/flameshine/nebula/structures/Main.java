@@ -15,6 +15,10 @@ public final class Main {
         System.out.println();
 
         demonstrateHashTable();
+
+        System.out.println();
+
+        demonstrateBinaryTree();
     }
 
     private static void demonstrateArrayList() {
@@ -84,5 +88,20 @@ public final class Main {
         System.out.println(hashTable.containsValue("six"));
 
         System.out.println(hashTable);
+    }
+
+    private static void demonstrateBinaryTree() {
+
+        System.out.println("BinaryTree: \n");
+
+        BinaryTree<Integer> binaryTree = new BinaryTree<>();
+
+        binaryTree.insert(1);
+        binaryTree.insert(2);
+        binaryTree.insert(3);
+        binaryTree.insert(4);
+        binaryTree.insert(5);
+
+        System.out.println(binaryTree);
     }
 }
