@@ -1,5 +1,8 @@
 package com.flameshine.nebula.structures;
 
+import java.util.Queue;
+import java.util.LinkedList;
+
 public class BinaryTree<T> {
 
     private Node<T> root;
@@ -10,13 +13,37 @@ public class BinaryTree<T> {
      * Inserts a value into a binary tree.
      *
      * 1. If the root is null, set the received data as a tree root.
-     * 2. Otherwise, call a helper recursive function to find a proper leaf to insert a data.
+     * 2. Otherwise, create a queue that will hold nodes to visit and populate it with the root node.
+     * 3. Check each node queue contains, performing these operations:
+     *    - Then, check if the left leaf is null. If so, place the value there.
+     *    - Similarly, check if the right leaf is null and place the value there.
+     *    - If none of the conditions above are true, add both leafs to the queue.
      */
     public void insert(T data) {
+
         if (root == null) {
             root = new Node<>(data);
-        } else {
-            insert(root, data);
+            return;
+        }
+
+        Queue<Node<T>> queue = new LinkedList<>();
+
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+
+            var current = queue.poll();
+
+            if (current.left == null) {
+                current.left = new Node<>(data);
+                return;
+            } else if (current.right == null) {
+                current.right = new Node<>(data);
+                return;
+            } else {
+                queue.add(current.left);
+                queue.add(current.right);
+            }
         }
     }
 
@@ -37,23 +64,6 @@ public class BinaryTree<T> {
         var builder = new StringBuilder();
         inorderTraversal(root, builder);
         return builder.toString();
-    }
-
-    /**
-     * Helper function that inserts the particular leaf.
-     *
-     * 1. First, check if the left leaf is null. If so, place the value there.
-     * 2. Then, check if the right leaf is null and place the value there.
-     * 3. If none of the conditions above a true, continue traversing a tree, starting from the left leaf.
-     */
-    private void insert(Node<T> current, T data) {
-        if (current.left == null) {
-            current.left = new Node<>(data);
-        } else if (current.right == null) {
-            current.right = new Node<>(data);
-        } else {
-            insert(current.left, data);
-        }
     }
 
     /**
