@@ -2,6 +2,8 @@ package com.flameshine.nebula.structures;
 
 import java.util.Queue;
 import java.util.LinkedList;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.function.Consumer;
 
 public class BinaryTree<T> {
 
@@ -47,39 +49,80 @@ public class BinaryTree<T> {
         }
     }
 
+    /**
+     * Removes the specified value from a tree.
+     */
     public void remove(T data) {
 
     }
 
-    public Node<T> get(T data) {
-
+    /**
+     * Specifies whether the value exists in the tree or not.
+     *
+     * 1. Call a helper function that recursively check each node.
+     *
+     * @return True if the binary tree contains specified data, false otherwise.
+     */
+    public boolean contains(T data) {
+        return contains(root, data);
     }
 
+    /**
+     * Calculates size of the binary tree.
+     *
+     * 1. Create a counter, that will be incremented each time we visited a node.
+     * 2. Perform in-order traversal of the tree, incrementing a counter with each node visited.
+     * 3. Return the accumulated value.
+     *
+     * @return Number of nodes in the tree.
+     */
     public int size() {
-
+        var counter = new AtomicInteger();
+        inorderTraversalActioning(root, ignored -> counter.incrementAndGet());
+        return counter.get();
     }
 
     @Override
     public String toString() {
-        var builder = new StringBuilder();
-        inorderTraversal(root, builder);
-        return builder.toString();
+        var accumulator = new StringBuilder();
+        inorderTraversalActioning(root, accumulator::append);
+        return accumulator.toString();
     }
 
     /**
-     * Helper method to traversal a tree using in-order approach.
+     * Helper method to traverse a tree, performing some action specified.
      */
-    private void inorderTraversal(Node<T> current, StringBuilder builder) {
+    private void inorderTraversalActioning(Node<T> current, Consumer<Object> action) {
 
         if (current == null) {
             return;
         }
 
-        inorderTraversal(current.left, builder);
+        inorderTraversalActioning(current.left, action);
 
-        builder.append(current.data);
+        action.accept(current.data);
 
-        inorderTraversal(current.right, builder);
+        inorderTraversalActioning(current.right, action);
+    }
+
+    /**
+     * Helper method to recursively check if the value exists.
+     *
+     * 1. Check if the current node exists. If not, return false.
+     * 2. Check if the data current node holds equal to the target data.
+     * 3. Continue checking each both branches of the tree.
+     */
+    private boolean contains(Node<T> current, T data) {
+
+        if (current == null) {
+            return false;
+        }
+
+        if (current.data.equals(data)) {
+            return true;
+        }
+
+        return contains(current.left, data) || contains(current.right, data);
     }
 
     public static class Node<T> {

@@ -102,6 +102,11 @@ public final class Main {
         binaryTree.insert(4);
         binaryTree.insert(5);
 
+        System.out.println(binaryTree.contains(3));
+        System.out.println(binaryTree.contains(7));
+
+        System.out.println(binaryTree.size());
+
         System.out.println(binaryTree);
     }
 }
