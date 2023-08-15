@@ -50,13 +50,6 @@ public class BinaryTree<T> {
     }
 
     /**
-     * Removes the specified value from a tree.
-     */
-    public void remove(T data) {
-
-    }
-
-    /**
      * Specifies whether the value exists in the tree or not.
      *
      * 1. Call a helper function that recursively check each node.
