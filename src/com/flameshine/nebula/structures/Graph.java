@@ -1,0 +1,149 @@
+package com.flameshine.nebula.structures;
+
+import java.util.Map;
+import java.util.List;
+import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.Objects;
+
+public class Graph<T> {
+
+    private final Map<Vertex<T>, List<Vertex<T>>> adjacencyMatrix;
+
+    public Graph() {
+        this.adjacencyMatrix = new HashMap<>();
+    }
+
+    /**
+     * Adds a new vertex to the graph with the specified data.
+     *
+     * 1. Check if the data to add isn't null. Throw NPE if it isn't.
+     * 2. Add a new entry to the adjacency matrix map.
+     */
+    public void addVertex(T data) {
+
+        if (data == null) {
+            throw new NullPointerException();
+        }
+
+        adjacencyMatrix.putIfAbsent(
+            new Vertex<>(data),
+            new ArrayList<>()
+        );
+    }
+
+    /**
+     * Removes a vertex with the specified data from the graph.
+     *
+     * 1. Check if the data is null. If so, throw an NPE.
+     * 2. Remove all edges with the graph.
+     * 3. Remove the graph itself.
+     */
+    public void removeVertex(T data) {
+
+        if (data == null) {
+            throw new NullPointerException();
+        }
+
+        var key = new Vertex<>(data);
+
+        for (var connections : adjacencyMatrix.values()) {
+            connections.remove(key);
+        }
+
+        adjacencyMatrix.remove(key);
+    }
+
+    /**
+     * Adds an edge between particular vertexes.
+     *
+     * 1.
+     */
+    public void addEdge(T data1, T data2) {
+
+    }
+
+    /**
+     * Removes an edge between particular vertexes.
+     *
+     * 1.
+     */
+    public void removeEdge() {
+
+    }
+
+    /**
+     * Specifies whether this graph is null or not.
+     * Note: a graph known as a null graph if there are no edges in the graph.
+     *
+     * 1. If the size of the adjacency matrix is zero, we can count this graph as a null graph.
+     */
+    public boolean isNull() {
+        return adjacencyMatrix.isEmpty();
+    }
+
+    /**
+     * Specifies whether this graph is trivial or not.
+     * Note: a graph known as a trivial graph is there is only a single vertex.
+     *
+     * 1. If the size of the adjacency matrix is one, we can count this graph as a trivial one.
+     */
+    public boolean isTrivial() {
+        return adjacencyMatrix.size() == 1;
+    }
+
+    @Override
+    public String toString() {
+
+        var builder = new StringBuilder();
+        var counter = 0;
+
+        for (var entry : adjacencyMatrix.entrySet()) {
+
+            builder.append(entry.getKey())
+                .append(" -> ")
+                .append(entry.getValue());
+
+            if (counter != adjacencyMatrix.size() - 1) {
+                builder.append("\n");
+            }
+
+            ++counter;
+        }
+
+        return builder.toString();
+    }
+
+    public static class Vertex<T> {
+
+        private final T data;
+
+        public Vertex(T data) {
+            this.data = data;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+
+            if (this == o) {
+                return true;
+            }
+
+            if (!(o instanceof Vertex<?> that)) {
+                return false;
+            }
+
+            return Objects.equals(data, that.data);
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(data);
+        }
+
+        @Override
+        public String toString() {
+            return data.toString();
+        }
+    }
+}

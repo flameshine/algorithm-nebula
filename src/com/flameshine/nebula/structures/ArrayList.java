@@ -22,8 +22,8 @@ public class ArrayList<T> {
      *    - Create an extended array with the new size
      *    - Copy values from the old array to the new one
      *    - Re-assign the variables
-     * 2. Assign the value to a cell
-     * 3. Increment the size
+     * 2. Assign the value to a cell.
+     * 3. Increment the size.
      */
     public void add(T element) {
 
@@ -43,10 +43,10 @@ public class ArrayList<T> {
     /**
      * Removes the first appearance of the received element.
      *
-     * 1. Find the position of element in the list (for simplicity, the brute-force approach will be used)
-     * 2. Shift the array on one position
-     * 3. Set the value of removed element to null to let it be properly cleaned up
-     * 4. Decrement the size value
+     * 1. Find the position of element in the list (for simplicity, the brute-force approach will be used).
+     * 2. Shift the array on one position.
+     * 3. Set the value of removed element to null to let it be properly cleaned up.
+     * 4. Decrement the size value.
      */
     public void remove(T element) {
 

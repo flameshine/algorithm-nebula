@@ -19,6 +19,10 @@ public final class Main {
         System.out.println();
 
         demonstrateBinaryTree();
+
+        System.out.println();
+
+        demonstrateGraph();
     }
 
     private static void demonstrateArrayList() {
@@ -108,5 +112,27 @@ public final class Main {
         System.out.println(binaryTree.size());
 
         System.out.println(binaryTree);
+    }
+
+    private static void demonstrateGraph() {
+
+        System.out.println("Graph: \n");
+
+        Graph<String> graph = new Graph<>();
+
+        System.out.println(graph.isNull());
+
+        graph.addVertex("first");
+
+        System.out.println(graph.isTrivial());
+
+        graph.addVertex("second");
+        graph.addVertex("third");
+        graph.addVertex("fourth");
+        graph.addVertex("fifth");
+
+        graph.removeVertex("first");
+
+        System.out.println(graph);
     }
 }
