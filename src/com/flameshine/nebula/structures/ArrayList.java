@@ -9,8 +9,12 @@ public class ArrayList<T> {
     private int size;
 
     public ArrayList() {
-        this.elements = new Object[DEFAULT_CAPACITY];
-        this.capacity = DEFAULT_CAPACITY;
+        this(DEFAULT_CAPACITY);
+    }
+
+    public ArrayList(int capacity) {
+        this.elements = new Object[capacity];
+        this.capacity = capacity;
         this.size = 0;
     }
 
@@ -25,7 +29,7 @@ public class ArrayList<T> {
      * 2. Assign the value to a cell.
      * 3. Increment the size.
      */
-    public void add(T element) {
+    public void add(T data) {
 
         if (size == capacity) {
             var newCapacity = capacity * 2;
@@ -35,7 +39,7 @@ public class ArrayList<T> {
             elements = extended;
         }
 
-        elements[size] = element;
+        elements[size] = data;
 
         ++size;
     }
@@ -48,12 +52,12 @@ public class ArrayList<T> {
      * 3. Set the value of removed element to null to let it be properly cleaned up.
      * 4. Decrement the size value.
      */
-    public void remove(T element) {
+    public void remove(T data) {
 
         var index = -1;
 
         for (var i = 0; i < size; i++) {
-            if (elements[i].equals(element)) {
+            if (elements[i].equals(data)) {
                 index = i;
                 break;
             }
@@ -83,10 +87,10 @@ public class ArrayList<T> {
      * 1. Find the first equal element iterating over an array and return its index.
      * 2. Return -1 if no such element found.
      */
-    public int indexOf(T element) {
+    public int indexOf(T data) {
 
         for (var i = 0; i < size; i++) {
-            if (elements[i].equals(element)) {
+            if (elements[i].equals(data)) {
                 return i;
             }
         }

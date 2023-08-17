@@ -5,24 +5,12 @@ public final class Main {
     private Main() {}
 
     public static void main(String... args) {
-
-        demonstrateArrayList();
-
-        System.out.println();
-
-        demonstrateLinkedList();
-
-        System.out.println();
-
-        demonstrateHashTable();
-
-        System.out.println();
-
-        demonstrateBinaryTree();
-
-        System.out.println();
-
-        demonstrateGraph();
+        demonstrate(Main::demonstrateArrayList);
+        demonstrate(Main::demonstrateLinkedList);
+        demonstrate(Main::demonstrateHashTable);
+        demonstrate(Main::demonstrateBinaryTree);
+        demonstrate(Main::demonstrateGraph);
+        demonstrate(Main::demonstrateStack);
     }
 
     private static void demonstrateArrayList() {
@@ -140,5 +128,25 @@ public final class Main {
         graph.removeEdge("second", "fourth");
 
         System.out.println(graph);
+    }
+
+    private static void demonstrateStack() {
+
+        System.out.println("Stack: \n");
+
+        Stack<Integer> stack = new Stack<>();
+
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+        stack.push(5);
+
+        System.out.println(stack.pop());
+    }
+
+    private static void demonstrate(Runnable runnable) {
+        runnable.run();
+        System.out.println();
     }
 }
