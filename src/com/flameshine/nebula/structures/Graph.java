@@ -57,19 +57,59 @@ public class Graph<T> {
     /**
      * Adds an edge between particular vertexes.
      *
-     * 1.
+     * 1. Verify that vertexes passed aren't null.
+     * 2. Verify that the vertexes exist in the adjacency matrix.
+     * 3. Retrieve the vertexes and link them if they aren't linked already.
      */
-    public void addEdge(T data1, T data2) {
+    public void addEdge(T first, T second) {
 
+        if (first == null || second == null) {
+            throw new NullPointerException();
+        }
+
+        var firstKey = new Vertex<>(first);
+        var secondKey = new Vertex<>(second);
+
+        if (!(adjacencyMatrix.containsKey(firstKey) && adjacencyMatrix.containsKey(secondKey))) {
+            throw new IllegalArgumentException();
+        }
+
+        var firstConnections = adjacencyMatrix.get(firstKey);
+        var secondConnections = adjacencyMatrix.get(secondKey);
+
+        if (!(firstConnections.contains(secondKey) && secondConnections.contains(firstKey))) {
+            firstConnections.add(secondKey);
+            secondConnections.add(firstKey);
+        }
     }
 
     /**
      * Removes an edge between particular vertexes.
      *
-     * 1.
+     * 1. Verify that vertexes passed aren't null.
+     * 2. Verify that the vertexes exist in the adjacency matrix.
+     * 3. Unlink the vertexes if they exists.
      */
-    public void removeEdge() {
+    public void removeEdge(T first, T second) {
 
+        if (first == null || second == null) {
+            throw new NullPointerException();
+        }
+
+        var firstKey = new Vertex<>(first);
+        var secondKey = new Vertex<>(second);
+
+        if (!(adjacencyMatrix.containsKey(firstKey) && adjacencyMatrix.containsKey(secondKey))) {
+            throw new IllegalArgumentException();
+        }
+
+        var firstConnections = adjacencyMatrix.get(firstKey);
+        var secondConnections = adjacencyMatrix.get(secondKey);
+
+        if (firstConnections.contains(secondKey) && secondConnections.contains(firstKey)) {
+            firstConnections.remove(secondKey);
+            secondConnections.remove(firstKey);
+        }
     }
 
     /**

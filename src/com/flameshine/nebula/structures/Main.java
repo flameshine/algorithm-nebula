@@ -131,7 +131,13 @@ public final class Main {
         graph.addVertex("fourth");
         graph.addVertex("fifth");
 
-        graph.removeVertex("first");
+        graph.removeVertex("third");
+
+        graph.addEdge("first", "second");
+        graph.addEdge("second", "fourth");
+        graph.addEdge("fourth", "fifth");
+
+        graph.removeEdge("second", "fourth");
 
         System.out.println(graph);
     }
