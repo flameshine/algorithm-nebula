@@ -1,5 +1,8 @@
 package com.flameshine.nebula.structures;
 
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
 public class ArrayList<T> {
 
     private static final int DEFAULT_CAPACITY = 5;
@@ -100,16 +103,11 @@ public class ArrayList<T> {
 
     @Override
     public String toString() {
-
-        var builder = new StringBuilder("[");
-
-        for (var i = 0; i < size; i++) {
-            builder.append(elements[i]);
-            if (i != size - 1) {
-                builder.append(", ");
-            }
-        }
-
-        return builder.append("]").toString();
+        return Arrays.stream(elements)
+            .limit(size)
+            .map(Object::toString)
+            .collect(Collectors.joining(
+                ", ", "[", "]"
+            ));
     }
 }

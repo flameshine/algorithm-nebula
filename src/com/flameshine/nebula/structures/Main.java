@@ -143,6 +143,12 @@ public final class Main {
         stack.push(5);
 
         System.out.println(stack.pop());
+
+        System.out.println(stack.peek());
+
+        System.out.println(stack.search(1));
+
+        System.out.println(stack);
     }
 
     private static void demonstrate(Runnable runnable) {

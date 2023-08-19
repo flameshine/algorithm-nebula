@@ -1,6 +1,8 @@
 package com.flameshine.nebula.structures;
 
+import java.util.Arrays;
 import java.util.EmptyStackException;
+import java.util.stream.Collectors;
 
 public class Stack<T> {
 
@@ -71,27 +73,50 @@ public class Stack<T> {
     /**
      * Returns (but not removes) an element from the top of the stack.
      *
-     * 1.
+     * 1. Verify that the stack isn't empty.
+     * 2. Return the top element of the stack array.
      *
      * @return Element from the top of the stack.
      */
+    @SuppressWarnings("unchecked")
     public T peek() {
-        throw new UnsupportedOperationException();
+
+        if (size == 0) {
+            throw new EmptyStackException();
+        }
+
+        return (T) elements[size - 1];
     }
 
     /**
      * Returns position of the element from top of the stack.
      *
-     * 1.
+     * 1. Iterate over elements starting from the top of the stack incrementing a counter.
+     * 2. Return the counter value if element present, otherwise return -1.
      *
-     * @return Position of the element from the top of the stack.
+     * @return Position of the element from the top of the stack and -1 if element doesn't exist.
      */
     public int search(T data) {
-        throw new UnsupportedOperationException();
+
+        var counter = 1;
+
+        for (var i = size - 1; i >= 0; i--) {
+            if (elements[i].equals(data)) {
+                return counter;
+            }
+            ++counter;
+        }
+
+        return -1;
     }
 
     @Override
     public String toString() {
-        throw new UnsupportedOperationException();
+        return Arrays.stream(elements)
+            .limit(size)
+            .map(Object::toString)
+            .collect(
+                Collectors.joining(", ", "[", "]")
+            );
     }
 }
