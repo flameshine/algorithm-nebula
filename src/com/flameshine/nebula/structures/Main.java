@@ -11,6 +11,7 @@ public final class Main {
         demonstrate(Main::demonstrateBinaryTree);
         demonstrate(Main::demonstrateGraph);
         demonstrate(Main::demonstrateStack);
+        demonstrate(Main::demonstrateQueue);
     }
 
     private static void demonstrateArrayList() {
@@ -149,6 +150,27 @@ public final class Main {
         System.out.println(stack.search(1));
 
         System.out.println(stack);
+    }
+
+    private static void demonstrateQueue() {
+
+        System.out.println("Queue: \n");
+
+        Queue<Integer> queue = new Queue<>();
+
+        queue.enqueue(1);
+        queue.enqueue(2);
+        queue.enqueue(3);
+        queue.enqueue(4);
+        queue.enqueue(5);
+
+        System.out.println(queue.dequeue());
+
+        System.out.println(queue.size());
+
+        System.out.println(queue.peek());
+
+        System.out.println(queue);
     }
 
     private static void demonstrate(Runnable runnable) {
