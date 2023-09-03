@@ -24,11 +24,15 @@ public class QuickSort {
      *    - recursively call this function for the right partition
      */
     private static void sort(int[] array, int start, int end) {
-        if (start < end) {
-            var partitionIndex = partition(array, start, end);
-            sort(array, start, partitionIndex - 1);
-            sort(array, partitionIndex + 1, end);
+
+        if (start >= end) {
+            return;
         }
+
+        var partitionIndex = partition(array, start, end);
+
+        sort(array, start, partitionIndex - 1);
+        sort(array, partitionIndex + 1, end);
     }
 
     /**
