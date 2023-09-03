@@ -1,4 +1,4 @@
-package com.flameshine.nebula.archive
+package com.flameshine.nebula.problems.leetcode.archive
 
 /**
  * Given a valid (IPv4) IP address, return a defanged version of that IP address.

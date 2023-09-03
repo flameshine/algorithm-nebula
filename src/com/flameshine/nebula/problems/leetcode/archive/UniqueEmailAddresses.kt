@@ -1,4 +1,4 @@
-package com.flameshine.nebula.archive
+package com.flameshine.nebula.problems.leetcode.archive
 
 /**
  * Every valid email consists of a local name and a domain name, separated by the '@' sign.

@@ -1,4 +1,4 @@
-package com.flameshine.nebula.archive
+package com.flameshine.nebula.problems.leetcode.archive
 
 import kotlin.math.abs
 
