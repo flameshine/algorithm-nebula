@@ -35,7 +35,7 @@ public class BinarySearch {
         var index = -1;
 
         while (start <= end) {
-            var middle = (end + start) / 2;
+            var middle = (start + end) / 2;
             if (array[middle] < target) {
                 start = middle + 1;
             } else if (array[middle] > target) {
