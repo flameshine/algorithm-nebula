@@ -6,7 +6,7 @@ public class QuickSort {
 
     public static void main(String... args) {
 
-        var array = new int[] { 5, 7, 3, 9, 8, 2, 1, 4, 6 };
+        int[] array = { 5, 7, 3, 9, 8, 2, 1, 4, 6 };
 
         sort(array, 0, array.length - 1);
 
