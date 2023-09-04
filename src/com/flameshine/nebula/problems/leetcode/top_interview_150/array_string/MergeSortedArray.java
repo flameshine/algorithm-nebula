@@ -1,9 +1,9 @@
-package com.flameshine.nebula.problems.leetcode.top_interview_150;
+package com.flameshine.nebula.problems.leetcode.top_interview_150.array_string;
 
 import java.util.Arrays;
 
 /**
- * №88
+ * №88 Merge Sorted Array
  *
  * You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
  * Merge nums1 and nums2 into a single array sorted in non-decreasing order.

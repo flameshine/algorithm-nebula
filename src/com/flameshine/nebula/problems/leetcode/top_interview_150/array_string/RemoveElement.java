@@ -1,7 +1,7 @@
-package com.flameshine.nebula.problems.leetcode.top_interview_150;
+package com.flameshine.nebula.problems.leetcode.top_interview_150.array_string;
 
 /**
- * №27
+ * №27 Remove Element
  *
  * Given an integer array nums and an integer val, remove all occurrences of val in nums in-place.
  * The order of the elements may be changed.
@@ -16,10 +16,9 @@ public class RemoveElement {
     public static void main(String... args) {
 
         int[] nums = { 3, 2, 2, 3 };
-        var val = 3;
 
         System.out.println(
-            removeElement(nums, val)
+            removeElement(nums, 3)
         );
     }
 
