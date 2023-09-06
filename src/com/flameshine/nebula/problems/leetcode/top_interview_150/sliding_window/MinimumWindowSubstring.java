@@ -1,5 +1,8 @@
 package com.flameshine.nebula.problems.leetcode.top_interview_150.sliding_window;
 
+import java.util.Map;
+import java.util.HashMap;
+
 /**
  * №76 Minimum Window Substring
  *
@@ -15,9 +18,56 @@ public class MinimumWindowSubstring {
         );
     }
 
-    // TODO: complete
-
     private static String minWindow(String s, String t) {
-        throw new UnsupportedOperationException();
+
+        Map<Character, Integer> targetCharacterToFrequency = new HashMap<>();
+
+        for (var c : t.toCharArray()) {
+            targetCharacterToFrequency.put(c, targetCharacterToFrequency.getOrDefault(c, 0) + 1);
+        }
+
+        var count = targetCharacterToFrequency.size();
+        var minimum = s.length();
+        var i = 0;
+        var j = 0;
+        var left = 0;
+        var right = s.length() - 1;
+        var isFound = false;
+
+        while (j < s.length()) {
+
+            var endChar = s.charAt(j++);
+            if (targetCharacterToFrequency.containsKey(endChar)) {
+                targetCharacterToFrequency.put(endChar, targetCharacterToFrequency.get(endChar) - 1);
+                if (targetCharacterToFrequency.get(endChar) == 0) {
+                    --count;
+                }
+            }
+
+            if (count > 0) {
+                continue;
+            }
+
+            while (count == 0) {
+                var startChar = s.charAt(i++);
+                if (targetCharacterToFrequency.containsKey(startChar)) {
+                    targetCharacterToFrequency.put(startChar, targetCharacterToFrequency.get(startChar) + 1);
+                    if (targetCharacterToFrequency.get(startChar) > 0) {
+                        ++count;
+                    }
+                }
+            }
+
+            var distance = j - i;
+
+            if (distance < minimum) {
+                left = i;
+                right = j;
+                minimum = distance;
+                isFound = true;
+            }
+        }
+
+        return isFound ? s.substring(left - 1, right) : "";
     }
 }
