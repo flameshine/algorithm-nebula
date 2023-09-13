@@ -1,4 +1,4 @@
-package com.flameshine.nebula.problems.leetcode.top_interview_150.binary_tree;
+package com.flameshine.nebula.problems.leetcode.top_interview_150.binary_tree_general;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -44,7 +44,8 @@ public class InvertBinaryTree {
 
     static class TreeNode {
 
-        private int val;
+        private final int val;
+
         private TreeNode left;
         private TreeNode right;
 

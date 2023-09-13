@@ -1,8 +1,5 @@
 package com.flameshine.nebula.problems.leetcode.top_interview_150.linked_list;
 
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * №21 Merge Two Sorted Lists
  *

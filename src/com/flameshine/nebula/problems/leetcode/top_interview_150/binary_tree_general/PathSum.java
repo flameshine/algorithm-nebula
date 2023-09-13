@@ -1,4 +1,4 @@
-package com.flameshine.nebula.problems.leetcode.top_interview_150.binary_tree;
+package com.flameshine.nebula.problems.leetcode.top_interview_150.binary_tree_general;
 
 /**
  * №112 Path Sum
