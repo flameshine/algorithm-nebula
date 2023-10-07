@@ -18,10 +18,11 @@ public class QuickSort {
     /**
      * Sorts an array using a quick sort algorithm.
      *
-     * 1. Until we sorted the array, repeat:
-     *    - determine the partition index, all the elements before it are lower and all the elements after it are greater
-     *    - recursively call this function for the left partition
-     *    - recursively call this function for the right partition
+     * 1. We're determining the range of elements so:
+     *    - items inside are duplicate
+     *    - items before the lower boundary are lower
+     *    - items after the higher boundary are greater
+     * 2. After the elements are placed as described, sort both parts and repeat the process recursively.
      */
     private static void sort(int[] array, int start, int end) {
 
@@ -29,40 +30,28 @@ public class QuickSort {
             return;
         }
 
-        var partitionIndex = partition(array, start, end);
+        var lowerBoundary = start;
+        var higherBoundary = end;
+        var pivot = array[start];
+        var i = start;
 
-        sort(array, start, partitionIndex - 1);
-        sort(array, partitionIndex + 1, end);
-    }
-
-    /**
-     * An utility function to partition the array.
-     *
-     * 1. Define the pivot (in our case, it's the last element)
-     * 2. Iterate over an array, finding the proper position for the pivot element so:
-     *    - all elements before the pivot are lower
-     *    - all elements after the pivot are greater
-     * 3. Set the last element (pivot) on its position, swapping it with the element from the right partition.
-     * 4. Return the pivot index.
-     */
-    private static int partition(int[] array, int start, int end) {
-
-        var pivot = array[end];
-        var i = start - 1;
-
-        for (var j = start; j < end; j++) {
-            if (array[j] <= pivot) {
+        while (i <= higherBoundary) {
+            if (array[i] < pivot) {
+                exchange(array, lowerBoundary++, i++);
+            } else if (array[i] > pivot) {
+                exchange(array, i, higherBoundary--);
+            } else {
                 ++i;
-                var temporary = array[i];
-                array[i] = array[j];
-                array[j] = temporary;
             }
         }
 
-        var temporary = array[i + 1];
-        array[i + 1] = array[end];
-        array[end] = temporary;
+        sort(array, start, lowerBoundary - 1);
+        sort(array, higherBoundary + 1, end);
+    }
 
-        return i + 1;
+    private static void exchange(int[] array, int first, int second) {
+        var temporary = array[first];
+        array[first] = array[second];
+        array[second] = temporary;
     }
 }
