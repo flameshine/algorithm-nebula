@@ -16,7 +16,7 @@ public class QuickSort {
     }
 
     /**
-     * Sorts an array using a quick sort algorithm.
+     * Sorts an array using a quick sort algorithm using an idea of 3-way partitioning.
      *
      * 1. We're determining the range of elements so:
      *    - items inside are duplicate
