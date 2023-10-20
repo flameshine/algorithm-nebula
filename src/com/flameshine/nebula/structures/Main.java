@@ -9,6 +9,7 @@ public final class Main {
         demonstrate(Main::demonstrateLinkedList);
         demonstrate(Main::demonstrateHashTable);
         demonstrate(Main::demonstrateBinaryTree);
+        demonstrate(Main::demonstrateBST);
         demonstrate(Main::demonstrateGraph);
         demonstrate(Main::demonstrateStack);
         demonstrate(Main::demonstrateQueue);
@@ -101,6 +102,29 @@ public final class Main {
         System.out.println(binaryTree.size());
 
         System.out.println(binaryTree);
+    }
+
+    private static void demonstrateBST() {
+
+        System.out.println("BST: \n");
+
+        BST bst = new BST();
+
+        bst.insert(1);
+        bst.insert(2);
+        bst.insert(3);
+        bst.insert(4);
+        bst.insert(5);
+
+        System.out.println(bst);
+
+        bst.delete(3);
+
+        System.out.println(bst.size());
+
+        System.out.println(bst.isEmpty());
+
+        System.out.println(bst);
     }
 
     private static void demonstrateGraph() {

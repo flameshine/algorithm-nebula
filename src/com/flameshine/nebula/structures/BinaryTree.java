@@ -92,9 +92,7 @@ public class BinaryTree<T> {
         }
 
         inorderTraversalActioning(current.left, action);
-
         action.accept(current.data);
-
         inorderTraversalActioning(current.right, action);
     }
 
