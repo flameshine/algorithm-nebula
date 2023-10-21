@@ -38,6 +38,8 @@ public class HashTable<K, V> {
      * 4. Place an entry on the specified position and link to it the previous head.
      * 5. Check if the table expansion needed. Double the size by copying the table if the answer is affirmative.
      *
+     * Runtime complexity - O(m), where m is the number of items in a particular bucket (collision case).
+     *
      * @return The previous value if it exists or null otherwise.
      */
     @SuppressWarnings("unchecked")
@@ -81,6 +83,8 @@ public class HashTable<K, V> {
      * 1. Check if key is present.
      * 2. Calculate the entry position and iterate over linked entries until the entry to remove found.
      * 3. Unlink the entry to remove among with the size value decrease.
+     *
+     * Runtime complexity - O(m), where m is the number of items in a particular bucket (collision case).
      */
     @SuppressWarnings("unchecked")
     public void remove(K key) {
@@ -123,6 +127,8 @@ public class HashTable<K, V> {
      * 2. Calculate the entry position by key hash and retrieve the element if it's present.
      * 3. Iterate over linked entries until the needed entry found.
      *
+     * Runtime complexity - O(m), where m is the number of items in a particular bucket (collision case).
+     *
      * @return Value behind the specified key if present, otherwise null.
      */
     @SuppressWarnings("unchecked")
@@ -152,6 +158,8 @@ public class HashTable<K, V> {
      * 3. Cast the entry to the needed type, as we have to store table keys/values as wildcards.
      * 4. Accumulate the results and make builder unmodifiable before returning.
      *
+     * Runtime complexity - O(n).
+     *
      * @return Set of entries table holds.
      */
     @SuppressWarnings("unchecked")
@@ -175,6 +183,8 @@ public class HashTable<K, V> {
      * 1. Check if the key received exists.
      * 2. Calculate the position based on the key hash.
      * 3. Check if key exists in the table, iterating over linked entries.
+     *
+     * Runtime complexity - O(m), where m is the number of items in a particular bucket (collision case).
      *
      * @return True if key exists, false otherwise.
      */
@@ -202,6 +212,8 @@ public class HashTable<K, V> {
      *
      * 1. Check is the value received is present.
      * 2. Iterate through the table, checking if there is such a value.
+     *
+     * Runtime complexity - O(n*m), where n is a number of entries in a map and m is the number of items in a particular bucket (collision case).
      *
      * @return True if value exists, false otherwise.
      */
@@ -234,6 +246,11 @@ public class HashTable<K, V> {
             );
     }
 
+    /**
+     * A helper function to calculate an index for the particular hash.
+     *
+     * @return The index for the hash received.
+     */
     private int calculateIndex(int hash) {
         return (hash & 0x7FFFFFFF) % (table.length - 1);
     }

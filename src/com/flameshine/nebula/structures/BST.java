@@ -43,6 +43,8 @@ public class BST {
      *   - Otherwise, stop and return the node found
      * 3. Return null, as there were no such node found in the tree.
      *
+     * Runtime complexity - O(log(n)) (if the Binary Search Tree is balanced).
+     *
      * @return Node with the specified value, and null otherwise.
      */
     public Node search(int data) {
@@ -69,6 +71,8 @@ public class BST {
     /**
      * Returns the size of the Binary Search Tree.
      *
+     * Runtime complexity - O(1).
+     *
      * @return The value representing the size of the tree.
      */
     public int size() {
@@ -77,6 +81,8 @@ public class BST {
 
     /**
      * Specifies whether the Binary Search Tree is empty or not.
+     *
+     * Runtime complexity - O(1).
      *
      * @return True if the tree is empty, false otherwise.
      */
@@ -99,6 +105,8 @@ public class BST {
      *   - If the specified data is less, go to the left subtree.
      *   - If greater - to the right one.
      *   - Otherwise, simply return the unchanged node pointer.
+     *
+     * Runtime complexity - O(log(n)) (if the Binary Search Tree is balanced).
      */
     private static Node insertHelper(Node current, int data) {
 
@@ -124,6 +132,8 @@ public class BST {
      *   - If there are no children - just delete
      *   - If there is a single child - copy that child to the node
      *   - If there are two children - determine the next highest element (inorder successor) in a right subtree and swap it with the current node. Remove the inorder successor duplicate.
+     *
+     * Runtime complexity - O(log(n)) (if the Binary Search Tree is balanced).
      */
     private static Node deleteHelper(Node current, int data) {
 
@@ -152,6 +162,10 @@ public class BST {
 
     /**
      * A helper function that finds a minimum data in the subtree.
+     *
+     * Runtime complexity - O(h), where h is the height of the left branch of the subtree received.
+     *
+     * @return The minimum value in the Binary Search Tree subtree.
      */
     private static int inorderSuccessor(Node current) {
 
@@ -167,6 +181,8 @@ public class BST {
 
     /**
      * A helper function the performs inorder traversal and accumulates the result.
+     *
+     * Runtime complexity - O(n).
      */
     private static void toStringHelper(Node current, StringBuilder accumulator) {
 

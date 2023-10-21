@@ -31,6 +31,8 @@ public class Stack<T> {
      *    - Assign new property values
      * 2. Add the new element to the extended array.
      * 3. Increment the size value.
+     *
+     * Runtime complexity - O(1).
      */
     public void push(T data) {
 
@@ -54,6 +56,8 @@ public class Stack<T> {
      * 2. Remove an element from the top of the stack.
      * 3. Return value of the removed element.
      *
+     * Runtime complexity - O(1).
+     *
      * @return Element from the top of the stack.
      */
     @SuppressWarnings("unchecked")
@@ -76,6 +80,8 @@ public class Stack<T> {
      * 1. Verify that the stack isn't empty.
      * 2. Return the top element of the stack array.
      *
+     * Runtime complexity - O(1).
+     *
      * @return Element from the top of the stack.
      */
     @SuppressWarnings("unchecked")
@@ -93,6 +99,8 @@ public class Stack<T> {
      *
      * 1. Iterate over elements starting from the top of the stack incrementing a counter.
      * 2. Return the counter value if element present, otherwise return -1.
+     *
+     * Runtime complexity - O(n).
      *
      * @return Position of the element from the top of the stack and -1 if element doesn't exist.
      */

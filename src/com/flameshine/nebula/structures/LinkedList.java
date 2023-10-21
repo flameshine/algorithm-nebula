@@ -20,8 +20,10 @@ public class LinkedList<T> {
      * 1. Create a node to store the data.
      * 2. Check if the list is empty.
      * 3. If the list is empty, set the element as head.
-     * 2. Otherwise, retrieve the last element and link the element to add.
-     * 3. Set the new node as tail.
+     * 4. Otherwise, retrieve the last element and link the element to add.
+     * 5. Set the new node as a new tail.
+     *
+     * Runtime complexity - O(1).
      */
     public void add(T element) {
 
@@ -45,6 +47,8 @@ public class LinkedList<T> {
      *
      * 1. Find the element through the iteration.
      * 2. Unlink the element in its neighbours.
+     *
+     * Runtime complexity - O(n).
      */
     public void remove(T element) {
 
@@ -78,6 +82,10 @@ public class LinkedList<T> {
      *
      * Note, that the embedded implementation iterates over the half of the list only,
      * starting either from head or tail, but we'll always go from the head for simplicity.
+     *
+     * Runtime complexity - O(n).
+     *
+     * @return The element that stands behind the specified index.
      */
     public T get(int index) {
 
@@ -103,6 +111,10 @@ public class LinkedList<T> {
      * 1. Iterate over the indexes until list size, keeping track of the elements.
      * 2. If the element found, return the index of iteration.
      * 3. If no element found, return -1.
+     *
+     * Runtime complexity - O(n).
+     *
+     * @return Index of the element specified.
      */
     public int indexOf(T element) {
 

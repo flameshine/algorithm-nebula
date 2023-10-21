@@ -19,6 +19,8 @@ public class Graph<T> {
      *
      * 1. Check if the data to add isn't null. Throw NPE if it isn't.
      * 2. Add a new entry to the adjacency matrix map.
+     *
+     * Runtime complexity - O(n), which basically corresponds to the Map's putIfAbsent method complexity.
      */
     public void addVertex(T data) {
 
@@ -38,6 +40,8 @@ public class Graph<T> {
      * 1. Check if the data is null. If so, throw an NPE.
      * 2. Remove all edges with the graph.
      * 3. Remove the graph itself.
+     *
+     * Runtime complexity - O(n).
      */
     public void removeVertex(T data) {
 
@@ -60,6 +64,8 @@ public class Graph<T> {
      * 1. Verify that vertexes passed aren't null.
      * 2. Verify that the vertexes exist in the adjacency matrix.
      * 3. Retrieve the vertexes and link them if they aren't linked already.
+     *
+     * Runtime complexity - O(n*m), where n is corresponds to the Map's containsKey and m to the List's contains method.
      */
     public void addEdge(T first, T second) {
 
@@ -88,7 +94,9 @@ public class Graph<T> {
      *
      * 1. Verify that vertexes passed aren't null.
      * 2. Verify that the vertexes exist in the adjacency matrix.
-     * 3. Unlink the vertexes if they exists.
+     * 3. Unlink the vertexes if they exist.
+     *
+     * Runtime complexity - O(n*m), where n is corresponds to the Map's containsKey and m to the List's contains method.
      */
     public void removeEdge(T first, T second) {
 
@@ -117,6 +125,10 @@ public class Graph<T> {
      * Note: a graph known as a null graph if there are no edges in the graph.
      *
      * 1. If the size of the adjacency matrix is zero, we can count this graph as a null graph.
+     *
+     * Runtime complexity - O(1).
+     *
+     * @return True if the graph is null, false otherwise.
      */
     public boolean isNull() {
         return adjacencyMatrix.isEmpty();
@@ -127,6 +139,10 @@ public class Graph<T> {
      * Note: a graph known as a trivial graph is there is only a single vertex.
      *
      * 1. If the size of the adjacency matrix is one, we can count this graph as a trivial one.
+     *
+     * Runtime complexity - O(1).
+     *
+     * @return True is the graph is trivial, false otherwise.
      */
     public boolean isTrivial() {
         return adjacencyMatrix.size() == 1;

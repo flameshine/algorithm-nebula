@@ -2,26 +2,33 @@ package com.flameshine.nebula.structures;
 
 import java.util.Queue;
 import java.util.LinkedList;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
 
 public class BinaryTree<T> {
 
     private Node<T> root;
+    private int size;
 
-    public BinaryTree() {}
+    public BinaryTree() {
+        this.size = 0;
+    }
 
     /**
      * Inserts a value into a binary tree.
      *
-     * 1. If the root is null, set the received data as a tree root.
-     * 2. Otherwise, create a queue that will hold nodes to visit and populate it with the root node.
-     * 3. Check each node queue contains, performing these operations:
+     * 1. First, increment a size variable.
+     * 2. If the root is null, set the received data as a tree root.
+     * 3. Otherwise, create a queue that will hold nodes to visit and populate it with the root node.
+     * 4. Check each node queue contains, performing these operations:
      *    - Then, check if the left leaf is null. If so, place the value there.
      *    - Similarly, check if the right leaf is null and place the value there.
      *    - If none of the conditions above are true, add both leafs to the queue.
+     *
+     * Runtime complexity - O(n).
      */
     public void insert(T data) {
+
+        ++size;
 
         if (root == null) {
             root = new Node<>(data);
@@ -33,9 +40,7 @@ public class BinaryTree<T> {
         queue.add(root);
 
         while (!queue.isEmpty()) {
-
             var current = queue.poll();
-
             if (current.left == null) {
                 current.left = new Node<>(data);
                 return;
@@ -61,18 +66,14 @@ public class BinaryTree<T> {
     }
 
     /**
-     * Calculates size of the binary tree.
+     * Returns the value representing the size of the binary tree.
      *
-     * 1. Create a counter, that will be incremented each time we visited a node.
-     * 2. Perform in-order traversal of the tree, incrementing a counter with each node visited.
-     * 3. Return the accumulated value.
+     * Runtime complexity - O(1).
      *
      * @return Number of nodes in the tree.
      */
     public int size() {
-        var counter = new AtomicInteger();
-        inorderTraversalActioning(root, ignored -> counter.incrementAndGet());
-        return counter.get();
+        return size;
     }
 
     @Override
@@ -84,6 +85,12 @@ public class BinaryTree<T> {
 
     /**
      * Helper method to traverse a tree, performing some action specified.
+     *
+     * Note: technically, there is no reason for this method to receive a Consumer interface anymore,
+     * but historically this method was also used to calculate the size and eventually was removed
+     * in favor of the size variable.
+     *
+     * Runtime complexity - O(n).
      */
     private void inorderTraversalActioning(Node<T> current, Consumer<Object> action) {
 
@@ -102,6 +109,8 @@ public class BinaryTree<T> {
      * 1. Check if the current node exists. If not, return false.
      * 2. Check if the data current node holds equal to the target data.
      * 3. Continue checking each both branches of the tree.
+     *
+     * Runtime complexity - O(n).
      */
     private boolean contains(Node<T> current, T data) {
 

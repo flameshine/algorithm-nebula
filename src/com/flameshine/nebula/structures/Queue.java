@@ -26,6 +26,8 @@ public class Queue<T> {
      * 2. Then, we need to check if the head of the queue is null or not:
      *    - If it is, set an element as a head.
      *    - Otherwise, re-link the elements, placing the element to add as a new tail.
+     *
+     * Runtime complexity - O(1).
      */
     public void enqueue(T data) {
 
@@ -54,6 +56,10 @@ public class Queue<T> {
      * 1. Verify that the head isn't null.
      * 2. Save the result value and unlink the tail node.
      * 3. Decrement the size and return the saved result.
+     *
+     * Runtime complexity - O(1).
+     *
+     * @return An element from the tail of the queue.
      */
     public T dequeue() {
 
@@ -76,6 +82,10 @@ public class Queue<T> {
      *
      * 1. Verify that the head isn't null.
      * 2. Return the tail value.
+     *
+     * Runtime complexity - O(1).
+     *
+     * @return The element from the tail of the queue.
      */
     public T peek() {
 
@@ -88,6 +98,10 @@ public class Queue<T> {
 
     /**
      * Returns the size of the queue.
+     *
+     * Runtime complexity - O(1).
+     *
+     * @return Number of elements in the queue.
      */
     public int size() {
         return size;

@@ -31,6 +31,8 @@ public class ArrayList<T> {
      *    - Re-assign the variables
      * 2. Assign the value to a cell.
      * 3. Increment the size.
+     *
+     * Runtime complexity - O(1).
      */
     public void add(T data) {
 
@@ -54,6 +56,8 @@ public class ArrayList<T> {
      * 2. Shift the array on one position.
      * 3. Set the value of removed element to null to let it be properly cleaned up.
      * 4. Decrement the size value.
+     *
+     * Runtime complexity - O(n).
      */
     public void remove(T data) {
 
@@ -79,9 +83,14 @@ public class ArrayList<T> {
 
     /**
      * Retrieves element by index.
+     *
+     * Runtime complexity - O(1).
+     *
+     * @return An element that stands behind the specified index.
      */
-    public Object get(int index) {
-        return elements[index];
+    @SuppressWarnings("unchecked")
+    public T get(int index) {
+        return (T) elements[index];
     }
 
     /**
@@ -89,6 +98,8 @@ public class ArrayList<T> {
      *
      * 1. Find the first equal element iterating over an array and return its index.
      * 2. Return -1 if no such element found.
+     *
+     * Runtime complexity - O(n).
      */
     public int indexOf(T data) {
 

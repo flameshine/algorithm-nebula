@@ -120,6 +120,10 @@ public final class Main {
 
         bst.delete(3);
 
+        System.out.println(
+            bst.search(5)
+        );
+
         System.out.println(bst.size());
 
         System.out.println(bst.isEmpty());
