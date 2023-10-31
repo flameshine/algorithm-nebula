@@ -25,11 +25,13 @@ public class FizzBuzz {
         List<String> result = new ArrayList<>(n);
 
         for (var i = 1; i <= n; i++) {
-            if (i % 3 == 0 && i % 5 == 0) {
+            var divisibleByThree = i % 3 == 0;
+            var divisibleByFive = i % 5 == 0;
+            if (divisibleByThree && divisibleByFive) {
                 result.add("FizzBuzz");
-            } else if (i % 3 == 0) {
+            } else if (divisibleByThree) {
                 result.add("Fizz");
-            } else if (i % 5 == 0) {
+            } else if (divisibleByFive) {
                 result.add("Buzz");
             } else {
                 result.add(String.valueOf(i));
