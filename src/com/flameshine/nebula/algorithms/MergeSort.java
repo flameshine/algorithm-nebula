@@ -42,8 +42,7 @@ public class MergeSort {
             if (i < middle) {
                 left[i] = array[i];
             } else {
-                right[j] = array[i];
-                ++j;
+                right[j++] = array[i];
             }
             ++i;
         }
@@ -71,25 +70,19 @@ public class MergeSort {
 
         while (l < leftSize && r < rightSize) {
             if (left[l] < right[r]) {
-                array[i] = left[l];
-                ++l;
+                array[i] = left[l++];
             } else {
-                array[i] = right[r];
-                ++r;
+                array[i] = right[r++];
             }
             ++i;
         }
 
         while (l < leftSize) {
-            array[i] = left[l];
-            ++i;
-            ++l;
+            array[i++] = left[l++];
         }
 
         while (r < rightSize) {
-            array[i] = right[r];
-            ++i;
-            ++r;
+            array[i++] = right[r++];
         }
     }
 }
