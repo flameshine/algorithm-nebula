@@ -8,7 +8,6 @@ package com.flameshine.nebula.problems.leetcode.learn.array_and_string;
 public class AddBinary {
 
     public static void main(String... args) {
-
         System.out.println(
             addBinary("11", "1")
         );
