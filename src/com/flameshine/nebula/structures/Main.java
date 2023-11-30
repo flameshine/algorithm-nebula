@@ -8,6 +8,7 @@ public final class Main {
         demonstrate(Main::demonstrateArrayList);
         demonstrate(Main::demonstrateLinkedList);
         demonstrate(Main::demonstrateHashTable);
+        demonstrate(Main::demonstrateHashSet);
         demonstrate(Main::demonstrateBinaryTree);
         demonstrate(Main::demonstrateBST);
         demonstrate(Main::demonstrateGraph);
@@ -67,6 +68,7 @@ public final class Main {
         hashTable.put(2, "two");
         hashTable.put(3, "three");
         hashTable.put(4, "four");
+        hashTable.put(4, "four");
         hashTable.put(5, "five");
 
         hashTable.remove(3);
@@ -82,6 +84,27 @@ public final class Main {
         System.out.println(hashTable.containsValue("six"));
 
         System.out.println(hashTable);
+    }
+
+    private static void demonstrateHashSet() {
+
+        System.out.println("HashSet: \n");
+
+        HashSet<Integer> hashSet = new HashSet<>();
+
+        hashSet.add(1);
+        hashSet.add(2);
+        hashSet.add(3);
+        hashSet.add(4);
+        hashSet.add(4);
+        hashSet.add(5);
+
+        hashSet.remove(3);
+
+        System.out.println(hashSet.contains(1));
+        System.out.println(hashSet.contains(6));
+
+        System.out.println(hashSet);
     }
 
     private static void demonstrateBinaryTree() {

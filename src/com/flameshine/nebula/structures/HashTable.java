@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 public class HashTable<K, V> {
 
-    private static final int DEFAULT_CAPACITY = 5;
+    private static final int DEFAULT_CAPACITY = 16;
     private static final double DEFAULT_LOAD_FACTOR = 0.75d;
 
     private final double loadFactor;
@@ -180,8 +180,8 @@ public class HashTable<K, V> {
     /**
      * Checks if table contains the key specified.
      *
-     * 1. Check if the key received exists.
-     * 2. Calculate the position based on the key hash.
+     * 1. Check if the key passed exists.
+     * 2. Calculate the position based on the key's hash.
      * 3. Check if key exists in the table, iterating over linked entries.
      *
      * Runtime complexity - O(m), where m is the number of items in a particular bucket (collision case).
