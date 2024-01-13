@@ -9,6 +9,7 @@ public final class Main {
         demonstrate(Main::demonstrateLinkedList);
         demonstrate(Main::demonstrateHashTable);
         demonstrate(Main::demonstrateHashSet);
+        demonstrate(Main::demonstrateRandomizedSet);
         demonstrate(Main::demonstrateBinaryTree);
         demonstrate(Main::demonstrateBST);
         demonstrate(Main::demonstrateGraph);
@@ -96,7 +97,6 @@ public final class Main {
         hashSet.add(2);
         hashSet.add(3);
         hashSet.add(4);
-        hashSet.add(4);
         hashSet.add(5);
 
         hashSet.remove(3);
@@ -105,6 +105,28 @@ public final class Main {
         System.out.println(hashSet.contains(6));
 
         System.out.println(hashSet);
+    }
+
+    private static void demonstrateRandomizedSet() {
+
+        System.out.println("RandomizedSet: \n");
+
+        var randomizedSet = new RandomizedSet();
+
+        randomizedSet.insert(1);
+        randomizedSet.insert(2);
+        randomizedSet.insert(3);
+        randomizedSet.insert(4);
+        randomizedSet.insert(5);
+
+        randomizedSet.remove(3);
+        randomizedSet.remove(6);
+
+        System.out.println(randomizedSet.getRandom());
+        System.out.println(randomizedSet.getRandom());
+        System.out.println(randomizedSet.getRandom());
+
+        System.out.println(randomizedSet);
     }
 
     private static void demonstrateBinaryTree() {

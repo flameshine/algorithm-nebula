@@ -249,6 +249,8 @@ public class HashTable<K, V> {
     /**
      * A helper function to calculate an index for the particular hash.
      *
+     * Warning: works only if table length is the power of 2, so we should control capacity related values.
+     *
      * @return The index for the hash received.
      */
     private int calculateIndex(int hash) {
