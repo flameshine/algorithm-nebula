@@ -31,7 +31,7 @@ public class Queue<T> {
      */
     public void enqueue(T data) {
 
-        if (size + 1 == capacity) {
+        if (size == capacity) {
             throw new IllegalStateException();
         }
 
@@ -125,7 +125,7 @@ public class Queue<T> {
         return builder.append("]").toString();
     }
 
-    public static class Node<T> {
+    private static class Node<T> {
 
         private final T data;
 

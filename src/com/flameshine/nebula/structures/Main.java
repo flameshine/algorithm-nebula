@@ -15,6 +15,7 @@ public final class Main {
         demonstrate(Main::demonstrateGraph);
         demonstrate(Main::demonstrateStack);
         demonstrate(Main::demonstrateQueue);
+        demonstrate(Main::demonstrateCircularQueue);
     }
 
     private static void demonstrateArrayList() {
@@ -32,9 +33,7 @@ public final class Main {
         arrayList.remove(3);
 
         System.out.println(arrayList.get(0));
-
         System.out.println(arrayList.indexOf(1));
-
         System.out.println(arrayList);
     }
 
@@ -53,9 +52,7 @@ public final class Main {
         linkedList.remove(3);
 
         System.out.println(linkedList.get(0));
-
         System.out.println(linkedList.indexOf(1));
-
         System.out.println(linkedList);
     }
 
@@ -80,10 +77,8 @@ public final class Main {
 
         System.out.println(hashTable.containsKey(1));
         System.out.println(hashTable.containsKey(6));
-
         System.out.println(hashTable.containsValue("one"));
         System.out.println(hashTable.containsValue("six"));
-
         System.out.println(hashTable);
     }
 
@@ -103,7 +98,6 @@ public final class Main {
 
         System.out.println(hashSet.contains(1));
         System.out.println(hashSet.contains(6));
-
         System.out.println(hashSet);
     }
 
@@ -122,10 +116,9 @@ public final class Main {
         randomizedSet.remove(3);
         randomizedSet.remove(6);
 
-        System.out.println(randomizedSet.getRandom());
-        System.out.println(randomizedSet.getRandom());
-        System.out.println(randomizedSet.getRandom());
-
+        System.out.println(randomizedSet.random());
+        System.out.println(randomizedSet.random());
+        System.out.println(randomizedSet.random());
         System.out.println(randomizedSet);
     }
 
@@ -143,9 +136,7 @@ public final class Main {
 
         System.out.println(binaryTree.contains(1));
         System.out.println(binaryTree.contains(6));
-
         System.out.println(binaryTree.size());
-
         System.out.println(binaryTree);
     }
 
@@ -170,9 +161,7 @@ public final class Main {
         );
 
         System.out.println(bst.size());
-
         System.out.println(bst.isEmpty());
-
         System.out.println(bst);
     }
 
@@ -217,11 +206,8 @@ public final class Main {
         stack.push(5);
 
         System.out.println(stack.pop());
-
         System.out.println(stack.peek());
-
         System.out.println(stack.search(1));
-
         System.out.println(stack);
     }
 
@@ -238,11 +224,28 @@ public final class Main {
         queue.enqueue(5);
 
         System.out.println(queue.dequeue());
-
         System.out.println(queue.size());
-
         System.out.println(queue.peek());
+        System.out.println(queue);
+    }
 
+    private static void demonstrateCircularQueue() {
+
+        System.out.println("CircularQueue: \n");
+
+        var queue = new CircularQueue();
+
+        queue.enqueue(1);
+        queue.enqueue(2);
+        queue.enqueue(3);
+        queue.enqueue(4);
+        queue.enqueue(5);
+
+        System.out.println(queue.dequeue());
+        System.out.println(queue.front());
+        System.out.println(queue.rear());
+        System.out.println(queue.isEmpty());
+        System.out.println(queue.isFull());
         System.out.println(queue);
     }
 

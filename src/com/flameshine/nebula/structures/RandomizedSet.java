@@ -24,6 +24,8 @@ public class RandomizedSet {
      * 2. Check the size and increase capacity if needed.
      * 3. Insert a new item to the end of the array.
      *
+     * Average runtime complexity - O(1).
+     *
      * @return true if the item was not present, false otherwise.
      */
     public boolean insert(int val) {
@@ -52,6 +54,8 @@ public class RandomizedSet {
      *
      * 1. Check if the value already exists.
      * 2. Swap the value with the last element.
+     *
+     * Average runtime complexity - O(1).
      *
      * @return true if the item was present, false otherwise.
      */
@@ -85,9 +89,11 @@ public class RandomizedSet {
      * 2. Calculate the random index to get an item by.
      * 3. Return the result.
      *
+     * Runtime complexity - O(1).
+     *
      * @return a random element from the current set of elements.
      */
-    public int getRandom() {
+    public int random() {
 
         if (size == 0) {
             throw new IllegalStateException();
