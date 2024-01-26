@@ -1,7 +1,11 @@
-package com.flameshine.nebula.algorithms;
+package com.flameshine.nebula.algorithms.sort;
 
 import java.util.Arrays;
 
+/**
+ * Implementation of the quick sort algorithm.
+ * Complexity: time - O(n * log(n)), space - O(n).
+ */
 public class QuickSort {
 
     public static void main(String... args) {
@@ -16,7 +20,7 @@ public class QuickSort {
     }
 
     /**
-     * Sorts an array using a quick sort algorithm using an idea of 3-way partitioning.
+     * Sorts an array with the quick sort algorithm using the idea of 3-way partitioning.
      *
      * 1. We're determining the range of elements so:
      *    - items inside are duplicate
@@ -37,9 +41,9 @@ public class QuickSort {
 
         while (i <= higherBoundary) {
             if (array[i] < pivot) {
-                exchange(array, lowerBoundary++, i++);
+                swap(array, lowerBoundary++, i++);
             } else if (array[i] > pivot) {
-                exchange(array, i, higherBoundary--);
+                swap(array, i, higherBoundary--);
             } else {
                 ++i;
             }
@@ -49,7 +53,10 @@ public class QuickSort {
         sort(array, higherBoundary + 1, end);
     }
 
-    private static void exchange(int[] array, int first, int second) {
+    /**
+     * An utility function that swaps to elements in an array.
+     */
+    private static void swap(int[] array, int first, int second) {
         var temporary = array[first];
         array[first] = array[second];
         array[second] = temporary;

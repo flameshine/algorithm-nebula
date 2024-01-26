@@ -1,7 +1,11 @@
-package com.flameshine.nebula.algorithms;
+package com.flameshine.nebula.algorithms.sort;
 
 import java.util.Arrays;
 
+/**
+ * Implementation of the merge sort algorithm.
+ * Complexity: time - O(n * log(n)), space - O(n).
+ */
 public class MergeSort {
 
     public static void main(String... args) {

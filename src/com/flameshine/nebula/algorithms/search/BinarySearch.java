@@ -1,5 +1,9 @@
-package com.flameshine.nebula.algorithms;
+package com.flameshine.nebula.algorithms.search;
 
+/**
+ * Implementation of the binary search algorithm.
+ * Complexity: time - O(n * log(n)), space - O(1) (for iterative implementation).
+ */
 public class BinarySearch {
 
     public static void main(String... args) {
@@ -20,7 +24,7 @@ public class BinarySearch {
     }
 
     /**
-     * Searches for an element in the array using the binary search algorithm.
+     * Searches for an element in the sorted array using the binary search algorithm.
      *
      * 1. With each iteration, divide an array by half, based for the following conditions:
      *    - if the element in the middle is greater than the target, set the boundaries to the left half of the array
