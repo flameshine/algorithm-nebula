@@ -1,13 +1,15 @@
 package com.flameshine.nebula.problems.leetcode.learn.bst;
 
 /**
- * №700 Search in a Binary Search Tree
+ * №701 Insert into a Binary Search Tree
  *
- * You are given the root of a binary search tree (BST) and an integer val.
- * Find the node in the BST that the node's value equals val and return the subtree rooted with that node.
- * If such a node does not exist, return null.
+ * You are given the root node of a binary search tree (BST) and a value to insert into the tree.
+ * Return the root node of the BST after the insertion.
+ * It is guaranteed that the new value does not exist in the original BST.
+ * Notice that there may exist multiple valid ways for the insertion, as long as the tree remains a BST after insertion.
+ * You can return any of them.
  */
-public class SearchInABinarySearchTree {
+public class InsertIntoABinarySearchTree {
 
     public static void main(String... args) {
 
@@ -16,23 +18,23 @@ public class SearchInABinarySearchTree {
         var root = new TreeNode(2, leaf1, leaf2);
 
         System.out.println(
-            searchBST(root, 2)
+            insertIntoBST(root, 4)
         );
     }
 
-    private static TreeNode searchBST(TreeNode root, int val) {
+    private static TreeNode insertIntoBST(TreeNode root, int val) {
 
-        var pointer = root;
-
-        while (pointer != null && pointer.val != val) {
-            if (pointer.val > val) {
-                pointer = pointer.left;
-            } else {
-                pointer = pointer.right;
-            }
+        if (root == null) {
+            return new TreeNode(val);
         }
 
-        return pointer;
+        if (val > root.val) {
+            root.right = insertIntoBST(root.right, val);
+        } else if (val < root.val) {
+            root.left = insertIntoBST(root.left, val);
+        }
+
+        return root;
     }
 
     private static class TreeNode {

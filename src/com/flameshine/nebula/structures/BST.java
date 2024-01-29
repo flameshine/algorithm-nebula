@@ -111,8 +111,7 @@ public class BST {
     private static Node insertHelper(Node current, int data) {
 
         if (current == null) {
-            current = new Node(data);
-            return current;
+            return new Node(data);
         }
 
         if (data < current.data) {
@@ -169,14 +168,11 @@ public class BST {
      */
     private static int inorderSuccessor(Node current) {
 
-        var minimum = current.data;
-
         while (current.left != null) {
-            minimum = current.left.data;
             current = current.left;
         }
 
-        return minimum;
+        return current.data;
     }
 
     /**

@@ -1,13 +1,12 @@
 package com.flameshine.nebula.problems.leetcode.learn.bst;
 
 /**
- * №700 Search in a Binary Search Tree
+ * №235 Lowest Common Ancestor of a Binary Search Tree
  *
- * You are given the root of a binary search tree (BST) and an integer val.
- * Find the node in the BST that the node's value equals val and return the subtree rooted with that node.
- * If such a node does not exist, return null.
+ * Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST.
+ * According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”
  */
-public class SearchInABinarySearchTree {
+public class LowestCommonAncestorOfBST {
 
     public static void main(String... args) {
 
@@ -16,23 +15,19 @@ public class SearchInABinarySearchTree {
         var root = new TreeNode(2, leaf1, leaf2);
 
         System.out.println(
-            searchBST(root, 2)
+            lowestCommonAncestor(root, leaf1, leaf2)
         );
     }
 
-    private static TreeNode searchBST(TreeNode root, int val) {
+    private static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 
-        var pointer = root;
-
-        while (pointer != null && pointer.val != val) {
-            if (pointer.val > val) {
-                pointer = pointer.left;
-            } else {
-                pointer = pointer.right;
-            }
+        if (p.val < root.val && q.val < root.val) {
+            return lowestCommonAncestor(root.left, p, q);
+        } else if (p.val > root.val && q.val > root.val) {
+            return lowestCommonAncestor(root.right, p, q);
         }
 
-        return pointer;
+        return root;
     }
 
     private static class TreeNode {
