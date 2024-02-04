@@ -8,7 +8,7 @@ public class BinarySearch {
 
     public static void main(String... args) {
 
-        int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+        var array = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
         System.out.println(
             search(array, 1)
@@ -36,7 +36,6 @@ public class BinarySearch {
 
         var start = 0;
         var end = array.length - 1;
-        var index = -1;
 
         while (start <= end) {
             var middle = (start + end) / 2;
@@ -45,11 +44,10 @@ public class BinarySearch {
             } else if (array[middle] > target) {
                 end = middle - 1;
             } else {
-                index = middle;
-                break;
+                return middle;
             }
         }
 
-        return index;
+        return -1;
     }
 }
