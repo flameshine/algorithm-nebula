@@ -1,7 +1,5 @@
 package com.flameshine.nebula.problems.leetcode.learn.linked_list;
 
-import java.util.Objects;
-
 /**
  * №206 Reverse Linked List
  *
@@ -22,24 +20,25 @@ public class ReverseLinkedList {
 
     private static ListNode reverseList(ListNode head) {
 
-        ListNode previous = null;
+        ListNode result = null;
         ListNode current = head;
 
         while (current != null) {
-            var next = current.next;
-            current.next = previous;
-            previous = current;
-            current = next;
+            if (result == null) {
+                result = new ListNode(current.val);
+            } else {
+                result = new ListNode(current.val, result);
+            }
+            current = current.next;
         }
 
-        return previous;
+        return result;
     }
 
     static class ListNode {
 
         private final int val;
-
-        private ListNode next;
+        private final ListNode next;
 
         public ListNode(int val) {
             this.val = val;
@@ -49,25 +48,6 @@ public class ReverseLinkedList {
         public ListNode(int val, ListNode next) {
             this.val = val;
             this.next = next;
-        }
-
-        @Override
-        public boolean equals(Object o) {
-
-            if (this == o) {
-                return true;
-            }
-
-            if (!(o instanceof ListNode that)) {
-                return false;
-            }
-
-            return val == that.val && Objects.equals(next, that.next);
-        }
-
-        @Override
-        public int hashCode() {
-            return Objects.hash(val, next);
         }
     }
 }
