@@ -12,19 +12,25 @@ public class LongestCommonPrefix {
 
     public static void main(String... args) {
 
-        String[] strs = { "flower", "flow", "flight" };
+        var strings = new String[] { "flower", "flow", "flight" };
 
         System.out.println(
-            longestCommonPrefix(strs)
+            longestCommonPrefix(strings)
         );
     }
 
-    private static String longestCommonPrefix(String[] strs) {
+    /**
+     * 1. Sort an array
+     * 2. Get the first and the last strings from the sorted array
+     * 3. Increment a counter as long as their chars are equal
+     * 4. Return the longest common prefix based on the counter value
+     */
+    private static String longestCommonPrefix(String[] strings) {
 
-        Arrays.sort(strs);
+        Arrays.sort(strings);
 
-        var s1 = strs[0];
-        var s2 = strs[strs.length - 1];
+        var s1 = strings[0];
+        var s2 = strings[strings.length - 1];
         var i = 0;
 
         while (i < s1.length() && i < s2.length()) {

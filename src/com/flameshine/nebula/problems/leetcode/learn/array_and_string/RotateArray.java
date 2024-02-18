@@ -20,9 +20,15 @@ public class RotateArray {
         );
     }
 
+    /**
+     * 1. Remove unnecessary rotations, dividing k with modulus by the length of an array
+     * 2. Rotate the entire array
+     * 3. Rotate the array prior the k-th index
+     * 4. Rotate the array after the k-th index
+     */
     private static void rotate(int[] nums, int k) {
 
-        k = k % nums.length;
+        k %= nums.length;
 
         reverse(nums, 0, nums.length - 1);
         reverse(nums, 0, k - 1);
@@ -31,11 +37,9 @@ public class RotateArray {
 
     private static void reverse(int[] nums, int start, int end) {
         while (start < end) {
-            var temporary = nums[start];
-            nums[start] = nums[end];
-            nums[end] = temporary;
-            ++start;
-            --end;
+            var tmp = nums[start];
+            nums[start++] = nums[end];
+            nums[end--] = tmp;
         }
     }
 }

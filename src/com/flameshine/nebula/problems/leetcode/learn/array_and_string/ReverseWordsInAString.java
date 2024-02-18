@@ -1,8 +1,5 @@
 package com.flameshine.nebula.problems.leetcode.learn.array_and_string;
 
-import java.util.List;
-import java.util.ArrayList;
-
 /**
  * №151 Reverse Words in a String
  *
@@ -22,38 +19,22 @@ public class ReverseWordsInAString {
         );
     }
 
+    /**
+     * 1. Split the string by the whitespaces between words
+     * 2. Iterate over the words starting from the right and append them to the result separating by a single whitespace
+     */
     private static String reverseWords(String s) {
 
-        List<String> words = new ArrayList<>();
+        var words = s.trim().split("\\s+");
+        var result = new StringBuilder(words.length);
 
-        var wordBuilder = new StringBuilder();
-        var i = 0;
-
-        while (i < s.length()) {
-            var c = s.charAt(i++);
-            if (c == ' ' && !wordBuilder.isEmpty()) {
-                words.add(wordBuilder.toString());
-                wordBuilder.setLength(0);
-            } else if (c != ' ') {
-                wordBuilder.append(c);
+        for (var i = words.length - 1; i >= 0; --i) {
+            result.append(words[i]);
+            if (i != 0) {
+                result.append(' ');
             }
         }
 
-        if (!wordBuilder.isEmpty()) {
-            words.add(
-                wordBuilder.toString()
-            );
-        }
-
-        var left = 0;
-        var right = words.size() - 1;
-
-        while (left < right) {
-            var tmp = words.get(left);
-            words.set(left++, words.get(right));
-            words.set(right--, tmp);
-        }
-
-        return String.join(" ", words);
+        return result.toString();
     }
 }

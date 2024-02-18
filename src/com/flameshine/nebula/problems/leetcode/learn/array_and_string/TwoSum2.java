@@ -25,6 +25,13 @@ public class TwoSum2 {
         );
     }
 
+    /**
+     * 1. Using two-pointer approach, iterate over the array from both the beginning and the end
+     * 2. Calculate the sum of the items pointers are pointing to at each step
+     * 3. If this sum is lower than the target, move on the left pointer to the right by one position
+     * 4. If the sum is greater - move on the right pointer to the left accordingly
+     * 5. If the sum is equal to target - return the array of pointer indices
+     */
     private static int[] twoSum(int[] numbers, int target) {
 
         var left = 0;

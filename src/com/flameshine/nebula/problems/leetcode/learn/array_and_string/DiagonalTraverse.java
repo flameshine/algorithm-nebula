@@ -24,30 +24,33 @@ public class DiagonalTraverse {
         );
     }
 
-    private static int[] findDiagonalOrder(int[][] mat) {
+    /**
+     * 1. Validate that the matrix isn't empty and initialize all values, such as a resulting matrix and diagonal directions
+     * 2. Move diagonally, changing the direction if we're crossing the matrix "border"
+     */
+    private static int[] findDiagonalOrder(int[][] matrix) {
 
-        if (mat.length == 0) {
+        if (matrix.length == 0) {
             return new int[0];
         }
 
-        var m = mat.length;
-        var n = mat[0].length;
-
+        var m = matrix.length;
+        var n = matrix[0].length;
         var result = new int[m * n];
         var row = 0;
         var col = 0;
         var d = 0;
 
-        int[][] dirs = {
+        var directions = new int[][] {
             { -1, 1 },
             { 1, -1 }
         };
 
         for (var i = 0; i < m * n; i++) {
 
-            result[i] = mat[row][col];
-            row += dirs[d][0];
-            col += dirs[d][1];
+            result[i] = matrix[row][col];
+            row += directions[d][0];
+            col += directions[d][1];
 
             if (row >= m) {
                 row = m - 1;

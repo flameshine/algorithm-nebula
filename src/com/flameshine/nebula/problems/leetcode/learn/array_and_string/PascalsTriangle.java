@@ -7,7 +7,7 @@ import java.util.List;
  * №118 Pascal's Triangle
  *
  * Given an integer numRows, return the first numRows of Pascal's triangle.
- * In Pascal's triangle, each number is the sum of the two numbers directly above it as shown: <picture>.
+ * In Pascal's triangle, each number is the sum of the two numbers directly above it.
  */
 public class PascalsTriangle {
 
@@ -18,13 +18,22 @@ public class PascalsTriangle {
         );
     }
 
+    /**
+     * 1. Check if the number of rows is greater than zero and return empty list otherwise
+     * 2. Add the first level of Pascal's triangle to the list, which always equal to 1
+     * 3. Iterate over the number of rows and in each iteration:
+     *    - add the left item which is always equal to 1
+     *    - sum up items of the previous level
+     *    - add 1 to the right
+     *    - append the built level to the result and move on to the next one
+     */
     private static List<List<Integer>> generate(int numRows) {
 
-        List<List<Integer>> result = new ArrayList<>();
-
-        if (numRows == 0) {
-            return result;
+        if (numRows <= 0) {
+            return List.of();
         }
+
+        List<List<Integer>> result = new ArrayList<>();
 
         result.add(List.of(1));
 

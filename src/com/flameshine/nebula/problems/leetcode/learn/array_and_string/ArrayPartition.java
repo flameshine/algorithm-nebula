@@ -8,17 +8,21 @@ import java.util.Arrays;
  * Given an integer array nums of 2n integers, group these integers into n pairs (a1, b1), (a2, b2), ..., (an, bn) such that the sum of min(ai, bi) for all i is maximized.
  * Return the maximized sum.
  */
-public class ArrayPartition1 {
+public class ArrayPartition {
 
     public static void main(String... args) {
 
-        int[] nums = { 6, 2, 6, 5, 1, 2 };
+        int[] nums = { 6, 2, 6, 5, 1, 2 }; // 1, 2, 2, 5, 6, 6
 
         System.out.println(
             arrayPairSum(nums)
         );
     }
 
+    /**
+     * 1. Sort an input array
+     * 2. Sum up every 2nd number in the array
+     */
     private static int arrayPairSum(int[] nums) {
 
         Arrays.sort(nums);

@@ -14,7 +14,7 @@ public class PlusOne {
 
     public static void main(String... args) {
 
-        int[] digits = { 9 };
+        int[] digits = { 8, 9 };
 
         System.out.println(
             Arrays.toString(
@@ -23,6 +23,11 @@ public class PlusOne {
         );
     }
 
+    /**
+     * 1. Iterate over the digits, starting from the right
+     * 2. If the digit is 9, make it 0 and extend an array by 1 making its first digit equal to 1
+     * 3. Otherwise, just increment the digit by one and return the result
+     */
     private static int[] plusOne(int[] digits) {
 
         for (var i = digits.length - 1; i >= 0; i--) {
