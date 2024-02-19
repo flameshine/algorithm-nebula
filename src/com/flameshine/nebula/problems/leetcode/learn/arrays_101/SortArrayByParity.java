@@ -12,7 +12,7 @@ public class SortArrayByParity {
 
     public static void main(String... args) {
 
-        int[] nums = { 3, 1, 2, 4 };
+        int[] nums = { 6, 1, 2, 4 };
 
         System.out.println(
             Arrays.toString(
@@ -21,6 +21,10 @@ public class SortArrayByParity {
         );
     }
 
+    /**
+     * 1. Iterate over an array, using two-pointer technique, where both pointers will point at the beginning
+     * 2. If we encountered an even number, swap the elements behind the pointers and increment the "slow" one
+     */
     private static int[] sortArrayByParity(int[] nums) {
 
         var j = 0;

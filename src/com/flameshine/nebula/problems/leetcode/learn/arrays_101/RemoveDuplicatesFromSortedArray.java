@@ -22,6 +22,10 @@ public class RemoveDuplicatesFromSortedArray {
         );
     }
 
+    /**
+     * 1. Iterate over an array, starting from the second item
+     * 2. Skip all duplicate items and increment the counter only for unique ones
+     */
     private static int removeDuplicates(int[] nums) {
 
         var result = 1;

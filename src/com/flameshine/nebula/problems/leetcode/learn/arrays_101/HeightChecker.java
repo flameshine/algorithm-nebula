@@ -23,6 +23,11 @@ public class HeightChecker {
         );
     }
 
+    /**
+     * 1. Initialize an expected array and copy input values to it
+     * 2. Sort the expected array
+     * 3. Compare input by index with the expected one, incrementing a counter accordingly
+     */
     private static int heightChecker(int[] heights) {
 
         var expected = new int[heights.length];

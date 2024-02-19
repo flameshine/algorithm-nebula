@@ -16,6 +16,10 @@ public class FindNumbersWithEvenNumberOfDigits {
         );
     }
 
+    /**
+     * 1. Iterate over an array
+     * 2. If the string representation of a number divided by 2 with modulus equal to 0, increment a counter
+     */
     private static int findNumbers(int[] nums) {
 
         var counter = 0;

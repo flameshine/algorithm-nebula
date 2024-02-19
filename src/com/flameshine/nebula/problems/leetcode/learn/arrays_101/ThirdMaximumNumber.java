@@ -19,6 +19,13 @@ public class ThirdMaximumNumber {
         );
     }
 
+    /**
+     * 1. If input array contains single item only, return it
+     * 2. Sort an array and obtain distinct numbers only
+     * 3. Return the result based on the following conditions:
+     *    - if the number of items is greater or equal to 3, return the third from the end number
+     *    - otherwise, return the last item
+     */
     private static int thirdMax(int[] nums) {
 
         if (nums.length == 1) {

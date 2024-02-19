@@ -14,33 +14,41 @@ public class ValidMountainArray {
 
     public static void main(String... args) {
 
-        int[] arr = { 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
+        int[] array = { 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
 
         System.out.println(
-            validMountainArray(arr)
+            validMountainArray(array)
         );
     }
 
-    private static boolean validMountainArray(int[] arr) {
+    /**
+     * 1. Check if the array length is lower than 3 and return false is so, as this can't be a mountain array
+     * 2. Increment a counter while the items in an array are in ascending order
+     * 3. Check if the counter equal to an array length or didn't change and return false if so
+     * 4. Increment a counter while all the next items are in descending order
+     * 5. If the counter's value equal to an array length, return true
+     * 6. Otherwise, return false
+     */
+    private static boolean validMountainArray(int[] array) {
 
-        if (arr.length < 3) {
+        if (array.length < 3) {
             return false;
         }
 
         var i = 1;
 
-        while (i < arr.length && arr[i] > arr[i - 1]) {
+        while (i < array.length && array[i] > array[i - 1]) {
             ++i;
         }
 
-        if (i == arr.length || i == 1) {
+        if (i == array.length || i == 1) {
             return false;
         }
 
-        while (i < arr.length && arr[i] < arr[i - 1]) {
+        while (i < array.length && array[i] < array[i - 1]) {
             ++i;
         }
 
-        return i == arr.length;
+        return i == array.length;
     }
 }

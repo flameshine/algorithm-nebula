@@ -22,6 +22,10 @@ public class RemoveElement {
         );
     }
 
+    /**
+     * 1. Iterate over an array, assigning the "val"-equal indexes the next item from an array
+     * 2. Increment a counter with each case
+     */
     private static int removeElement(int[] nums, int val) {
 
         var result = 0;

@@ -12,25 +12,33 @@ public class ReplaceElementsWithGreatestElementOnRightSide {
 
     public static void main(String... args) {
 
-        int[] arr = { 17, 18, 5, 4, 6, 1 };
+        int[] array = { 17, 18, 5, 4, 6, 1 };
 
         System.out.println(
             Arrays.toString(
-                replaceElements(arr)
+                replaceElements(array)
             )
         );
     }
 
-    private static int[] replaceElements(int[] arr) {
+    /**
+     * 1. Initialize the "max" variable and assign -1 to it
+     * 2. Iterate over an array, starting from the right
+     * 3. With each iteration, do the following steps:
+     *    - record the current item value
+     *    - re-assign the current slot to "max"
+     *    - update the max, comparing it with the recorded value
+     */
+    private static int[] replaceElements(int[] array) {
 
         var max = -1;
 
-        for (var i = arr.length - 1; i >= 0; i--) {
-            var tmp = arr[i];
-            arr[i] = max;
+        for (var i = array.length - 1; i >= 0; i--) {
+            var tmp = array[i];
+            array[i] = max;
             max = Math.max(max, tmp);
         }
 
-        return arr;
+        return array;
     }
 }

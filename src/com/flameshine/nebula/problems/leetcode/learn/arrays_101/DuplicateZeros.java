@@ -15,20 +15,25 @@ public class DuplicateZeros {
 
     public static void main(String... args) {
 
-        int[] arr = { 1, 0, 2, 3, 0, 4, 5, 0 };
+        int[] array = { 1, 0, 2, 3, 0, 4, 5, 0 };
 
-        duplicateZeros(arr);
+        duplicateZeros(array);
 
         System.out.println(
-            Arrays.toString(arr)
+            Arrays.toString(array)
         );
     }
 
-    private static void duplicateZeros(int[] arr) {
+    /**
+     * 1. Iterate over an array, adding its items to the container list
+     * 2. If the encountered item is equal to zero, add two copies of it
+     * 3. Assign the resulting array values from the built container
+     */
+    private static void duplicateZeros(int[] array) {
 
-        List<Integer> container = new ArrayList<>(arr.length);
+        List<Integer> container = new ArrayList<>(array.length);
 
-        for (var i : arr) {
+        for (var i : array) {
             if (i == 0) {
                 container.add(0);
                 container.add(0);
@@ -37,8 +42,8 @@ public class DuplicateZeros {
             }
         }
 
-        for (var i = 0; i < arr.length; i++) {
-            arr[i] = container.get(i);
+        for (var i = 0; i < array.length; i++) {
+            array[i] = container.get(i);
         }
     }
 }

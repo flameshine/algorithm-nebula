@@ -18,6 +18,15 @@ public class SquaresOfASortedArray {
         );
     }
 
+    /**
+     * 1. Initialize all necessary values
+     * 2. Iterate over an array using two pointers approach, when the first one points at the beginning of the array and the second one at the end
+     * 3. If the absolute value behind the left pointer is greater than the corresponding one behind the right pointer:
+     *    - add its product to the resulting array
+     *    - increment the left pointer
+     * 4. Otherwise, add the right's value product to the result and decrement the right one
+     * 5. Decrement the resulting array index counter to place the next value on a new slot
+     */
     private static int[] sortedSquares(int[] nums) {
 
         var left = 0;

@@ -19,6 +19,11 @@ public class FindAllNumbersDisappearedInAnArray {
         );
     }
 
+    /**
+     * 1. Initialize a boolean array
+     * 2. Iterate over items in the input array assigning true to the corresponding slot of the boolean array
+     * 3. Iterate over the numbers again, adding all numbers which corresponding slots are false to the result
+     */
     private static List<Integer> findDisappearedNumbers(int[] nums) {
 
         var existing = new boolean[nums.length];
