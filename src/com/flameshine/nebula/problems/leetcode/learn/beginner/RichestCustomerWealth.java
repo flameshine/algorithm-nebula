@@ -22,18 +22,23 @@ public class RichestCustomerWealth {
         );
     }
 
+    /**
+     * 1. Iterate over each customer's accounts
+     * 2. Sum up all sums on all accounts
+     * 3. Update the maximum value if needed and return the result
+     */
     private static int maximumWealth(int[][] accounts) {
 
-        var maximum = Integer.MIN_VALUE;
+        var max = Integer.MIN_VALUE;
 
         for (var customer : accounts) {
             var customerSum = 0;
             for (var bank : customer) {
                 customerSum += bank;
             }
-            maximum = Math.max(maximum, customerSum);
+            max = Math.max(max, customerSum);
         }
 
-        return maximum;
+        return max;
     }
 }

@@ -21,6 +21,11 @@ public class MiddleOfTheLinkedList {
         );
     }
 
+    /**
+     * 1. Initialize two pointer: slow and fast
+     * 2. Iterate over the list, moving the slow pointer to the next node with each iteration, and the fast one by two positions
+     * 3. Return value of the slow pointer
+     */
     private static ListNode middleNode(ListNode head) {
 
         var slow = head;

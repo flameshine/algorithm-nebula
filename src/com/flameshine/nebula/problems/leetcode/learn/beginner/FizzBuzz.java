@@ -20,6 +20,13 @@ public class FizzBuzz {
         );
     }
 
+    /**
+     * 1. Create an array list with the initial size equal to n
+     * 2. Iterate starting from 1 to n inclusively and:
+     *    - if the number is divisible by both 3 and 5 - add "FizzBuzz" to the list
+     *    - if by 3 only - add "Fizz"
+     *    - if by 5 - "Buzz"
+     */
     private static List<String> fizzBuzz(int n) {
 
         List<String> result = new ArrayList<>(n);

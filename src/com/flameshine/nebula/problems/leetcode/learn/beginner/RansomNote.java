@@ -17,6 +17,13 @@ public class RansomNote {
         );
     }
 
+    /**
+     * 1. Build a character frequency map of the "magazine"
+     * 2. Iterate over the "ransomNote" characters, making the following actions with each iteration:
+     *    - check if the value exists in the "magazine" frequency map we build and return false if it isn't the case
+     *    - decrement the corresponding value in the map
+     * 3. Return true if all characters were present
+     */
     private static boolean canConstruct(String ransomNote, String magazine) {
 
         Map<Character, Integer> characterFrequency = new HashMap<>();
@@ -30,7 +37,7 @@ public class RansomNote {
             if (magazineValue == 0) {
                 return false;
             }
-            characterFrequency.put(character, magazineValue - 1);
+            characterFrequency.merge(character, -1, Integer::sum);
         }
 
         return true;
