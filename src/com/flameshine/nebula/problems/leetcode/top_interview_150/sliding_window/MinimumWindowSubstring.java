@@ -23,7 +23,7 @@ public class MinimumWindowSubstring {
         Map<Character, Integer> targetCharacterToFrequency = new HashMap<>();
 
         for (var c : t.toCharArray()) {
-            targetCharacterToFrequency.put(c, targetCharacterToFrequency.getOrDefault(c, 0) + 1);
+            targetCharacterToFrequency.merge(c, 1, Integer::sum);
         }
 
         var count = targetCharacterToFrequency.size();

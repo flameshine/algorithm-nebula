@@ -2,6 +2,7 @@ package com.flameshine.nebula.problems.leetcode.top_interview_150.binary_tree_bf
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Queue;
 
 /**
@@ -43,7 +44,7 @@ public class AverageOfLevelsInBinaryTree {
 
                 var current = queue.poll();
 
-                sum += current.val;
+                sum += Objects.requireNonNull(current).val;
 
                 if (current.left != null) {
                     queue.offer(current.left);
