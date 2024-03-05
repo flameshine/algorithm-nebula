@@ -20,6 +20,10 @@ public class SearchInRotatedSortedArray {
         );
     }
 
+    /**
+     * 1. Using the ordinary binary search template, iterate over an array
+     * 2. Apply the conditions of a potentially rotated array with each iteration, checking in which partition we are
+     */
     private static int search(int[] nums, int target) {
 
         var left = 0;
@@ -40,7 +44,7 @@ public class SearchInRotatedSortedArray {
                     left = middle + 1;
                 }
             } else {
-                if (nums[middle] < target && target <= nums[right]) {
+                if (nums[right] >= target && target > nums[middle]) {
                     left = middle + 1;
                 } else {
                     right = middle - 1;

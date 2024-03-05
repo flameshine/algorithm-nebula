@@ -16,6 +16,10 @@ public class SqrtX {
         );
     }
 
+    /**
+     * 1. Iterate over an array, applying the binary search approach, where the left boundary is 1 and the right one is the number
+     * 2. With each iteration, check if the number divided by the half of the boundaries sum is equal to the same sum
+     */
     private static int mySqrt(int x) {
 
         var left = 1;
