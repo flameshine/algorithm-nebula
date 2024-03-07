@@ -13,10 +13,6 @@ public class ReverseWordsInAString3 {
         );
     }
 
-    /**
-     * 1. Split the string by whitespaces
-     * 2. Reverse a word and append it to the result adding a whitespace for each word
-     */
     private static String reverseWords(String s) {
 
         var resultBuilder = new StringBuilder();

@@ -21,10 +21,6 @@ public class MoveZeroes {
         );
     }
 
-    /**
-     * 1. Iterate over an array, skipping all zeroes and assigning them the next item from an array
-     * 2. Assign zeros for the rest, empty slots
-     */
     private static void moveZeroes(int[] nums) {
 
         var pointer = 0;

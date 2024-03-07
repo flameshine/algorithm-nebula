@@ -21,11 +21,6 @@ public class FindPeakElement {
         );
     }
 
-    /**
-     * 1. First, check if it's the single element array or if the first number is a peak element
-     * 2. Check if the last number is a peak element
-     * 3. Using the binary search algorithm, find the peak element
-     */
     private static int findPeakElement(int[] nums) {
 
         if (nums.length == 1 || nums[0] > nums[1]) {

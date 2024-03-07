@@ -21,11 +21,6 @@ public class FindPivotIndex {
         );
     }
 
-    /**
-     * 1. Sum up all the numbers to get the "right sum"
-     * 2. Starting from the left, subtract items from the right sum and add items up to build the left one
-     * 3. If the sums are equal, we found the pivot index
-     */
     private static int pivotIndex(int[] nums) {
 
         var rightSum = 0;

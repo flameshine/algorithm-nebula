@@ -20,10 +20,6 @@ public class RunningSum {
         );
     }
 
-    /**
-     * 1. Iterate over the elements in an array
-     * 2. With each iteration add the previous value to the current one
-     */
     private static int[] runningSum(int[] nums) {
 
         for (var i = 1; i < nums.length; i++) {

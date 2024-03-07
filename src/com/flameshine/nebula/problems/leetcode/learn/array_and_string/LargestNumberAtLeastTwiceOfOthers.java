@@ -18,10 +18,6 @@ public class LargestNumberAtLeastTwiceOfOthers {
         );
     }
 
-    /**
-     * 1. Iterate over an array, finding the highest and the second-highest element in the array
-     * 2. If the highest number if twice as big as the second-highest, we found the dominant index
-     */
     private static int dominantIndex(int[] nums) {
 
         var highest = 0;

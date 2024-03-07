@@ -19,10 +19,6 @@ public class ArrayPartition {
         );
     }
 
-    /**
-     * 1. Sort an input array
-     * 2. Sum up every 2nd number in the array
-     */
     private static int arrayPairSum(int[] nums) {
 
         Arrays.sort(nums);

@@ -18,13 +18,6 @@ public class ReverseString {
         System.out.println(s);
     }
 
-    /**
-     * 1. Iterate over the array using two pointer approach so:
-     *    - one pointer points at the left part of a string
-     *    - another pointer at the right one
-     *    - the loop is exited when the left one is equal to the right one
-     * 2. Swap the chars pointers are pointing to together
-     */
     private static void reverseString(char[] s) {
 
         var left = 0;

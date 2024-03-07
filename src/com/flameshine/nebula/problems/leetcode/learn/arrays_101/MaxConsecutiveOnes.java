@@ -16,13 +16,6 @@ public class MaxConsecutiveOnes {
         );
     }
 
-    /**
-     * 1. Iterate over an array following these conditions:
-     *    - if the number is equal to 1, increment a counter
-     *    - otherwise, zero it
-     *    - at the end of each iteration, update the max value
-     * 2. Return the result
-     */
     private static int findMaxConsecutiveOnes(int[] nums) {
 
         var maxConsequence = 0;

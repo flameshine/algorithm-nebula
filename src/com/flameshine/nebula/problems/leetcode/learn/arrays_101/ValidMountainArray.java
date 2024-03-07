@@ -21,14 +21,6 @@ public class ValidMountainArray {
         );
     }
 
-    /**
-     * 1. Check if the array length is lower than 3 and return false is so, as this can't be a mountain array
-     * 2. Increment a counter while the items in an array are in ascending order
-     * 3. Check if the counter equal to an array length or didn't change and return false if so
-     * 4. Increment a counter while all the next items are in descending order
-     * 5. If the counter's value equal to an array length, return true
-     * 6. Otherwise, return false
-     */
     private static boolean validMountainArray(int[] array) {
 
         if (array.length < 3) {

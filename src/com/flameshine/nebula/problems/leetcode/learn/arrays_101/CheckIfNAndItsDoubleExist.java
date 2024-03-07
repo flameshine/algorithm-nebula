@@ -22,11 +22,6 @@ public class CheckIfNAndItsDoubleExist {
         );
     }
 
-    /**
-     * 1. Build a number-to-index map
-     * 2. Iterate over an array, checking if the map contains doubled number
-     * 3. If the map contains it and its index isn't equal to current one, return true
-     */
     private static boolean checkIfExist(int[] array) {
 
         Map<Integer, Integer> numbersToIndices = new HashMap<>();

@@ -22,12 +22,6 @@ public class FindMinimumInRotatedSortedArray {
         );
     }
 
-    /**
-     * 1. Using the ordinary binary search template, iterate over the input array
-     * 2. If the middle element is bigger than the right one, set the left boundary to a middle index
-     * 3. If that's not the case, right gets the middle index value
-     * 4. Return the element by the left index, as that's the minimum number in an array
-     */
     private static int findMin(int[] nums) {
 
         var left = 0;

@@ -17,15 +17,6 @@ public class PascalsTriangle {
         );
     }
 
-    /**
-     * 1. Check if the number of rows is greater than zero and return empty list otherwise
-     * 2. Add the first level of Pascal's triangle to the list, which always equal to 1
-     * 3. Iterate over the number of rows and in each iteration:
-     *    - add the left item which is always equal to 1
-     *    - sum up items of the previous level
-     *    - add 1 to the right
-     *    - append the built level to the result and move on to the next one
-     */
     private static List<List<Integer>> generate(int numRows) {
 
         if (numRows <= 0) {

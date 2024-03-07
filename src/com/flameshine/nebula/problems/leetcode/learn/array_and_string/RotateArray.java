@@ -20,12 +20,6 @@ public class RotateArray {
         );
     }
 
-    /**
-     * 1. Remove unnecessary rotations, dividing k with modulus by the length of an array
-     * 2. Rotate the entire array
-     * 3. Rotate the array prior the k-th index
-     * 4. Rotate the array after the k-th index
-     */
     private static void rotate(int[] nums, int k) {
 
         k %= nums.length;

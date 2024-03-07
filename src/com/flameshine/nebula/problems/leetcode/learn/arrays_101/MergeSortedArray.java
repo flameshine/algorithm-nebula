@@ -24,16 +24,6 @@ public class MergeSortedArray {
         );
     }
 
-    /**
-     * 1. Initialize the following variables:
-     *    - the left pointer, which points to the end of the first array
-     *    - the right pointer, which points to the end of the second array
-     *    - index, which keeps track of the size of the resulting array
-     * 2. Iterate while we have items in the second, smaller array
-     * 3. With each iteration do the following:
-     *    - if items in the left array are still present and item from the first array is greater than the right one, put an item from the left array
-     *    - otherwise, put an item from the right array
-     */
     private static void merge(int[] nums1, int m, int[] nums2, int n) {
 
         var left = m - 1;

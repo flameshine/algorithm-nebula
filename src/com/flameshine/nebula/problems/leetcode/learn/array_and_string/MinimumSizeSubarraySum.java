@@ -17,13 +17,6 @@ public class MinimumSizeSubarraySum {
         );
     }
 
-    /**
-     * 1. Iterate over an array, finding the sum of elements
-     * 2. As soon as the sum becomes greater or equal than target, enter another loop, which:
-     *    - determines the minimum result, based on the iteration
-     *    - moves to the next possible minimum result, reducing the sum if possible while checking the elements
-     * 3. If the result was updated, then we found a minimum subarray whose sum is greater than or equal to target
-     */
     private static int minSubArrayLen(int target, int[] nums) {
 
         var result = Integer.MAX_VALUE;

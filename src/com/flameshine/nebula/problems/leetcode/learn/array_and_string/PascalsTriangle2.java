@@ -17,10 +17,6 @@ public class PascalsTriangle2 {
         );
     }
 
-    /**
-     * 1. Add the first level of the triangle always contains only one item (1)
-     * 2. Generate the Pascal's triangle till the row we're interested in, keeping track of the last built level of it
-     */
     private static List<Integer> getRow(int rowIndex) {
 
         List<Integer> row = new ArrayList<>(rowIndex);

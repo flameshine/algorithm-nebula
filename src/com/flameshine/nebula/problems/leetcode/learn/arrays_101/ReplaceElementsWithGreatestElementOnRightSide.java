@@ -21,14 +21,6 @@ public class ReplaceElementsWithGreatestElementOnRightSide {
         );
     }
 
-    /**
-     * 1. Initialize the "max" variable and assign -1 to it
-     * 2. Iterate over an array, starting from the right
-     * 3. With each iteration, do the following steps:
-     *    - record the current item value
-     *    - re-assign the current slot to "max"
-     *    - update the max, comparing it with the recorded value
-     */
     private static int[] replaceElements(int[] array) {
 
         var max = -1;

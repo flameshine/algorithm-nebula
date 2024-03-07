@@ -19,10 +19,6 @@ public class ReverseWordsInAString {
         );
     }
 
-    /**
-     * 1. Split the string by the whitespaces between words
-     * 2. Iterate over the words starting from the right and append them to the result separating by a single whitespace
-     */
     private static String reverseWords(String s) {
 
         var words = s.trim().split("\\s+");

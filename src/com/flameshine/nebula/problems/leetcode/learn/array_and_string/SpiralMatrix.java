@@ -23,14 +23,6 @@ public class SpiralMatrix {
         );
     }
 
-    /**
-     * 1. While we didn't cross the borders of the matrix, move to:
-     *    - the rightmost index
-     *    - the lowest index
-     *    - the leftmost index
-     *    - the highest index
-     * 2. With each iteration decrement or increment the direction pointer, as well as add an item to the resulting list
-     */
     private static List<Integer> spiralOrder(int[][] matrix) {
 
         List<Integer> result = new ArrayList<>();

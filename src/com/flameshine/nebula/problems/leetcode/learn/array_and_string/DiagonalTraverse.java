@@ -24,10 +24,6 @@ public class DiagonalTraverse {
         );
     }
 
-    /**
-     * 1. Validate that the matrix isn't empty and initialize all values, such as a resulting matrix and diagonal directions
-     * 2. Move diagonally, changing the direction if we're crossing the matrix "border"
-     */
     private static int[] findDiagonalOrder(int[][] matrix) {
 
         if (matrix.length == 0) {

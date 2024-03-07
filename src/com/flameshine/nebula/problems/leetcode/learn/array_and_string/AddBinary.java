@@ -13,11 +13,6 @@ public class AddBinary {
         );
     }
 
-    /**
-     * 1. Iterate through both of the strings starting from the end
-     * 2. Calculate if we need to carry anything to the next iteration/class
-     * 3. Append result to the builder and move on to the next iteration
-     */
     private static String addBinary(String a, String b) {
 
         var builder = new StringBuilder();

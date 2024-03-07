@@ -19,12 +19,6 @@ public class LongestCommonPrefix {
         );
     }
 
-    /**
-     * 1. Sort an array
-     * 2. Get the first and the last strings from the sorted array
-     * 3. Increment a counter as long as their chars are equal
-     * 4. Return the longest common prefix based on the counter value
-     */
     private static String longestCommonPrefix(String[] strings) {
 
         Arrays.sort(strings);

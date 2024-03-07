@@ -24,11 +24,6 @@ public class DuplicateZeros {
         );
     }
 
-    /**
-     * 1. Iterate over an array, adding its items to the container list
-     * 2. If the encountered item is equal to zero, add two copies of it
-     * 3. Assign the resulting array values from the built container
-     */
     private static void duplicateZeros(int[] array) {
 
         List<Integer> container = new ArrayList<>(array.length);
