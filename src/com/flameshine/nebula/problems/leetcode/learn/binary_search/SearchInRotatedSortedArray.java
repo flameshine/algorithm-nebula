@@ -13,7 +13,7 @@ public class SearchInRotatedSortedArray {
 
     public static void main(String... args) {
 
-        var nums = new int[] { 4, 5, 6, 7, 0, 1, 2 };
+        int[] nums = { 4, 5, 6, 7, 0, 1, 2 };
 
         System.out.println(
             search(nums, 0)

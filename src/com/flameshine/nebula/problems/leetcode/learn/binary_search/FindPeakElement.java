@@ -14,7 +14,7 @@ public class FindPeakElement {
 
     public static void main(String... args) {
 
-        var nums = new int[] { 1, 2, 3, 1 };
+        int[] nums = { 1, 2, 3, 1 };
 
         System.out.println(
             findPeakElement(nums)
@@ -36,7 +36,7 @@ public class FindPeakElement {
 
         while (left <= right) {
             var middle = left + (right - left) / 2;
-            if (nums[middle] > nums[middle - 1] && nums[middle] > nums[middle + 2]) {
+            if (nums[middle] > nums[middle - 1] && nums[middle] > nums[middle + 1]) {
                 return middle;
             } else if (nums[middle] < nums[middle - 1]) {
                 right = middle - 1;
