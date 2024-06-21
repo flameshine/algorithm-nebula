@@ -1,11 +1,10 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
         
-        Set<Integer> seen = new HashSet<>();
-        var result = 0;
+        var result = 1;
 
-        for (var i = 0; i < nums.length; i++) {
-            if (seen.add(nums[i])) {
+        for (var i = 1; i < nums.length; i++) {
+            if (nums[i] != nums[i - 1]) {
                 nums[result++] = nums[i];
             }
         }
