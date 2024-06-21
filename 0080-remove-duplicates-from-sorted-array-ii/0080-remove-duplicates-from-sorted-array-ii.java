@@ -1,19 +1,11 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
         
-        Map<Integer, Integer> counts = new HashMap<>();
+        var result = 2;
 
-        for (var n : nums) {
-            counts.merge(n, 1, Integer::sum);
-        }
-
-        var result = 0;
-
-        for (var i = 0; i < nums.length; i++) {
-            if (counts.get(nums[i]) <= 2) {
+        for (var i = 2; i < nums.length; i++) {
+            if (nums[i] != nums[result - 2]) {
                 nums[result++] = nums[i];
-            } else {
-                counts.merge(nums[i], -1, Integer::sum);
             }
         }
 
