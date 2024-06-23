@@ -1,4 +1,5 @@
 class Solution {
+    
     public int maxProfit(int[] prices) {
         
         var result = 0;
