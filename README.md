@@ -19,6 +19,7 @@
 | [0056-merge-intervals](https://github.com/flameshine/algorithm-nebula/tree/master/0056-merge-intervals) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/flameshine/algorithm-nebula/tree/master/0088-merge-sorted-array) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/flameshine/algorithm-nebula/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/flameshine/algorithm-nebula/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/flameshine/algorithm-nebula/tree/master/0189-rotate-array) |
 # Sorting
@@ -56,3 +57,7 @@
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/flameshine/algorithm-nebula/tree/master/0189-rotate-array) |
+# Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/flameshine/algorithm-nebula/tree/master/0121-best-time-to-buy-and-sell-stock) |
