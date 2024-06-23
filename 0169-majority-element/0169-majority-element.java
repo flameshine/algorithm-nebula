@@ -1,4 +1,5 @@
 class Solution {
+    
     public int majorityElement(int[] nums) {
         
         Map<Integer, Integer> frequencies = new HashMap<>();
