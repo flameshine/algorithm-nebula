@@ -25,6 +25,7 @@
 | [0169-majority-element](https://github.com/flameshine/algorithm-nebula/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/flameshine/algorithm-nebula/tree/master/0189-rotate-array) |
 | [0274-h-index](https://github.com/flameshine/algorithm-nebula/tree/master/0274-h-index) |
+| [0380-insert-delete-getrandom-o1](https://github.com/flameshine/algorithm-nebula/tree/master/0380-insert-delete-getrandom-o1) |
 # Sorting
 |  |
 | ------- |
@@ -49,6 +50,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/flameshine/algorithm-nebula/tree/master/0169-majority-element) |
+| [0380-insert-delete-getrandom-o1](https://github.com/flameshine/algorithm-nebula/tree/master/0380-insert-delete-getrandom-o1) |
 # Divide and Conquer
 |  |
 | ------- |
@@ -61,6 +63,7 @@
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/flameshine/algorithm-nebula/tree/master/0189-rotate-array) |
+| [0380-insert-delete-getrandom-o1](https://github.com/flameshine/algorithm-nebula/tree/master/0380-insert-delete-getrandom-o1) |
 # Dynamic Programming
 |  |
 | ------- |
@@ -76,3 +79,11 @@
 |  |
 | ------- |
 | [0274-h-index](https://github.com/flameshine/algorithm-nebula/tree/master/0274-h-index) |
+# Design
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/flameshine/algorithm-nebula/tree/master/0380-insert-delete-getrandom-o1) |
+# Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/flameshine/algorithm-nebula/tree/master/0380-insert-delete-getrandom-o1) |
