@@ -87,3 +87,10 @@
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/flameshine/algorithm-nebula/tree/master/0380-insert-delete-getrandom-o1) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1293-three-consecutive-odds](https://github.com/flameshine/algorithm-nebula/tree/master/1293-three-consecutive-odds) |
+<!---LeetCode Topics End-->
