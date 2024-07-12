@@ -1,5 +1,5 @@
 class Solution {
-    
+
     public int[] intersect(int[] nums1, int[] nums2) {
 
         Map<Integer, Integer> numberToCount1 = new HashMap<>();
