@@ -17,11 +17,11 @@ class Solution {
         for (var i = 0; i < matrix.length; i++) {
             for (var j = 0; j < matrix[0].length; ++j) {
                 if (matrix[i][j] == minimums[i] && matrix[i][j] == maximums[j]) {
-                    return Collections.singletonList(matrix[i][j]);
+                    return List.of(matrix[i][j]);
                 }
             }
         }
         
-        return Collections.emptyList();
+        return List.of();
     }
 }
