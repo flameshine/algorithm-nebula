@@ -100,6 +100,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0138-copy-list-with-random-pointer](https://github.com/flameshine/algorithm-nebula/tree/master/0138-copy-list-with-random-pointer) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Two Pointers
 |  |
@@ -129,6 +130,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/flameshine/algorithm-nebula/tree/master/0002-add-two-numbers) |
+| [0138-copy-list-with-random-pointer](https://github.com/flameshine/algorithm-nebula/tree/master/0138-copy-list-with-random-pointer) |
 ## Math
 |  |
 | ------- |
