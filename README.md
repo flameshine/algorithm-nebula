@@ -124,6 +124,7 @@
 ## String
 |  |
 | ------- |
+| [0038-count-and-say](https://github.com/flameshine/algorithm-nebula/tree/master/0038-count-and-say) |
 | [1720-crawler-log-folder](https://github.com/flameshine/algorithm-nebula/tree/master/1720-crawler-log-folder) |
 | [2580-circular-sentence](https://github.com/flameshine/algorithm-nebula/tree/master/2580-circular-sentence) |
 ## Stack
