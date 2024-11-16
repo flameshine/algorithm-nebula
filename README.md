@@ -114,6 +114,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/flameshine/algorithm-nebula/tree/master/0069-sqrtx) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Sorting
 |  |
@@ -142,6 +143,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/flameshine/algorithm-nebula/tree/master/0002-add-two-numbers) |
+| [0069-sqrtx](https://github.com/flameshine/algorithm-nebula/tree/master/0069-sqrtx) |
 ## Recursion
 |  |
 | ------- |
