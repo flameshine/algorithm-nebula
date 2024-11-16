@@ -124,6 +124,7 @@
 |  |
 | ------- |
 | [1720-crawler-log-folder](https://github.com/flameshine/algorithm-nebula/tree/master/1720-crawler-log-folder) |
+| [2580-circular-sentence](https://github.com/flameshine/algorithm-nebula/tree/master/2580-circular-sentence) |
 ## Stack
 |  |
 | ------- |
