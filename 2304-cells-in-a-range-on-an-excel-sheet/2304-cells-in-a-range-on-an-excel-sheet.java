@@ -11,7 +11,7 @@ class Solution {
         var firstRow = s.charAt(1) - '0';
         var lastRow = s.charAt(4) - '0';
 
-        List<String> result = new ArrayList<>();
+        List<String> result = new LinkedList<>();
 
         for (var c = firstLetter; c <= lastLetter; ++c) {
             for (var i = firstRow; i <= lastRow; ++i) {
