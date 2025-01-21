@@ -95,6 +95,7 @@
 | [0057-insert-interval](https://github.com/flameshine/algorithm-nebula/tree/master/0057-insert-interval) |
 | [0088-merge-sorted-array](https://github.com/flameshine/algorithm-nebula/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/flameshine/algorithm-nebula/tree/master/0128-longest-consecutive-sequence) |
+| [0217-contains-duplicate](https://github.com/flameshine/algorithm-nebula/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/flameshine/algorithm-nebula/tree/master/0238-product-of-array-except-self) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1256-rank-transform-of-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/1256-rank-transform-of-an-array) |
@@ -106,6 +107,7 @@
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/flameshine/algorithm-nebula/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/flameshine/algorithm-nebula/tree/master/0138-copy-list-with-random-pointer) |
+| [0217-contains-duplicate](https://github.com/flameshine/algorithm-nebula/tree/master/0217-contains-duplicate) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1256-rank-transform-of-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/1256-rank-transform-of-an-array) |
 ## Two Pointers
@@ -122,6 +124,7 @@
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/flameshine/algorithm-nebula/tree/master/0088-merge-sorted-array) |
+| [0217-contains-duplicate](https://github.com/flameshine/algorithm-nebula/tree/master/0217-contains-duplicate) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1256-rank-transform-of-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/1256-rank-transform-of-an-array) |
 ## String
