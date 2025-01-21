@@ -92,6 +92,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0001-two-sum) |
 | [0057-insert-interval](https://github.com/flameshine/algorithm-nebula/tree/master/0057-insert-interval) |
 | [0088-merge-sorted-array](https://github.com/flameshine/algorithm-nebula/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/flameshine/algorithm-nebula/tree/master/0128-longest-consecutive-sequence) |
@@ -105,6 +106,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/flameshine/algorithm-nebula/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/flameshine/algorithm-nebula/tree/master/0138-copy-list-with-random-pointer) |
 | [0217-contains-duplicate](https://github.com/flameshine/algorithm-nebula/tree/master/0217-contains-duplicate) |
