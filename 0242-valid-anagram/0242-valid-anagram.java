@@ -18,12 +18,6 @@ class Solution {
             characterCounts2.merge(c, 1, Integer::sum);
         }
 
-        for (var e : characterCounts1.entrySet()) {
-            if (!characterCounts2.containsKey(e.getKey()) || characterCounts2.get(e.getKey()) != e.getValue()) {
-                return false;
-            }
-        }
-
-        return true;
+        return characterCounts1.equals(characterCounts2);
     }
 }
