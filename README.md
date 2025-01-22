@@ -93,6 +93,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0057-insert-interval](https://github.com/flameshine/algorithm-nebula/tree/master/0057-insert-interval) |
 | [0088-merge-sorted-array](https://github.com/flameshine/algorithm-nebula/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/flameshine/algorithm-nebula/tree/master/0128-longest-consecutive-sequence) |
@@ -107,6 +108,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/flameshine/algorithm-nebula/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/flameshine/algorithm-nebula/tree/master/0138-copy-list-with-random-pointer) |
 | [0217-contains-duplicate](https://github.com/flameshine/algorithm-nebula/tree/master/0217-contains-duplicate) |
@@ -126,6 +128,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/flameshine/algorithm-nebula/tree/master/0088-merge-sorted-array) |
 | [0217-contains-duplicate](https://github.com/flameshine/algorithm-nebula/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/flameshine/algorithm-nebula/tree/master/0242-valid-anagram) |
@@ -135,6 +138,7 @@
 |  |
 | ------- |
 | [0038-count-and-say](https://github.com/flameshine/algorithm-nebula/tree/master/0038-count-and-say) |
+| [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/flameshine/algorithm-nebula/tree/master/0242-valid-anagram) |
 | [1720-crawler-log-folder](https://github.com/flameshine/algorithm-nebula/tree/master/1720-crawler-log-folder) |
 | [2304-cells-in-a-range-on-an-excel-sheet](https://github.com/flameshine/algorithm-nebula/tree/master/2304-cells-in-a-range-on-an-excel-sheet) |
