@@ -1,15 +1,16 @@
 class Solution {
-    public int[] topKFrequent(int[] nums, int k) {
 
-        Map<Integer, Integer> numberFrequency = new HashMap<>();
+    public int[] topKFrequent(int[] nums, int k) {
+        
+        Map<Integer, Integer> numberFrequencies = new HashMap<>();
 
         for (var i : nums) {
-            numberFrequency.merge(i, 1, Integer::sum);
+            numberFrequencies.merge(i, 1, Integer::sum);
         }
         
-        Queue<Integer> heap = new PriorityQueue<Integer>((a, b) -> numberFrequency.get(b) - numberFrequency.get(a));
+        Queue<Integer> heap = new PriorityQueue<Integer>((a, b) -> numberFrequencies.get(b) - numberFrequencies.get(a));
 
-        heap.addAll(numberFrequency.keySet());
+        heap.addAll(numberFrequencies.keySet());
 
         var result = new int[k];
 
