@@ -1,20 +1,20 @@
 class Solution {
-    
+
     public int[] productExceptSelf(int[] nums) {
         
-        var zeros = 0;
+        var zeroes = 0;
 
         for (var n : nums) {
             if (n == 0) {
-                ++zeros;
+                ++zeroes;
             }
         }
         
-        if (zeros > 1) {
+        if (zeroes > 1) {
             return new int[nums.length];
         }
 
-        if (zeros == 1) {
+        if (zeroes == 1) {
 
             var product = 1;
             var index = 0;
