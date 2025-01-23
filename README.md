@@ -93,6 +93,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/flameshine/algorithm-nebula/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0057-insert-interval](https://github.com/flameshine/algorithm-nebula/tree/master/0057-insert-interval) |
 | [0088-merge-sorted-array](https://github.com/flameshine/algorithm-nebula/tree/master/0088-merge-sorted-array) |
@@ -109,6 +110,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/flameshine/algorithm-nebula/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/flameshine/algorithm-nebula/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/flameshine/algorithm-nebula/tree/master/0138-copy-list-with-random-pointer) |
@@ -171,6 +173,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/flameshine/algorithm-nebula/tree/master/0036-valid-sudoku) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/flameshine/algorithm-nebula/tree/master/1496-lucky-numbers-in-a-matrix) |
 ## Union Find
 |  |
