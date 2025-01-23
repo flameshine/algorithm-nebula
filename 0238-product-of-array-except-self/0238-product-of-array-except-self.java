@@ -32,17 +32,15 @@ class Solution {
                 var productExceptZero = 1;
                 var zeroIndex = 0;
 
-                for (var n : nums) {
-                    if (n != 0) {
-                        productExceptZero *= n;
+                for (var i = 0; i < nums.length; i++) {
+                    if (nums[i] != 0) {
+                        productExceptZero *= nums[i];
+                    } else {
+                        zeroIndex = i;
                     }
                 }
 
-                for (var i = 0; i < nums.length; i++) {
-                    if (nums[i] == 0) {
-                        result[i] = productExceptZero;
-                    }
-                }
+                result[zeroIndex] = productExceptZero;
 
                 yield result;
             }
