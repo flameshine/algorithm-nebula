@@ -8,9 +8,13 @@ class Solution {
 
         Arrays.sort(nums);
         
-        Set<List<Integer>> resultBuilder = new HashSet<>();
+        List<List<Integer>> result = new ArrayList<>();
 
         for (var i = 0; i < nums.length; i++) {
+
+            if (i > 0 && nums[i] == nums[i - 1]) {
+                continue;
+            }
 
             var j = i + 1;
             var k = nums.length - 1;
@@ -20,8 +24,17 @@ class Solution {
                 var sum = nums[i] + nums[j] + nums[k];
 
                 if (sum == 0) {
-                    var triple = List.of(nums[i], nums[j++], nums[k--]);
-                    resultBuilder.add(triple);
+
+                    result.add(
+                        List.of(nums[i], nums[j], nums[k])
+                    );
+
+                    ++j;
+
+                    while (nums[j] == nums[j - 1] && j < k) {
+                        ++j;
+                    }
+
                 } else if (sum < 0) {
                     ++j;
                 } else {
@@ -30,6 +43,6 @@ class Solution {
             }
         }
 
-        return new ArrayList<>(resultBuilder);
+        return result;
     }
 }
