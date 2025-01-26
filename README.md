@@ -100,6 +100,7 @@
 | [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0057-insert-interval](https://github.com/flameshine/algorithm-nebula/tree/master/0057-insert-interval) |
 | [0088-merge-sorted-array](https://github.com/flameshine/algorithm-nebula/tree/master/0088-merge-sorted-array) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/flameshine/algorithm-nebula/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/flameshine/algorithm-nebula/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/flameshine/algorithm-nebula/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/flameshine/algorithm-nebula/tree/master/0217-contains-duplicate) |
@@ -220,6 +221,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/flameshine/algorithm-nebula/tree/master/0042-trapping-rain-water) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/flameshine/algorithm-nebula/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Monotonic Stack
 |  |
 | ------- |
