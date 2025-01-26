@@ -13,8 +13,8 @@ class Solution {
         Set<Character> seen = new HashSet<>();
 
         while (j < s.length()) {
-            if (!seen.contains(s.charAt(j))) {
-                seen.add(s.charAt(j++));
+            if (seen.add(s.charAt(j))) {
+                ++j;
                 result = Math.max(result, seen.size());
             } else {
                 seen.remove(s.charAt(i++));
