@@ -6,29 +6,39 @@ class Solution {
             return false;
         }
 
-        Map<Character, Integer> s1Frequencies = new HashMap<>();
+        var frequencies1 = new int[26];
+        var frequencies2 = new int[26];
 
-        for (var c : s1.toCharArray()) {
-            s1Frequencies.merge(c, 1, Integer::sum);
+        for (var i = 0; i < s1.length(); i++) {
+            frequencies1[s1.charAt(i) - 'a']++;
+            frequencies2[s2.charAt(i) - 'a']++;
         }
 
-        Map<Character, Integer> substringFrequencies = new HashMap<>();
+        if (matches(frequencies1, frequencies2)) {
+            return true;
+        }
 
-        for (var i = 0; i <= s2.length() - s1.length(); i++) {
-            
-            var substring = s2.substring(i, i + s1.length());
+        for (var i = s1.length(); i < s2.length(); i++) {
 
-            for (char c : substring.toCharArray()) {
-                substringFrequencies.merge(c, 1, Integer::sum);
-            }
-            
-            if (s1Frequencies.equals(substringFrequencies)) {
+            frequencies2[s2.charAt(i) - 'a']++;
+            frequencies2[s2.charAt(i - s1.length()) - 'a']--;
+
+            if (matches(frequencies1, frequencies2)) {
                 return true;
-            } else {
-                substringFrequencies.clear();
             }
         }
-        
+
         return false;
+    }
+
+    private static boolean matches(int[] frequencies1, int[] frequencies2) {
+
+        for (var i = 0; i < 26; i++) {
+            if (frequencies1[i] != frequencies2[i]) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
