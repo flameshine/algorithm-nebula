@@ -124,6 +124,7 @@
 | [0242-valid-anagram](https://github.com/flameshine/algorithm-nebula/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/flameshine/algorithm-nebula/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
 | [1256-rank-transform-of-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/1256-rank-transform-of-an-array) |
 ## Two Pointers
 |  |
@@ -160,6 +161,7 @@
 | [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/flameshine/algorithm-nebula/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/flameshine/algorithm-nebula/tree/master/0242-valid-anagram) |
+| [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
 | [1720-crawler-log-folder](https://github.com/flameshine/algorithm-nebula/tree/master/1720-crawler-log-folder) |
 | [2304-cells-in-a-range-on-an-excel-sheet](https://github.com/flameshine/algorithm-nebula/tree/master/2304-cells-in-a-range-on-an-excel-sheet) |
 | [2580-circular-sentence](https://github.com/flameshine/algorithm-nebula/tree/master/2580-circular-sentence) |
@@ -232,4 +234,5 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/flameshine/algorithm-nebula/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
 <!---LeetCode Topics End-->
