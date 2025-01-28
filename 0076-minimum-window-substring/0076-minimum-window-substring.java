@@ -14,16 +14,15 @@ class Solution {
 
         var count = frequencies.size();
         var minLength = Integer.MAX_VALUE;
-        var i = 0;
-        var j = 0;
+        var left = 0;
+        var right = 0;
         var result = "";
 
-        while (j < s.length()) {
+        while (right < s.length()) {
 
-            var endChar = s.charAt(j++);
+            var endChar = s.charAt(right++);
             
             if (frequencies.containsKey(endChar)) {
-                
                 frequencies.merge(endChar, -1, Integer::sum);
                 if (frequencies.get(endChar) == 0) {
                     --count;
@@ -36,7 +35,7 @@ class Solution {
 
             while (count == 0) {
 
-                var startChar = s.charAt(i++);
+                var startChar = s.charAt(left++);
 
                 if (frequencies.containsKey(startChar)) {
 
@@ -48,9 +47,11 @@ class Solution {
                 }
             }
 
-            if (j - i < minLength) {
-                result = s.substring(i - 1, j);
-                minLength = j - i;
+            var distance = right - left;
+
+            if (distance < minLength) {
+                result = s.substring(left - 1, right);
+                minLength = distance;
             }
         }
 
