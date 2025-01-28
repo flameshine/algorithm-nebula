@@ -239,4 +239,8 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/flameshine/algorithm-nebula/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/flameshine/algorithm-nebula/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
