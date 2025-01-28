@@ -16,8 +16,7 @@ class Solution {
         var minLength = Integer.MAX_VALUE;
         var i = 0;
         var j = 0;
-        var left = 0;
-        var right = s.length() - 1;
+        var result = "";
 
         while (j < s.length()) {
 
@@ -49,15 +48,12 @@ class Solution {
                 }
             }
 
-            var distance = j - i;
-
-            if (distance < minLength) {
-                left = i;
-                right = j;
-                minLength = distance;
+            if (j - i < minLength) {
+                result = s.substring(i - 1, j);
+                minLength = j - i;
             }
         }
 
-        return minLength != Integer.MAX_VALUE ? s.substring(left - 1, right) : ""; 
+        return minLength != Integer.MAX_VALUE ? result : ""; 
     }
 }
