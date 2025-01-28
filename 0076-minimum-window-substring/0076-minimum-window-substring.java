@@ -12,43 +12,52 @@ class Solution {
             frequencies.merge(c, 1, Integer::sum);
         }
 
-        Map<Character, Integer> windowFrequencies = new HashMap<>();
-
-        var actual = 0;
-        var needed = t.length();
+        var count = frequencies.size();
         var minLength = Integer.MAX_VALUE;
+        var i = 0;
+        var j = 0;
         var left = 0;
-        var result = "";
+        var right = s.length() - 1;
 
-        for (var right = 0; right < s.length(); right++) {
+        while (j < s.length()) {
 
-            var c = s.charAt(right);
-
-            windowFrequencies.merge(c, 1, Integer::sum);
-
-            if (frequencies.containsKey(c) && frequencies.get(c) >= windowFrequencies.get(c)) {
-                ++actual;
+            var endChar = s.charAt(j++);
+            
+            if (frequencies.containsKey(endChar)) {
+                
+                frequencies.merge(endChar, -1, Integer::sum);
+                if (frequencies.get(endChar) == 0) {
+                    --count;
+                }
             }
 
-            while (actual == needed) {
+            if (count > 0) {
+                continue;
+            }
 
-                if (right - left + 1 < minLength) {
-                    result = s.substring(left, right + 1);
-                    minLength = right - left + 1;
+            while (count == 0) {
+
+                var startChar = s.charAt(i++);
+
+                if (frequencies.containsKey(startChar)) {
+
+                    frequencies.merge(startChar, 1, Integer::sum);
+
+                    if (frequencies.get(startChar) > 0) {
+                        ++count;
+                    }
                 }
+            }
 
-                var leftmost = s.charAt(left);
+            var distance = j - i;
 
-                windowFrequencies.merge(leftmost, -1, Integer::sum);
-
-                if (frequencies.containsKey(leftmost) && windowFrequencies.get(leftmost) < frequencies.get(leftmost)) {
-                    --actual;
-                }
-
-                ++left;
+            if (distance < minLength) {
+                left = i;
+                right = j;
+                minLength = distance;
             }
         }
 
-        return minLength != Integer.MAX_VALUE ? result : ""; 
+        return minLength != Integer.MAX_VALUE ? s.substring(left - 1, right) : ""; 
     }
 }
