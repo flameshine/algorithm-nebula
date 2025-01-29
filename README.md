@@ -175,6 +175,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/flameshine/algorithm-nebula/tree/master/0042-trapping-rain-water) |
+| [0155-min-stack](https://github.com/flameshine/algorithm-nebula/tree/master/0155-min-stack) |
 | [1720-crawler-log-folder](https://github.com/flameshine/algorithm-nebula/tree/master/1720-crawler-log-folder) |
 ## Prefix Sum
 |  |
@@ -257,4 +258,8 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/flameshine/algorithm-nebula/tree/master/0239-sliding-window-maximum) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/flameshine/algorithm-nebula/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
