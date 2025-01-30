@@ -162,6 +162,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/flameshine/algorithm-nebula/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0022-generate-parentheses](https://github.com/flameshine/algorithm-nebula/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/flameshine/algorithm-nebula/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/flameshine/algorithm-nebula/tree/master/0076-minimum-window-substring) |
@@ -235,6 +236,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/flameshine/algorithm-nebula/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/flameshine/algorithm-nebula/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/flameshine/algorithm-nebula/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Monotonic Stack
@@ -265,4 +267,8 @@
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/flameshine/algorithm-nebula/tree/master/0155-min-stack) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/flameshine/algorithm-nebula/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
