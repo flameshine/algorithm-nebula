@@ -25,14 +25,5 @@ class Solution {
         return result;
     }
 
-    private static class Car {
-
-        private final int position;
-        private final int speed;
-
-        public Car(int position, int speed) {
-            this.position = position;
-            this.speed = speed;
-        }
-    }
+    private record Car(int position, int speed) {}
 }
