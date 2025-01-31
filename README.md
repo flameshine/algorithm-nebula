@@ -111,6 +111,7 @@
 | [0347-top-k-frequent-elements](https://github.com/flameshine/algorithm-nebula/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0739-daily-temperatures](https://github.com/flameshine/algorithm-nebula/tree/master/0739-daily-temperatures) |
+| [0792-binary-search](https://github.com/flameshine/algorithm-nebula/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/flameshine/algorithm-nebula/tree/master/0883-car-fleet) |
 | [1256-rank-transform-of-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/1256-rank-transform-of-an-array) |
 | [1293-three-consecutive-odds](https://github.com/flameshine/algorithm-nebula/tree/master/1293-three-consecutive-odds) |
@@ -150,6 +151,7 @@
 | [0069-sqrtx](https://github.com/flameshine/algorithm-nebula/tree/master/0069-sqrtx) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/flameshine/algorithm-nebula/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0792-binary-search](https://github.com/flameshine/algorithm-nebula/tree/master/0792-binary-search) |
 ## Sorting
 |  |
 | ------- |
