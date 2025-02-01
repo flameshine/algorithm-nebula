@@ -137,6 +137,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
+| [1023-time-based-key-value-store](https://github.com/flameshine/algorithm-nebula/tree/master/1023-time-based-key-value-store) |
 | [1256-rank-transform-of-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/1256-rank-transform-of-an-array) |
 ## Two Pointers
 |  |
@@ -160,6 +161,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0792-binary-search](https://github.com/flameshine/algorithm-nebula/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/flameshine/algorithm-nebula/tree/master/0907-koko-eating-bananas) |
+| [1023-time-based-key-value-store](https://github.com/flameshine/algorithm-nebula/tree/master/1023-time-based-key-value-store) |
 ## Sorting
 |  |
 | ------- |
@@ -184,6 +186,7 @@
 | [0242-valid-anagram](https://github.com/flameshine/algorithm-nebula/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
+| [1023-time-based-key-value-store](https://github.com/flameshine/algorithm-nebula/tree/master/1023-time-based-key-value-store) |
 | [1720-crawler-log-folder](https://github.com/flameshine/algorithm-nebula/tree/master/1720-crawler-log-folder) |
 | [2304-cells-in-a-range-on-an-excel-sheet](https://github.com/flameshine/algorithm-nebula/tree/master/2304-cells-in-a-range-on-an-excel-sheet) |
 | [2580-circular-sentence](https://github.com/flameshine/algorithm-nebula/tree/master/2580-circular-sentence) |
@@ -288,6 +291,7 @@
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/flameshine/algorithm-nebula/tree/master/0155-min-stack) |
+| [1023-time-based-key-value-store](https://github.com/flameshine/algorithm-nebula/tree/master/1023-time-based-key-value-store) |
 ## Backtracking
 |  |
 | ------- |
