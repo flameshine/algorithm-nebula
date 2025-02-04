@@ -2,10 +2,14 @@ class Solution {
 
     public ListNode mergeKLists(ListNode[] lists) {
 
-        ListNode result = null;
+        if (lists == null || lists.length == 0) {
+            return null;
+        }
 
-        for (var l : lists) {
-            result = merge(result, l);
+        var result = lists[0];
+
+        for (var i = 1; i < lists.length; i++) {
+            result = merge(result, lists[i]);
         }
 
         return result;
