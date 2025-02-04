@@ -6,13 +6,24 @@ class Solution {
             return null;
         }
 
-        var result = lists[0];
+        return merge(lists, 0, lists.length - 1);
+    }
 
-        for (var i = 1; i < lists.length; i++) {
-            result = merge(result, lists[i]);
+    private ListNode merge(ListNode[] lists, int start, int end) {
+
+        if (start == end) {
+            return lists[start];
         }
 
-        return result;
+        if (start + 1 == end) {
+            return merge(lists[start], lists[end]);
+        }
+
+        var middle = start + (end - start) / 2;
+        var left = merge(lists, start, middle);
+        var right = merge(lists, middle + 1, end);
+
+        return merge(left, right);
     }
 
     private ListNode merge(ListNode l1, ListNode l2) {
