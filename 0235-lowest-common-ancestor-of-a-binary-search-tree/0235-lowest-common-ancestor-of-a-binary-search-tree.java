@@ -5,7 +5,6 @@ class Solution {
         var pointer = root;
 
         while (pointer != null) {
-
             if (pointer.val > p.val && pointer.val > q.val) {
                 pointer = pointer.left;
             } else if (pointer.val < p.val && pointer.val < q.val) {
