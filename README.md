@@ -342,6 +342,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0226-invert-binary-tree) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0572-subtree-of-another-tree) |
 ## Depth-First Search
@@ -351,6 +352,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0226-invert-binary-tree) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0572-subtree-of-another-tree) |
 ## Breadth-First Search
@@ -366,6 +368,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0226-invert-binary-tree) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0572-subtree-of-another-tree) |
 ## String Matching
@@ -376,4 +379,8 @@
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0572-subtree-of-another-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 <!---LeetCode Topics End-->
