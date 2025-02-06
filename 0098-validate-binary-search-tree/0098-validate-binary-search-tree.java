@@ -1,31 +1,19 @@
 class Solution {
 
     public boolean isValidBST(TreeNode root) {
-        
+        return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
+    
+    public boolean isValidBST(TreeNode root, long min, long max) {
+
         if (root == null) {
             return true;
         }
 
-        Stack<TreeNode> stack = new Stack<>();
-        TreeNode previous = null;
-
-        while (root != null || !stack.isEmpty()) {
-
-            while (root != null) {
-                stack.push(root);
-                root = root.left;
-            }
-
-            root = stack.pop();
-
-            if (previous != null && root.val <= previous.val) {
-                return false;
-            }
-            
-            previous = root;
-            root = root.right;
+        if (root.val >= max || root.val <= min) {
+            return false;
         }
 
-        return true;
+        return isValidBST(root.left, min, root.val) && isValidBST(root.right, root.val, max);
     }
 }
