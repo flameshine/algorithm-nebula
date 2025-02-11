@@ -16,15 +16,10 @@ class Solution {
 
             var x = heap.poll();
             var y = heap.poll();
+            var difference = Math.abs(x - y);
 
-            if (x == y) {
-                continue;
-            }
-
-            if (x > y) {
-                heap.offer(x - y);
-            } else {
-                heap.offer(y - x);
+            if (difference != 0) {
+                heap.offer(difference);
             }
         }
 
