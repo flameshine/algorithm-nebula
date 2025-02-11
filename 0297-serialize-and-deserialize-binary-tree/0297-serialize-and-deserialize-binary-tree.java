@@ -6,7 +6,6 @@ public class Codec {
         return builder.toString();
     }
 
-
     public TreeNode deserialize(String data) {
         var index = new AtomicInteger();
         var tokens = data.split(",");
