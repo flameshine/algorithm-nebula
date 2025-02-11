@@ -2,7 +2,7 @@ class Solution {
 
     public int lastStoneWeight(int[] stones) {
         
-        Queue<Integer> heap = new PriorityQueue<>((a, b) -> b - a);
+        Queue<Integer> heap = new PriorityQueue<>(Collections.reverseOrder());
 
         for (var s : stones) {
             heap.offer(s);
