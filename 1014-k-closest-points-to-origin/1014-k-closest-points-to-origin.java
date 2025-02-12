@@ -17,8 +17,4 @@ class Solution {
 
         return result;
     }
-
-    private static double euclideanDistanceToOrigin(int x, int y) {
-        return Math.sqrt(x * x + y * y);
-    }
 }
