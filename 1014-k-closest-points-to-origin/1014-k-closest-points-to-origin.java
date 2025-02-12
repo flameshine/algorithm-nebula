@@ -2,23 +2,17 @@ class Solution {
 
     public int[][] kClosest(int[][] points, int k) {
         
-        Queue<Map.Entry<Double, int[]>> heap = new PriorityQueue<>(Map.Entry.comparingByKey());
+        Queue<int[]> heap = new PriorityQueue<>((a, b) -> a[0] * a[0] + a[1] * a[1] - b[0] * b[0] - b[1] * b[1]);
 
         for (var point : points) {
-            
-            var entry = Map.entry(
-                euclideanDistanceToOrigin(point[0], point[1]),
-                point
-            );
-
-            heap.offer(entry);
+            heap.offer(point);
         }
 
         var result = new int[k][2];
         var i = 0;
 
         while (k-- > 0) {
-            result[i++] = heap.poll().getValue();
+            result[i++] = heap.poll();
         }
 
         return result;
