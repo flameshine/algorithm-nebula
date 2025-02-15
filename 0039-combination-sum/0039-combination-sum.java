@@ -2,7 +2,7 @@ class Solution {
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
-        createCombination(candidates, target, 0, new ArrayList<>(), 0, result);
+        createCombination(candidates, target, 0, new ArrayList<>(), result);
         return result;
     }
 
@@ -11,22 +11,24 @@ class Solution {
         int target,
         int index,
         List<Integer> combination,
-        int currentSum,
         List<List<Integer>> result
     ) {
 
-        if (currentSum == target) {
+        if (target == 0) {
             result.add(new ArrayList<>(combination));
             return;
         }
 
-        if (currentSum > target || index >= candidates.length) {
+        if (index == candidates.length) {
             return;
         }
 
-        combination.add(candidates[index]);
-        createCombination(candidates, target, index, combination, currentSum + candidates[index], result);
-        combination.remove(combination.size() - 1);
-        createCombination(candidates, target, index + 1, combination, currentSum, result);
+        if (candidates[index] <= target) {
+            combination.add(candidates[index]);
+            createCombination(candidates, target - candidates[index], index, combination, result);
+            combination.remove(combination.size() - 1);
+        }
+
+        createCombination(candidates, target, index + 1, combination, result);
     }
 }
