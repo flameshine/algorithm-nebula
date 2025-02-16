@@ -102,6 +102,7 @@
 | [0040-combination-sum-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/flameshine/algorithm-nebula/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/flameshine/algorithm-nebula/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0057-insert-interval](https://github.com/flameshine/algorithm-nebula/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/flameshine/algorithm-nebula/tree/master/0074-search-a-2d-matrix) |
@@ -189,6 +190,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/flameshine/algorithm-nebula/tree/master/0015-3sum) |
+| [0047-permutations-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/flameshine/algorithm-nebula/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/0215-kth-largest-element-in-an-array) |
@@ -365,6 +367,7 @@
 | [0039-combination-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/flameshine/algorithm-nebula/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/flameshine/algorithm-nebula/tree/master/0078-subsets) |
 ## Bit Manipulation
 |  |
