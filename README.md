@@ -105,6 +105,7 @@
 | [0047-permutations-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0057-insert-interval](https://github.com/flameshine/algorithm-nebula/tree/master/0057-insert-interval) |
+| [0066-plus-one](https://github.com/flameshine/algorithm-nebula/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/flameshine/algorithm-nebula/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/flameshine/algorithm-nebula/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/flameshine/algorithm-nebula/tree/master/0084-largest-rectangle-in-histogram) |
@@ -260,6 +261,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/flameshine/algorithm-nebula/tree/master/0002-add-two-numbers) |
+| [0066-plus-one](https://github.com/flameshine/algorithm-nebula/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/flameshine/algorithm-nebula/tree/master/0069-sqrtx) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/flameshine/algorithm-nebula/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0202-happy-number](https://github.com/flameshine/algorithm-nebula/tree/master/0202-happy-number) |
