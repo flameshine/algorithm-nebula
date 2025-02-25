@@ -129,6 +129,7 @@
 | [0883-car-fleet](https://github.com/flameshine/algorithm-nebula/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/flameshine/algorithm-nebula/tree/master/0907-koko-eating-bananas) |
 | [1014-k-closest-points-to-origin](https://github.com/flameshine/algorithm-nebula/tree/master/1014-k-closest-points-to-origin) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/flameshine/algorithm-nebula/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1127-last-stone-weight](https://github.com/flameshine/algorithm-nebula/tree/master/1127-last-stone-weight) |
 | [1256-rank-transform-of-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/1256-rank-transform-of-an-array) |
 | [1293-three-consecutive-odds](https://github.com/flameshine/algorithm-nebula/tree/master/1293-three-consecutive-odds) |
@@ -157,6 +158,7 @@
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
 | [0870-magic-squares-in-grid](https://github.com/flameshine/algorithm-nebula/tree/master/0870-magic-squares-in-grid) |
 | [1023-time-based-key-value-store](https://github.com/flameshine/algorithm-nebula/tree/master/1023-time-based-key-value-store) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/flameshine/algorithm-nebula/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1256-rank-transform-of-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/1256-rank-transform-of-an-array) |
 ## Two Pointers
 |  |
@@ -219,6 +221,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
 | [1023-time-based-key-value-store](https://github.com/flameshine/algorithm-nebula/tree/master/1023-time-based-key-value-store) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/flameshine/algorithm-nebula/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1720-crawler-log-folder](https://github.com/flameshine/algorithm-nebula/tree/master/1720-crawler-log-folder) |
 | [2304-cells-in-a-range-on-an-excel-sheet](https://github.com/flameshine/algorithm-nebula/tree/master/2304-cells-in-a-range-on-an-excel-sheet) |
 | [2580-circular-sentence](https://github.com/flameshine/algorithm-nebula/tree/master/2580-circular-sentence) |
@@ -309,6 +312,7 @@
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/flameshine/algorithm-nebula/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/flameshine/algorithm-nebula/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 ## Quickselect
 |  |
 | ------- |
