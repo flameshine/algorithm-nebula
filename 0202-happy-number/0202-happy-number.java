@@ -1,9 +1,10 @@
 class Solution {
+
     public boolean isHappy(int n) {
-return isHappy(n, new HashSet<>());
+        return isHappy(n, new HashSet<>());
     }
 
-        private boolean isHappy(int n, Set<Integer> seen) {
+    private static boolean isHappy(int n, Set<Integer> seen) {
 
         if (n == 1) {
             return true;
@@ -15,12 +16,12 @@ return isHappy(n, new HashSet<>());
 
         seen.add(n);
 
-        var sumOfSquaredDigits = sumOfSquaredDigits(n);
+        var sum = sumOfSquaredDigits(n);
 
-        return isHappy(sumOfSquaredDigits, seen);
+        return isHappy(sum, seen);
     }
 
-    private int sumOfSquaredDigits(int n) {
+    private static int sumOfSquaredDigits(int n) {
 
         var sum = 0;
 
@@ -32,5 +33,4 @@ return isHappy(n, new HashSet<>());
 
         return sum;
     }
-    
 }
