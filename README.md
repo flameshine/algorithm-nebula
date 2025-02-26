@@ -152,6 +152,7 @@
 | [0202-happy-number](https://github.com/flameshine/algorithm-nebula/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/flameshine/algorithm-nebula/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/flameshine/algorithm-nebula/tree/master/0242-valid-anagram) |
+| [0290-word-pattern](https://github.com/flameshine/algorithm-nebula/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/flameshine/algorithm-nebula/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0355-design-twitter](https://github.com/flameshine/algorithm-nebula/tree/master/0355-design-twitter) |
@@ -220,6 +221,7 @@
 | [0076-minimum-window-substring](https://github.com/flameshine/algorithm-nebula/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/flameshine/algorithm-nebula/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/flameshine/algorithm-nebula/tree/master/0242-valid-anagram) |
+| [0290-word-pattern](https://github.com/flameshine/algorithm-nebula/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
