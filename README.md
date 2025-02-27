@@ -123,6 +123,7 @@
 | [0287-find-the-duplicate-number](https://github.com/flameshine/algorithm-nebula/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/flameshine/algorithm-nebula/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0500-keyboard-row](https://github.com/flameshine/algorithm-nebula/tree/master/0500-keyboard-row) |
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
 | [0739-daily-temperatures](https://github.com/flameshine/algorithm-nebula/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/flameshine/algorithm-nebula/tree/master/0792-binary-search) |
@@ -157,6 +158,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0355-design-twitter](https://github.com/flameshine/algorithm-nebula/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
+| [0500-keyboard-row](https://github.com/flameshine/algorithm-nebula/tree/master/0500-keyboard-row) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
 | [0870-magic-squares-in-grid](https://github.com/flameshine/algorithm-nebula/tree/master/0870-magic-squares-in-grid) |
@@ -224,6 +226,7 @@
 | [0290-word-pattern](https://github.com/flameshine/algorithm-nebula/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
+| [0500-keyboard-row](https://github.com/flameshine/algorithm-nebula/tree/master/0500-keyboard-row) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
 | [1023-time-based-key-value-store](https://github.com/flameshine/algorithm-nebula/tree/master/1023-time-based-key-value-store) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/flameshine/algorithm-nebula/tree/master/1112-find-words-that-can-be-formed-by-characters) |
