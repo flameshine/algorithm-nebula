@@ -1,7 +1,7 @@
 class Solution {
-    
-    public int removeElement(int[] nums, int val) {
 
+    public int removeElement(int[] nums, int val) {
+        
         var result = 0;
 
         for (var i = 0; i < nums.length; i++) {
