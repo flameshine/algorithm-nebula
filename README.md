@@ -126,6 +126,7 @@
 | [0347-top-k-frequent-elements](https://github.com/flameshine/algorithm-nebula/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0500-keyboard-row](https://github.com/flameshine/algorithm-nebula/tree/master/0500-keyboard-row) |
+| [0605-can-place-flowers](https://github.com/flameshine/algorithm-nebula/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
 | [0739-daily-temperatures](https://github.com/flameshine/algorithm-nebula/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/flameshine/algorithm-nebula/tree/master/0792-binary-search) |
@@ -352,6 +353,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/flameshine/algorithm-nebula/tree/master/0011-container-with-most-water) |
+| [0605-can-place-flowers](https://github.com/flameshine/algorithm-nebula/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/flameshine/algorithm-nebula/tree/master/1341-split-a-string-in-balanced-strings) |
 ## Dynamic Programming
