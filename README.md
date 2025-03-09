@@ -188,6 +188,7 @@
 | [0202-happy-number](https://github.com/flameshine/algorithm-nebula/tree/master/0202-happy-number) |
 | [0287-find-the-duplicate-number](https://github.com/flameshine/algorithm-nebula/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/flameshine/algorithm-nebula/tree/master/0295-find-median-from-data-stream) |
+| [0345-reverse-vowels-of-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/0345-reverse-vowels-of-a-string) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
 | [1894-merge-strings-alternately](https://github.com/flameshine/algorithm-nebula/tree/master/1894-merge-strings-alternately) |
@@ -236,6 +237,7 @@
 | [0242-valid-anagram](https://github.com/flameshine/algorithm-nebula/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/flameshine/algorithm-nebula/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0345-reverse-vowels-of-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/0345-reverse-vowels-of-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
 | [0500-keyboard-row](https://github.com/flameshine/algorithm-nebula/tree/master/0500-keyboard-row) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
