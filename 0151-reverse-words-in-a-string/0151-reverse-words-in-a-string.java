@@ -6,17 +6,16 @@ class Solution {
             return "";
         }
 
-        var normalized = s.trim().replaceAll("\\s+", " ");
-        var words = normalized.split(" ");
-        var resultBuilder = new StringBuilder(words.length);
+        var words = s.replaceAll("\s+", " ").split(" ");
+        var i = 0;
+        var j = words.length - 1;
 
-        for (var i = words.length - 1; i >= 0; i--) {
-            resultBuilder.append(words[i]);
-            if (i != 0) {
-                resultBuilder.append(" ");
-            }
+        while (i < j) {
+            var tmp = words[i];
+            words[i++] = words[j];
+            words[j--] = tmp;
         }
 
-        return resultBuilder.toString();
+        return String.join(" ", words).trim();
     }
 }
