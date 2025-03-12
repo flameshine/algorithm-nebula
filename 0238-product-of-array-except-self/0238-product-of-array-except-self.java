@@ -2,49 +2,28 @@ class Solution {
 
     public int[] productExceptSelf(int[] nums) {
         
-        var zeroes = 0;
+        var prefix = new int[nums.length];
 
-        for (var n : nums) {
-            if (n == 0) {
-                ++zeroes;
-            }
+        prefix[0] = 1;
+
+        for (var i = 1; i < nums.length; i++) {
+            prefix[i] = nums[i - 1] * prefix[i - 1];
+        }
+
+        var suffix = new int[nums.length];
+
+        suffix[nums.length - 1] = 1;
+
+        for (var i = nums.length - 2; i >= 0; i--) {
+            suffix[i] = nums[i + 1] * suffix[i + 1];
         }
 
         var result = new int[nums.length];
 
-        return switch (zeroes) {
-            case 0 -> {
-                
-                var product = 1;
-
-                for (var n : nums) {
-                    product *= n;
-                }
-
-                for (var i = 0; i < nums.length; i++) {
-                    result[i] = product / nums[i];
-                }
-
-                yield result;
-            }
-            case 1 -> {
-
-                var productExceptZero = 1;
-                var zeroIndex = 0;
-
-                for (var i = 0; i < nums.length; i++) {
-                    if (nums[i] != 0) {
-                        productExceptZero *= nums[i];
-                    } else {
-                        zeroIndex = i;
-                    }
-                }
-
-                result[zeroIndex] = productExceptZero;
-
-                yield result;
-            }
-            default -> result;
-        };
+        for (var i = 0; i < nums.length; i++) {
+            result[i] = prefix[i] * suffix[i];
+        }
+        
+        return result;
     }
 }
