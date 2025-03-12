@@ -3,9 +3,8 @@ class Solution {
     public int compress(char[] chars) {
 
         var result = 0;
-        var i = 0;
     
-        while (i < chars.length) {
+        for (var i = 0; i < chars.length;) {
 
             var current = chars[i];
             var count = 0;
