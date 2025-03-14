@@ -8,7 +8,7 @@ class Solution {
 
         while (left < right) {
 
-            var area = Math.min(heights[left], heights[right] * (right - left));
+            var area = Math.min(heights[left], heights[right]) * (right - left);
             
             result = Math.max(result, area);
 
