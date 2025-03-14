@@ -259,6 +259,7 @@
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/flameshine/algorithm-nebula/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/flameshine/algorithm-nebula/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/flameshine/algorithm-nebula/tree/master/1341-split-a-string-in-balanced-strings) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/flameshine/algorithm-nebula/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1720-crawler-log-folder](https://github.com/flameshine/algorithm-nebula/tree/master/1720-crawler-log-folder) |
 | [1894-merge-strings-alternately](https://github.com/flameshine/algorithm-nebula/tree/master/1894-merge-strings-alternately) |
 | [2304-cells-in-a-range-on-an-excel-sheet](https://github.com/flameshine/algorithm-nebula/tree/master/2304-cells-in-a-range-on-an-excel-sheet) |
@@ -397,6 +398,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/flameshine/algorithm-nebula/tree/master/0643-maximum-average-subarray-i) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/flameshine/algorithm-nebula/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Database
 |  |
 | ------- |
