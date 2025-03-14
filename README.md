@@ -130,6 +130,7 @@
 | [0500-keyboard-row](https://github.com/flameshine/algorithm-nebula/tree/master/0500-keyboard-row) |
 | [0605-can-place-flowers](https://github.com/flameshine/algorithm-nebula/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
+| [0643-maximum-average-subarray-i](https://github.com/flameshine/algorithm-nebula/tree/master/0643-maximum-average-subarray-i) |
 | [0739-daily-temperatures](https://github.com/flameshine/algorithm-nebula/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/flameshine/algorithm-nebula/tree/master/0792-binary-search) |
 | [0870-magic-squares-in-grid](https://github.com/flameshine/algorithm-nebula/tree/master/0870-magic-squares-in-grid) |
@@ -395,6 +396,7 @@
 | [0239-sliding-window-maximum](https://github.com/flameshine/algorithm-nebula/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
+| [0643-maximum-average-subarray-i](https://github.com/flameshine/algorithm-nebula/tree/master/0643-maximum-average-subarray-i) |
 ## Database
 |  |
 | ------- |
