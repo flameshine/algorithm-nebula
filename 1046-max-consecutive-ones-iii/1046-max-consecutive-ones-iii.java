@@ -3,12 +3,12 @@ class Solution {
     public int longestOnes(int[] nums, int k) {
         
         var left = 0;
+        var right = 0;
         var zeroes = 0;
-        var result = 0;
 
-        for (var right = 0; right < nums.length; right++) {
+        while (right < nums.length) {
 
-            if (nums[right] == 0) {
+            if (nums[right++] == 0) {
                 ++zeroes;
             }
 
@@ -17,10 +17,8 @@ class Solution {
                     --zeroes;
                 }
             }
-
-            result = Math.max(result, right - left + 1);
         }
 
-        return result;
+        return right - left;
     }
 }
