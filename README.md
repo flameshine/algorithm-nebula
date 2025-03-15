@@ -137,6 +137,7 @@
 | [0883-car-fleet](https://github.com/flameshine/algorithm-nebula/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/flameshine/algorithm-nebula/tree/master/0907-koko-eating-bananas) |
 | [1014-k-closest-points-to-origin](https://github.com/flameshine/algorithm-nebula/tree/master/1014-k-closest-points-to-origin) |
+| [1046-max-consecutive-ones-iii](https://github.com/flameshine/algorithm-nebula/tree/master/1046-max-consecutive-ones-iii) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/flameshine/algorithm-nebula/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1127-last-stone-weight](https://github.com/flameshine/algorithm-nebula/tree/master/1127-last-stone-weight) |
 | [1256-rank-transform-of-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/1256-rank-transform-of-an-array) |
@@ -217,6 +218,7 @@
 | [0792-binary-search](https://github.com/flameshine/algorithm-nebula/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/flameshine/algorithm-nebula/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/flameshine/algorithm-nebula/tree/master/1023-time-based-key-value-store) |
+| [1046-max-consecutive-ones-iii](https://github.com/flameshine/algorithm-nebula/tree/master/1046-max-consecutive-ones-iii) |
 ## Sorting
 |  |
 | ------- |
@@ -280,6 +282,7 @@
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/flameshine/algorithm-nebula/tree/master/0238-product-of-array-except-self) |
+| [1046-max-consecutive-ones-iii](https://github.com/flameshine/algorithm-nebula/tree/master/1046-max-consecutive-ones-iii) |
 ## Linked List
 |  |
 | ------- |
@@ -398,6 +401,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/flameshine/algorithm-nebula/tree/master/0643-maximum-average-subarray-i) |
+| [1046-max-consecutive-ones-iii](https://github.com/flameshine/algorithm-nebula/tree/master/1046-max-consecutive-ones-iii) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/flameshine/algorithm-nebula/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Database
 |  |
