@@ -151,6 +151,7 @@
 | [1720-crawler-log-folder](https://github.com/flameshine/algorithm-nebula/tree/master/1720-crawler-log-folder) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1833-find-the-highest-altitude](https://github.com/flameshine/algorithm-nebula/tree/master/1833-find-the-highest-altitude) |
+| [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 ## Hash Table
 |  |
 | ------- |
@@ -184,6 +185,7 @@
 | [1392-find-the-difference-of-two-arrays](https://github.com/flameshine/algorithm-nebula/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1777-determine-if-two-strings-are-close](https://github.com/flameshine/algorithm-nebula/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 ## Two Pointers
 |  |
 | ------- |
@@ -338,6 +340,7 @@
 | [0074-search-a-2d-matrix](https://github.com/flameshine/algorithm-nebula/tree/master/0074-search-a-2d-matrix) |
 | [0870-magic-squares-in-grid](https://github.com/flameshine/algorithm-nebula/tree/master/0870-magic-squares-in-grid) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/flameshine/algorithm-nebula/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 ## Union Find
 |  |
 | ------- |
@@ -573,4 +576,8 @@
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/flameshine/algorithm-nebula/tree/master/1014-k-closest-points-to-origin) |
+## Simulation
+|  |
+| ------- |
+| [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 <!---LeetCode Topics End-->
