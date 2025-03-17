@@ -132,6 +132,7 @@
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
 | [0643-maximum-average-subarray-i](https://github.com/flameshine/algorithm-nebula/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/flameshine/algorithm-nebula/tree/master/0724-find-pivot-index) |
+| [0735-asteroid-collision](https://github.com/flameshine/algorithm-nebula/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/flameshine/algorithm-nebula/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/flameshine/algorithm-nebula/tree/master/0792-binary-search) |
 | [0870-magic-squares-in-grid](https://github.com/flameshine/algorithm-nebula/tree/master/0870-magic-squares-in-grid) |
@@ -288,6 +289,7 @@
 | [0143-reorder-list](https://github.com/flameshine/algorithm-nebula/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/flameshine/algorithm-nebula/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/flameshine/algorithm-nebula/tree/master/0155-min-stack) |
+| [0735-asteroid-collision](https://github.com/flameshine/algorithm-nebula/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/flameshine/algorithm-nebula/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/flameshine/algorithm-nebula/tree/master/0883-car-fleet) |
 | [1720-crawler-log-folder](https://github.com/flameshine/algorithm-nebula/tree/master/1720-crawler-log-folder) |
@@ -581,6 +583,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/flameshine/algorithm-nebula/tree/master/0735-asteroid-collision) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 | [2470-removing-stars-from-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/2470-removing-stars-from-a-string) |
 <!---LeetCode Topics End-->
