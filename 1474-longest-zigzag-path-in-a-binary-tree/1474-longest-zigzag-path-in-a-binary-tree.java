@@ -1,18 +1,37 @@
 class Solution {
 
     public int longestZigZag(TreeNode root) {
-        return dfs(root, 0, 0);
-    }
-
-    private static int dfs(TreeNode root, int left, int right) {
-
+        
         if (root == null) {
-            return Math.max(left, right) - 1;
+            return 0;
         }
 
-        var bestLeft = dfs(root.left, right + 1, 0);
-        var bestRight = dfs(root.right, 0, left + 1);
+        var maxLength = new int[1];
 
-        return Math.max(bestLeft, bestRight);
+        dfs(root, true, maxLength, 0);
+
+        return maxLength[0];
+    }
+
+    private static void dfs(
+        TreeNode node,
+        boolean isLeft,
+        int[] maxLength,
+        int currentLength
+    ) {
+
+        if (node == null) {
+            return;
+        }
+
+        maxLength[0] = Math.max(maxLength[0], currentLength);
+
+        if (isLeft) {
+            dfs(node.left, false, maxLength, currentLength + 1);
+            dfs(node.right, true, maxLength, 1);
+        } else {
+            dfs(node.right, true, maxLength, currentLength + 1);
+            dfs(node.left, false, maxLength, 1);
+        }
     }
 }
