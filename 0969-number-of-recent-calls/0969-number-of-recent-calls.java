@@ -3,7 +3,7 @@ class RecentCounter {
     private final Queue<Integer> heap;
 
     public RecentCounter() {
-        this.heap = new PriorityQueue<>();
+        this.heap = new LinkedList<>();
     }
     
     public int ping(int t) {
