@@ -9,7 +9,13 @@ class Solution {
         var number = 0;
 
         for (var c : s.toCharArray()) {
-            if (Character.isDigi)
+            if (Character.isDigit(c)) {
+                number = number * 10 + (c - '0');
+            } else if (Character.isLetter(c)) {
+                builder.append(c);
+            } else if (c == '[') {
+                
+            }
         }
     }
 }
