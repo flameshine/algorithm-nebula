@@ -214,6 +214,7 @@
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1894-merge-strings-alternately](https://github.com/flameshine/algorithm-nebula/tree/master/1894-merge-strings-alternately) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Binary Search
 |  |
 | ------- |
@@ -319,6 +320,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/flameshine/algorithm-nebula/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/0206-reverse-linked-list) |
 | [0355-design-twitter](https://github.com/flameshine/algorithm-nebula/tree/master/0355-design-twitter) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Math
 |  |
 | ------- |
