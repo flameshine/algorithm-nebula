@@ -9,7 +9,7 @@ class Solution {
         var number = 0;
 
         for (var c : s.toCharArray()) {
-            
+            if (Character.isDigi)
         }
     }
 }
