@@ -270,6 +270,7 @@
 | [0443-string-compression](https://github.com/flameshine/algorithm-nebula/tree/master/0443-string-compression) |
 | [0500-keyboard-row](https://github.com/flameshine/algorithm-nebula/tree/master/0500-keyboard-row) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
+| [0649-dota2-senate](https://github.com/flameshine/algorithm-nebula/tree/master/0649-dota2-senate) |
 | [1023-time-based-key-value-store](https://github.com/flameshine/algorithm-nebula/tree/master/1023-time-based-key-value-store) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/flameshine/algorithm-nebula/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/flameshine/algorithm-nebula/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -399,6 +400,7 @@
 | [0334-increasing-triplet-subsequence](https://github.com/flameshine/algorithm-nebula/tree/master/0334-increasing-triplet-subsequence) |
 | [0605-can-place-flowers](https://github.com/flameshine/algorithm-nebula/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
+| [0649-dota2-senate](https://github.com/flameshine/algorithm-nebula/tree/master/0649-dota2-senate) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/flameshine/algorithm-nebula/tree/master/1341-split-a-string-in-balanced-strings) |
 ## Dynamic Programming
 |  |
@@ -436,6 +438,7 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/flameshine/algorithm-nebula/tree/master/0239-sliding-window-maximum) |
+| [0649-dota2-senate](https://github.com/flameshine/algorithm-nebula/tree/master/0649-dota2-senate) |
 | [0969-number-of-recent-calls](https://github.com/flameshine/algorithm-nebula/tree/master/0969-number-of-recent-calls) |
 ## Monotonic Queue
 |  |
