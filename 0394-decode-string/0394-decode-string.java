@@ -14,8 +14,18 @@ class Solution {
             } else if (Character.isLetter(c)) {
                 builder.append(c);
             } else if (c == '[') {
-                
+                counts.push(number);
+                fragments.push(builder.toString());
+                number = 0;
+                builder = new StringBuilder();
+            } else {
+                var count = counts.pop();
+                var fragment = new StringBuilder(fragments.pop());
+                fragment.append(builder.toString().repeat(Math.max(0, count)));
+                builder = fragment;
             }
         }
+
+        return builder.toString();
     }
 }
