@@ -1,44 +1,36 @@
 class Solution {
 
     public int pathSum(TreeNode root, int targetSum) {
-        var counter = new AtomicInteger();
-        dfs(root, targetSum, counter);
-        return counter.get();
+        var counter = new AtomicLong();
+        Map<Long, Long> map = new HashMap<>();
+        map.put(0L, 1L);
+        dfs(root, (long) targetSum, 0L, map, counter);
+        return (int) counter.get();
     }
 
     private static void dfs(
         TreeNode root,
-        int targetSum,
-        AtomicInteger counter
-    ) {
-
-        if (root == null) {
-            return;
-        }
-
-        traversePath(root, 0L, targetSum, counter);
-        dfs(root.left, targetSum, counter);
-        dfs(root.right, targetSum, counter);
-    }
-
-    private static void traversePath(
-        TreeNode root,
+        long target,
         long current,
-        int target,
-        AtomicInteger counter
+        Map<Long, Long> map,
+        AtomicLong counter
     ) {
 
         if (root == null) {
             return;
         }
 
-        var newSum = current + root.val;
+        current += root.val;
 
-        if (newSum == target) {
-            counter.incrementAndGet();
+        if (map.containsKey(current - target)) {
+            counter.getAndAdd(map.get(current - target));
         }
 
-        traversePath(root.left, newSum, target, counter);
-        traversePath(root.right, newSum, target, counter);
+        map.merge(current, 1L, Long::sum);
+
+        dfs(root.left, target, current, map, counter);
+        dfs(root.right, target, current, map, counter);
+
+        map.merge(current, -1L, Long::sum);
     }
 }
