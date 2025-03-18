@@ -16,15 +16,11 @@ class Solution {
         }
 
         while (!radiants.isEmpty() && !dires.isEmpty()) {
-            
-            if (radiants.peek() < dires.peek()) {
+            if (radiants.poll() < dires.poll()) {
                 radiants.add(n++);
             } else {
                 dires.add(n++);
             }
-
-            radiants.poll();
-            dires.poll();
         }
 
         return radiants.isEmpty() ? "Dire" : "Radiant";
