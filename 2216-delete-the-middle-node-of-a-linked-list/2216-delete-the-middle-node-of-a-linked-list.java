@@ -2,26 +2,24 @@ class Solution {
 
     public ListNode deleteMiddle(ListNode head) {
 
-        if (head.next == null) {
+        if (head == null) {
             return null;
         }
-        
-        var fast = head;
-        var prevSlow = head;
-        var slow = head;
 
-        while (fast.next != null && fast.next.next != null) {
+        var prev = new ListNode(0);
+
+        prev.next = head;
+
+        var fast = head;
+        var slow = prev;
+
+        while (fast != null && fast.next != null) {
             fast = fast.next.next;
-            prevSlow = slow;
             slow = slow.next;
         }
 
-        if (fast.next == null) {
-            prevSlow.next = slow.next;
-        } else {
-            slow.next = slow.next.next;
-        }
+        slow.next = slow.next.next;
 
-        return head;
+        return prev.next;
     }
 }
