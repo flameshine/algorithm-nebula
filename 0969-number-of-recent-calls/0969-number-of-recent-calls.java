@@ -1,19 +1,19 @@
 class RecentCounter {
 
-    private final Queue<Integer> heap;
+    private final Queue<Integer> queue;
 
     public RecentCounter() {
-        this.heap = new LinkedList<>();
+        this.queue = new LinkedList<>();
     }
     
     public int ping(int t) {
 
-        while (!heap.isEmpty() && heap.peek() < t - 3000) {
-            heap.poll();
+        while (!queue.isEmpty() && queue.peek() < t - 3000) {
+            queue.poll();
         }
         
-        heap.add(t);
+        queue.add(t);
 
-        return heap.size();
+        return queue.size();
     }
 }
