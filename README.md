@@ -215,6 +215,7 @@
 | [1798-max-number-of-k-sum-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1894-merge-strings-alternately](https://github.com/flameshine/algorithm-nebula/tree/master/1894-merge-strings-alternately) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Binary Search
 |  |
 | ------- |
@@ -297,6 +298,7 @@
 | [0739-daily-temperatures](https://github.com/flameshine/algorithm-nebula/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/flameshine/algorithm-nebula/tree/master/0883-car-fleet) |
 | [1720-crawler-log-folder](https://github.com/flameshine/algorithm-nebula/tree/master/1720-crawler-log-folder) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/2470-removing-stars-from-a-string) |
 ## Prefix Sum
 |  |
@@ -322,6 +324,7 @@
 | [0328-odd-even-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/0328-odd-even-linked-list) |
 | [0355-design-twitter](https://github.com/flameshine/algorithm-nebula/tree/master/0355-design-twitter) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Math
 |  |
 | ------- |
