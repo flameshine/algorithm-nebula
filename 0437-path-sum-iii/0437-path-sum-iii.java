@@ -16,7 +16,7 @@ class Solution {
             return;
         }
 
-        traversePath(root, 0, targetSum, counter);
+        traversePath(root, 0L, targetSum, counter);
         dfs(root.left, targetSum, counter);
         dfs(root.right, targetSum, counter);
     }
