@@ -4,7 +4,7 @@ class Solution {
         var counter = new AtomicLong();
         Map<Long, Long> map = new HashMap<>();
         map.put(0L, 1L);
-        dfs(root, (long) targetSum, 0L, map, counter);
+        dfs(root, targetSum, 0L, map, counter);
         return (int) counter.get();
     }
 
