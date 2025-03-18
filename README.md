@@ -436,6 +436,7 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/flameshine/algorithm-nebula/tree/master/0239-sliding-window-maximum) |
+| [0969-number-of-recent-calls](https://github.com/flameshine/algorithm-nebula/tree/master/0969-number-of-recent-calls) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -449,6 +450,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0355-design-twitter](https://github.com/flameshine/algorithm-nebula/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/flameshine/algorithm-nebula/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0969-number-of-recent-calls](https://github.com/flameshine/algorithm-nebula/tree/master/0969-number-of-recent-calls) |
 | [1023-time-based-key-value-store](https://github.com/flameshine/algorithm-nebula/tree/master/1023-time-based-key-value-store) |
 ## Backtracking
 |  |
@@ -579,6 +581,7 @@
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/flameshine/algorithm-nebula/tree/master/0295-find-median-from-data-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/flameshine/algorithm-nebula/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0969-number-of-recent-calls](https://github.com/flameshine/algorithm-nebula/tree/master/0969-number-of-recent-calls) |
 ## Geometry
 |  |
 | ------- |
