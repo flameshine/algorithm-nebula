@@ -416,6 +416,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/flameshine/algorithm-nebula/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0392-is-subsequence](https://github.com/flameshine/algorithm-nebula/tree/master/0392-is-subsequence) |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/flameshine/algorithm-nebula/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Monotonic Stack
 |  |
@@ -508,6 +509,7 @@
 | [0789-kth-largest-element-in-a-stream](https://github.com/flameshine/algorithm-nebula/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1005-univalued-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1005-univalued-binary-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -531,6 +533,7 @@
 | [0617-merge-two-binary-trees](https://github.com/flameshine/algorithm-nebula/tree/master/0617-merge-two-binary-trees) |
 | [1005-univalued-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1005-univalued-binary-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -570,6 +573,7 @@
 | [0789-kth-largest-element-in-a-stream](https://github.com/flameshine/algorithm-nebula/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1005-univalued-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1005-univalued-binary-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## String Matching
 |  |
