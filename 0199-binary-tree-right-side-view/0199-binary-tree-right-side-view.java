@@ -1,12 +1,16 @@
 class Solution {
-    
+
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> result = new ArrayList<>();
-        rightSightViewHelper(root, result, 0);
+        rightSideView(root, result, 0);
         return result;
     }
 
-    private static void rightSightViewHelper(TreeNode node, List<Integer> accumulator, int level) {
+    private static void rightSideView(
+        TreeNode node,
+        List<Integer> accumulator,
+        int level
+    ) {
 
         if (node == null) {
             return;
@@ -16,7 +20,7 @@ class Solution {
             accumulator.add(node.val);
         }
 
-        rightSightViewHelper(node.right, accumulator, level + 1);
-        rightSightViewHelper(node.left, accumulator, level + 1);
+        rightSideView(node.right, accumulator, level + 1);
+        rightSideView(node.left, accumulator, level + 1);
     }
 }
