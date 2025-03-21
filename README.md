@@ -542,6 +542,7 @@
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/flameshine/algorithm-nebula/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -558,6 +559,7 @@
 | [1005-univalued-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1005-univalued-binary-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/flameshine/algorithm-nebula/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 ## Binary Tree
 |  |
 | ------- |
@@ -628,4 +630,5 @@
 | ------- |
 | [0547-number-of-provinces](https://github.com/flameshine/algorithm-nebula/tree/master/0547-number-of-provinces) |
 | [0871-keys-and-rooms](https://github.com/flameshine/algorithm-nebula/tree/master/0871-keys-and-rooms) |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/flameshine/algorithm-nebula/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 <!---LeetCode Topics End-->
