@@ -152,6 +152,7 @@
 | [1720-crawler-log-folder](https://github.com/flameshine/algorithm-nebula/tree/master/1720-crawler-log-folder) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1833-find-the-highest-altitude](https://github.com/flameshine/algorithm-nebula/tree/master/1833-find-the-highest-altitude) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/flameshine/algorithm-nebula/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 ## Hash Table
 |  |
@@ -354,6 +355,7 @@
 | [0074-search-a-2d-matrix](https://github.com/flameshine/algorithm-nebula/tree/master/0074-search-a-2d-matrix) |
 | [0870-magic-squares-in-grid](https://github.com/flameshine/algorithm-nebula/tree/master/0870-magic-squares-in-grid) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/flameshine/algorithm-nebula/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/flameshine/algorithm-nebula/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 ## Union Find
 |  |
@@ -560,6 +562,7 @@
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/flameshine/algorithm-nebula/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/flameshine/algorithm-nebula/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Binary Tree
 |  |
 | ------- |
