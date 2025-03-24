@@ -139,6 +139,7 @@
 | [0883-car-fleet](https://github.com/flameshine/algorithm-nebula/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/flameshine/algorithm-nebula/tree/master/0907-koko-eating-bananas) |
 | [1014-k-closest-points-to-origin](https://github.com/flameshine/algorithm-nebula/tree/master/1014-k-closest-points-to-origin) |
+| [1036-rotting-oranges](https://github.com/flameshine/algorithm-nebula/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/flameshine/algorithm-nebula/tree/master/1046-max-consecutive-ones-iii) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/flameshine/algorithm-nebula/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1127-last-stone-weight](https://github.com/flameshine/algorithm-nebula/tree/master/1127-last-stone-weight) |
@@ -355,6 +356,7 @@
 | [0036-valid-sudoku](https://github.com/flameshine/algorithm-nebula/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/flameshine/algorithm-nebula/tree/master/0074-search-a-2d-matrix) |
 | [0870-magic-squares-in-grid](https://github.com/flameshine/algorithm-nebula/tree/master/0870-magic-squares-in-grid) |
+| [1036-rotting-oranges](https://github.com/flameshine/algorithm-nebula/tree/master/1036-rotting-oranges) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/flameshine/algorithm-nebula/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/flameshine/algorithm-nebula/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
@@ -560,6 +562,7 @@
 | [0617-merge-two-binary-trees](https://github.com/flameshine/algorithm-nebula/tree/master/0617-merge-two-binary-trees) |
 | [0871-keys-and-rooms](https://github.com/flameshine/algorithm-nebula/tree/master/0871-keys-and-rooms) |
 | [1005-univalued-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1005-univalued-binary-tree) |
+| [1036-rotting-oranges](https://github.com/flameshine/algorithm-nebula/tree/master/1036-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/flameshine/algorithm-nebula/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
