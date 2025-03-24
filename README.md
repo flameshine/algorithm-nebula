@@ -188,6 +188,7 @@
 | [1392-find-the-difference-of-two-arrays](https://github.com/flameshine/algorithm-nebula/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1777-determine-if-two-strings-are-close](https://github.com/flameshine/algorithm-nebula/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2413-smallest-number-in-infinite-set](https://github.com/flameshine/algorithm-nebula/tree/master/2413-smallest-number-in-infinite-set) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 ## Two Pointers
 |  |
@@ -387,6 +388,7 @@
 | [0789-kth-largest-element-in-a-stream](https://github.com/flameshine/algorithm-nebula/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/flameshine/algorithm-nebula/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/flameshine/algorithm-nebula/tree/master/1127-last-stone-weight) |
+| [2413-smallest-number-in-infinite-set](https://github.com/flameshine/algorithm-nebula/tree/master/2413-smallest-number-in-infinite-set) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -468,6 +470,7 @@
 | [0789-kth-largest-element-in-a-stream](https://github.com/flameshine/algorithm-nebula/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0969-number-of-recent-calls](https://github.com/flameshine/algorithm-nebula/tree/master/0969-number-of-recent-calls) |
 | [1023-time-based-key-value-store](https://github.com/flameshine/algorithm-nebula/tree/master/1023-time-based-key-value-store) |
+| [2413-smallest-number-in-infinite-set](https://github.com/flameshine/algorithm-nebula/tree/master/2413-smallest-number-in-infinite-set) |
 ## Backtracking
 |  |
 | ------- |
@@ -642,4 +645,8 @@
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/flameshine/algorithm-nebula/tree/master/0374-guess-number-higher-or-lower) |
+## Ordered Set
+|  |
+| ------- |
+| [2413-smallest-number-in-infinite-set](https://github.com/flameshine/algorithm-nebula/tree/master/2413-smallest-number-in-infinite-set) |
 <!---LeetCode Topics End-->
