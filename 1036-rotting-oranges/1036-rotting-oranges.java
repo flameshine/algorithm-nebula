@@ -2,48 +2,71 @@ class Solution {
     
     public int orangesRotting(int[][] grid) {
         
+        Queue<Position> queue = new LinkedList<>();
+
+        var total = 0;
+        var rotten = 0;
+        var time = 0;
+
         for (var i = 0; i < grid.length; i++) {
             for (var j = 0; j < grid[0].length; j++) {
+
+                if (grid[i][j] == 1 || grid[i][j] == 2) {
+                    ++total;
+                }
+
                 if (grid[i][j] == 2) {
-                    rotAdjacent(grid, i, j, 2);
+                    queue.offer(new Position(i, j));
                 }
             }
         }
 
-        var minutes = 2;
+        if (total == 0) {
+            return 0;
+        }
 
-        for (var row : grid) {
-            for (var cell : row) {
+        while (!queue.isEmpty() && rotten < total) {
 
-                if (cell == 1) {
-                    return -1;
+            var size = queue.size();
+
+            rotten += size;
+
+            if (rotten == total) {
+                return time;
+            }
+
+            ++time;
+
+            for (var i = 0; i < size; i++) {
+
+                var p = queue.peek();
+
+                if (p.x() + 1 < grid.length && grid[p.x() + 1][p.y()] == 1) {
+                    grid[p.x() + 1][p.y()] = 2;
+                    queue.offer(new Position(p.x() + 1, p.y()));
                 }
 
-                minutes = Math.max(minutes, cell);
+                if (p.x() - 1 >= 0 && grid[p.x() - 1][p.y()] == 1) {
+                    grid[p.x() - 1][p.y()] = 2;
+                    queue.offer(new Position(p.x() - 1, p.y()));
+                }
+
+                if (p.y() + 1 < grid[0].length && grid[p.x()][p.y() + 1] == 1) {
+                    grid[p.x()][p.y() + 1] = 2;
+                    queue.offer(new Position(p.x(), p.y() + 1));
+                }
+
+                if (p.y() - 1 >= 0 && grid[p.x()][p.y() - 1] == 1) {
+                    grid[p.x()][p.y() - 1] = 2;
+                    queue.offer(new Position(p.x(), p.y() - 1));
+                }
+
+                queue.poll();
             }
         }
 
-        return minutes - 2;
+        return -1;
     }
 
-    private static void rotAdjacent(int[][] grid, int i, int j, int minutes) {
-
-        if (
-            i < 0 ||
-            i >= grid.length ||
-            j < 0 ||
-            j >= grid[0].length ||
-            grid[i][j] == 0 ||
-            (grid[i][j] > 1 && grid[i][j] < minutes)
-        ) {
-            return;
-        }
-
-        grid[i][j] = minutes;
-
-        rotAdjacent(grid, i - 1, j, minutes + 1);
-        rotAdjacent(grid, i + 1, j, minutes + 1);
-        rotAdjacent(grid, i, j - 1, minutes + 1);
-        rotAdjacent(grid, i, j + 1, minutes + 1);
-    }
+    private record Position(int x, int y) {}
 }
