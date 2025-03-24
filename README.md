@@ -155,6 +155,7 @@
 | [1833-find-the-highest-altitude](https://github.com/flameshine/algorithm-nebula/tree/master/1833-find-the-highest-altitude) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/flameshine/algorithm-nebula/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/flameshine/algorithm-nebula/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/flameshine/algorithm-nebula/tree/master/2636-maximum-subsequence-score) |
 ## Hash Table
 |  |
@@ -220,6 +221,7 @@
 | [1894-merge-strings-alternately](https://github.com/flameshine/algorithm-nebula/tree/master/1894-merge-strings-alternately) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/flameshine/algorithm-nebula/tree/master/2553-total-cost-to-hire-k-workers) |
 ## Binary Search
 |  |
 | ------- |
@@ -391,6 +393,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/flameshine/algorithm-nebula/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/flameshine/algorithm-nebula/tree/master/1127-last-stone-weight) |
 | [2413-smallest-number-in-infinite-set](https://github.com/flameshine/algorithm-nebula/tree/master/2413-smallest-number-in-infinite-set) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/flameshine/algorithm-nebula/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/flameshine/algorithm-nebula/tree/master/2636-maximum-subsequence-score) |
 ## Bucket Sort
 |  |
@@ -639,6 +642,7 @@
 | [0735-asteroid-collision](https://github.com/flameshine/algorithm-nebula/tree/master/0735-asteroid-collision) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 | [2470-removing-stars-from-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/2470-removing-stars-from-a-string) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/flameshine/algorithm-nebula/tree/master/2553-total-cost-to-hire-k-workers) |
 ## Graph
 |  |
 | ------- |
