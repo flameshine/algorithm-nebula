@@ -10,25 +10,30 @@ class Solution {
 
         var left = 1;
         var right = max;
-        var result = right;
 
         while (left <= right) {
 
             var middle = left + (right - left) / 2;
-            var hours = 0;
-
-            for (var p : piles) {
-                hours += Math.ceil((double) p / middle);
-            }
+            var hours = countTotalHours(piles, middle);
 
             if (hours <= h) {
-                result = Math.min(result, middle);
                 right = middle - 1;
             } else {
                 left = middle + 1;
             }
         }
 
-        return result;
+        return left;
+    }
+
+    private static int countTotalHours(int[] piles, int i) {
+
+        var hours = 0;
+
+        for (var p : piles) {
+            hours += Math.ceil((double) p / i);
+        }
+
+        return hours;
     }
 }
