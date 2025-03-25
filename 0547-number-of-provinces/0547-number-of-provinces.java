@@ -7,7 +7,7 @@ class Solution {
 
         for (var i = 0; i < isConnected.length; i++) {
             if (!visited[i]) {
-                dfs(isConnected, i, visited);
+                dfs(isConnected, visited, i);
                 ++result;
             }
         }
@@ -15,7 +15,7 @@ class Solution {
         return result;
     }
 
-    private static void dfs(int[][] isConnected, int i, boolean[] visited) {
+    private static void dfs(int[][] isConnected, boolean[] visited, int i) {
 
         if (visited[i]) {
             return;
@@ -23,9 +23,9 @@ class Solution {
 
         visited[i] = true;
 
-        for (var j = 0; j < isConnected.length; j++) {
+        for (var j = 0; j < isConnected[0].length; j++) {
             if (isConnected[i][j] == 1) {
-                dfs(isConnected, j, visited);
+                dfs(isConnected, visited, j);
             }
         }
     }
