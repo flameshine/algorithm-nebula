@@ -120,6 +120,7 @@
 | [0162-find-peak-element](https://github.com/flameshine/algorithm-nebula/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/flameshine/algorithm-nebula/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0215-kth-largest-element-in-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/0215-kth-largest-element-in-an-array) |
+| [0216-combination-sum-iii](https://github.com/flameshine/algorithm-nebula/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/flameshine/algorithm-nebula/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/flameshine/algorithm-nebula/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/flameshine/algorithm-nebula/tree/master/0239-sliding-window-maximum) |
@@ -499,6 +500,7 @@
 | [0046-permutations](https://github.com/flameshine/algorithm-nebula/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/flameshine/algorithm-nebula/tree/master/0078-subsets) |
+| [0216-combination-sum-iii](https://github.com/flameshine/algorithm-nebula/tree/master/0216-combination-sum-iii) |
 ## Bit Manipulation
 |  |
 | ------- |
