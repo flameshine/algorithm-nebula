@@ -158,6 +158,7 @@
 | [1798-max-number-of-k-sum-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1833-find-the-highest-altitude](https://github.com/flameshine/algorithm-nebula/tree/master/1833-find-the-highest-altitude) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/flameshine/algorithm-nebula/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/flameshine/algorithm-nebula/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/flameshine/algorithm-nebula/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/flameshine/algorithm-nebula/tree/master/2553-total-cost-to-hire-k-workers) |
@@ -267,6 +268,7 @@
 | [1256-rank-transform-of-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/1256-rank-transform-of-an-array) |
 | [1777-determine-if-two-strings-are-close](https://github.com/flameshine/algorithm-nebula/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/flameshine/algorithm-nebula/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/flameshine/algorithm-nebula/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2636-maximum-subsequence-score](https://github.com/flameshine/algorithm-nebula/tree/master/2636-maximum-subsequence-score) |
 ## String
@@ -358,6 +360,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/flameshine/algorithm-nebula/tree/master/1014-k-closest-points-to-origin) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/flameshine/algorithm-nebula/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/flameshine/algorithm-nebula/tree/master/1236-n-th-tribonacci-number) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/flameshine/algorithm-nebula/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Recursion
 |  |
 | ------- |
@@ -377,6 +380,7 @@
 | [1036-rotting-oranges](https://github.com/flameshine/algorithm-nebula/tree/master/1036-rotting-oranges) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/flameshine/algorithm-nebula/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/flameshine/algorithm-nebula/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/flameshine/algorithm-nebula/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 ## Union Find
 |  |
