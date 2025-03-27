@@ -356,6 +356,7 @@
 | [0870-magic-squares-in-grid](https://github.com/flameshine/algorithm-nebula/tree/master/0870-magic-squares-in-grid) |
 | [1014-k-closest-points-to-origin](https://github.com/flameshine/algorithm-nebula/tree/master/1014-k-closest-points-to-origin) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/flameshine/algorithm-nebula/tree/master/1146-greatest-common-divisor-of-strings) |
+| [1236-n-th-tribonacci-number](https://github.com/flameshine/algorithm-nebula/tree/master/1236-n-th-tribonacci-number) |
 ## Recursion
 |  |
 | ------- |
@@ -443,6 +444,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/flameshine/algorithm-nebula/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0392-is-subsequence](https://github.com/flameshine/algorithm-nebula/tree/master/0392-is-subsequence) |
+| [1236-n-th-tribonacci-number](https://github.com/flameshine/algorithm-nebula/tree/master/1236-n-th-tribonacci-number) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/flameshine/algorithm-nebula/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Monotonic Stack
@@ -678,4 +680,8 @@
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/flameshine/algorithm-nebula/tree/master/0399-evaluate-division) |
+## Memoization
+|  |
+| ------- |
+| [1236-n-th-tribonacci-number](https://github.com/flameshine/algorithm-nebula/tree/master/1236-n-th-tribonacci-number) |
 <!---LeetCode Topics End-->
