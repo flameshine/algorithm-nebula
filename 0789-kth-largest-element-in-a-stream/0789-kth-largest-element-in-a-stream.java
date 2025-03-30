@@ -7,14 +7,14 @@ class KthLargest {
 
         this.heap = new PriorityQueue<>();
         this.k = k;
-
+        
         for (var n : nums) {
             add(n);
         }
     }
     
     public int add(int val) {
-        
+    
         heap.offer(val);
 
         if (heap.size() > k) {
