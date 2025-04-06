@@ -115,6 +115,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/flameshine/algorithm-nebula/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/flameshine/algorithm-nebula/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/flameshine/algorithm-nebula/tree/master/0128-longest-consecutive-sequence) |
+| [0136-single-number](https://github.com/flameshine/algorithm-nebula/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/flameshine/algorithm-nebula/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/flameshine/algorithm-nebula/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/flameshine/algorithm-nebula/tree/master/0162-find-peak-element) |
@@ -519,6 +520,7 @@
 |  |
 | ------- |
 | [0078-subsets](https://github.com/flameshine/algorithm-nebula/tree/master/0078-subsets) |
+| [0136-single-number](https://github.com/flameshine/algorithm-nebula/tree/master/0136-single-number) |
 | [0287-find-the-duplicate-number](https://github.com/flameshine/algorithm-nebula/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/flameshine/algorithm-nebula/tree/master/0338-counting-bits) |
 ## Doubly-Linked List
