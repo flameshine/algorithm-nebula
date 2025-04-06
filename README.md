@@ -453,6 +453,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/flameshine/algorithm-nebula/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/flameshine/algorithm-nebula/tree/master/0198-house-robber) |
+| [0338-counting-bits](https://github.com/flameshine/algorithm-nebula/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/flameshine/algorithm-nebula/tree/master/0392-is-subsequence) |
 | [0747-min-cost-climbing-stairs](https://github.com/flameshine/algorithm-nebula/tree/master/0747-min-cost-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/flameshine/algorithm-nebula/tree/master/1236-n-th-tribonacci-number) |
@@ -519,6 +520,7 @@
 | ------- |
 | [0078-subsets](https://github.com/flameshine/algorithm-nebula/tree/master/0078-subsets) |
 | [0287-find-the-duplicate-number](https://github.com/flameshine/algorithm-nebula/tree/master/0287-find-the-duplicate-number) |
+| [0338-counting-bits](https://github.com/flameshine/algorithm-nebula/tree/master/0338-counting-bits) |
 ## Doubly-Linked List
 |  |
 | ------- |
