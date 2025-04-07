@@ -2,28 +2,25 @@ class Solution {
 
     public int minFlips(int a, int b, int c) {
         
-        var result = 0;
+        var flips = 0;
 
-        for (var i = 0; i < 32; i++) {
+        while (a > 0 || b > 0 || c > 0) {
 
-            var currentA = a & 1;
-            var currentB = b & 1;
-            var currentC = c & 1;
+            var bitA = a & 1;
+            var bitB = b & 1;
+            var bitC = c & 1;
 
-            a = a >> 1;
-            b = b >> 1;
-            c = c >> 1;
-
-            if ((currentA | currentB) != currentC) {
-
-                if (currentA == 1 && currentB == 1) {
-                    ++result;
-                }
-
-                ++result;
+            if (bitC == 0) {
+                flips += bitA + bitB; 
+            } else if (bitA == 0 && bitB == 0) {
+                ++flips;
             }
+
+            a >>= 1;
+            b >>= 1;
+            c >>= 1;
         }
 
-        return result;
+        return flips;
     }
 }
