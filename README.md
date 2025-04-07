@@ -134,6 +134,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0399-evaluate-division](https://github.com/flameshine/algorithm-nebula/tree/master/0399-evaluate-division) |
 | [0435-non-overlapping-intervals](https://github.com/flameshine/algorithm-nebula/tree/master/0435-non-overlapping-intervals) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/flameshine/algorithm-nebula/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0500-keyboard-row](https://github.com/flameshine/algorithm-nebula/tree/master/0500-keyboard-row) |
 | [0605-can-place-flowers](https://github.com/flameshine/algorithm-nebula/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
@@ -267,6 +268,7 @@
 | [0347-top-k-frequent-elements](https://github.com/flameshine/algorithm-nebula/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0435-non-overlapping-intervals](https://github.com/flameshine/algorithm-nebula/tree/master/0435-non-overlapping-intervals) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/flameshine/algorithm-nebula/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
 | [0883-car-fleet](https://github.com/flameshine/algorithm-nebula/tree/master/0883-car-fleet) |
 | [1014-k-closest-points-to-origin](https://github.com/flameshine/algorithm-nebula/tree/master/1014-k-closest-points-to-origin) |
@@ -444,6 +446,7 @@
 | [0011-container-with-most-water](https://github.com/flameshine/algorithm-nebula/tree/master/0011-container-with-most-water) |
 | [0334-increasing-triplet-subsequence](https://github.com/flameshine/algorithm-nebula/tree/master/0334-increasing-triplet-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/flameshine/algorithm-nebula/tree/master/0435-non-overlapping-intervals) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/flameshine/algorithm-nebula/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0605-can-place-flowers](https://github.com/flameshine/algorithm-nebula/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
 | [0649-dota2-senate](https://github.com/flameshine/algorithm-nebula/tree/master/0649-dota2-senate) |
