@@ -1,7 +1,7 @@
 class Solution {
 
     public int[] dailyTemperatures(int[] temperatures) {
-
+        
         var result = new int[temperatures.length];
 
         Stack<Integer> stack = new Stack<>();
