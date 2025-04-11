@@ -585,6 +585,7 @@
 | [0617-merge-two-binary-trees](https://github.com/flameshine/algorithm-nebula/tree/master/0617-merge-two-binary-trees) |
 | [0783-search-in-a-binary-search-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/flameshine/algorithm-nebula/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0904-leaf-similar-trees](https://github.com/flameshine/algorithm-nebula/tree/master/0904-leaf-similar-trees) |
 | [1005-univalued-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1005-univalued-binary-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -614,6 +615,7 @@
 | [0572-subtree-of-another-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/flameshine/algorithm-nebula/tree/master/0617-merge-two-binary-trees) |
 | [0871-keys-and-rooms](https://github.com/flameshine/algorithm-nebula/tree/master/0871-keys-and-rooms) |
+| [0904-leaf-similar-trees](https://github.com/flameshine/algorithm-nebula/tree/master/0904-leaf-similar-trees) |
 | [1005-univalued-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1005-univalued-binary-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -666,6 +668,7 @@
 | [0617-merge-two-binary-trees](https://github.com/flameshine/algorithm-nebula/tree/master/0617-merge-two-binary-trees) |
 | [0783-search-in-a-binary-search-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/flameshine/algorithm-nebula/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0904-leaf-similar-trees](https://github.com/flameshine/algorithm-nebula/tree/master/0904-leaf-similar-trees) |
 | [1005-univalued-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1005-univalued-binary-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
