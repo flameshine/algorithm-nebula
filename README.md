@@ -288,6 +288,7 @@
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/flameshine/algorithm-nebula/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
+| [0072-edit-distance](https://github.com/flameshine/algorithm-nebula/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/flameshine/algorithm-nebula/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/flameshine/algorithm-nebula/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/0151-reverse-words-in-a-string) |
@@ -463,6 +464,7 @@
 | [0022-generate-parentheses](https://github.com/flameshine/algorithm-nebula/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/flameshine/algorithm-nebula/tree/master/0042-trapping-rain-water) |
 | [0062-unique-paths](https://github.com/flameshine/algorithm-nebula/tree/master/0062-unique-paths) |
+| [0072-edit-distance](https://github.com/flameshine/algorithm-nebula/tree/master/0072-edit-distance) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/flameshine/algorithm-nebula/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/flameshine/algorithm-nebula/tree/master/0198-house-robber) |
