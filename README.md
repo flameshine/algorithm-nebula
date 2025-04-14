@@ -232,6 +232,7 @@
 | [0392-is-subsequence](https://github.com/flameshine/algorithm-nebula/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/flameshine/algorithm-nebula/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
+| [1454-remove-palindromic-subsequences](https://github.com/flameshine/algorithm-nebula/tree/master/1454-remove-palindromic-subsequences) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1894-merge-strings-alternately](https://github.com/flameshine/algorithm-nebula/tree/master/1894-merge-strings-alternately) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -315,6 +316,7 @@
 | [1250-longest-common-subsequence](https://github.com/flameshine/algorithm-nebula/tree/master/1250-longest-common-subsequence) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/flameshine/algorithm-nebula/tree/master/1341-split-a-string-in-balanced-strings) |
 | [1397-search-suggestions-system](https://github.com/flameshine/algorithm-nebula/tree/master/1397-search-suggestions-system) |
+| [1454-remove-palindromic-subsequences](https://github.com/flameshine/algorithm-nebula/tree/master/1454-remove-palindromic-subsequences) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/flameshine/algorithm-nebula/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1720-crawler-log-folder](https://github.com/flameshine/algorithm-nebula/tree/master/1720-crawler-log-folder) |
 | [1777-determine-if-two-strings-are-close](https://github.com/flameshine/algorithm-nebula/tree/master/1777-determine-if-two-strings-are-close) |
