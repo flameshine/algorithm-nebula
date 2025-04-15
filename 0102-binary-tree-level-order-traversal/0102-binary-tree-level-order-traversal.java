@@ -1,11 +1,11 @@
 class Solution {
 
     public List<List<Integer>> levelOrder(TreeNode root) {
-        
+
         if (root == null) {
             return List.of();
         }
-
+        
         List<List<Integer>> result = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
 
@@ -13,11 +13,11 @@ class Solution {
 
         while (!queue.isEmpty()) {
 
-            var length = queue.size();
+            var size = queue.size();
 
-            List<Integer> level = new ArrayList<>();
+            List<Integer> level = new ArrayList<>(size);
 
-            for (var i = 0; i < length; i++) {
+            for (var i = 0; i < size; i++) {
 
                 var node = queue.poll();
 
