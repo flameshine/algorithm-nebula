@@ -1,5 +1,5 @@
 class Solution {
-    
+
     public int removeDuplicates(int[] nums) {
         
         var result = 2;
