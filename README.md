@@ -122,6 +122,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/flameshine/algorithm-nebula/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/flameshine/algorithm-nebula/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/flameshine/algorithm-nebula/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/flameshine/algorithm-nebula/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/flameshine/algorithm-nebula/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/flameshine/algorithm-nebula/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/0215-kth-largest-element-in-an-array) |
@@ -188,6 +189,7 @@
 | [0141-linked-list-cycle](https://github.com/flameshine/algorithm-nebula/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/flameshine/algorithm-nebula/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/flameshine/algorithm-nebula/tree/master/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/flameshine/algorithm-nebula/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/flameshine/algorithm-nebula/tree/master/0202-happy-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/flameshine/algorithm-nebula/tree/master/0217-contains-duplicate) |
@@ -271,6 +273,7 @@
 | [0047-permutations-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/flameshine/algorithm-nebula/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/flameshine/algorithm-nebula/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/flameshine/algorithm-nebula/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/flameshine/algorithm-nebula/tree/master/0242-valid-anagram) |
@@ -424,6 +427,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/flameshine/algorithm-nebula/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/flameshine/algorithm-nebula/tree/master/0023-merge-k-sorted-lists) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/flameshine/algorithm-nebula/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0169-majority-element](https://github.com/flameshine/algorithm-nebula/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/flameshine/algorithm-nebula/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/flameshine/algorithm-nebula/tree/master/1014-k-closest-points-to-origin) |
@@ -451,6 +455,7 @@
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/flameshine/algorithm-nebula/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/flameshine/algorithm-nebula/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/flameshine/algorithm-nebula/tree/master/1112-find-words-that-can-be-formed-by-characters) |
