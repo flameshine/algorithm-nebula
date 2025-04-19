@@ -123,6 +123,7 @@
 | [0162-find-peak-element](https://github.com/flameshine/algorithm-nebula/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/flameshine/algorithm-nebula/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/flameshine/algorithm-nebula/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/flameshine/algorithm-nebula/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/flameshine/algorithm-nebula/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/flameshine/algorithm-nebula/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/0215-kth-largest-element-in-an-array) |
@@ -230,6 +231,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/flameshine/algorithm-nebula/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/flameshine/algorithm-nebula/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/flameshine/algorithm-nebula/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/flameshine/algorithm-nebula/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/flameshine/algorithm-nebula/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/flameshine/algorithm-nebula/tree/master/0287-find-the-duplicate-number) |
@@ -386,6 +388,7 @@
 | [0066-plus-one](https://github.com/flameshine/algorithm-nebula/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/flameshine/algorithm-nebula/tree/master/0069-sqrtx) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/flameshine/algorithm-nebula/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0189-rotate-array](https://github.com/flameshine/algorithm-nebula/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/flameshine/algorithm-nebula/tree/master/0202-happy-number) |
 | [0870-magic-squares-in-grid](https://github.com/flameshine/algorithm-nebula/tree/master/0870-magic-squares-in-grid) |
 | [1014-k-closest-points-to-origin](https://github.com/flameshine/algorithm-nebula/tree/master/1014-k-closest-points-to-origin) |
