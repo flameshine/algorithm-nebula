@@ -133,6 +133,7 @@
 | [0217-contains-duplicate](https://github.com/flameshine/algorithm-nebula/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/flameshine/algorithm-nebula/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/flameshine/algorithm-nebula/tree/master/0239-sliding-window-maximum) |
+| [0274-h-index](https://github.com/flameshine/algorithm-nebula/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/flameshine/algorithm-nebula/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/flameshine/algorithm-nebula/tree/master/0287-find-the-duplicate-number) |
 | [0334-increasing-triplet-subsequence](https://github.com/flameshine/algorithm-nebula/tree/master/0334-increasing-triplet-subsequence) |
@@ -281,6 +282,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/flameshine/algorithm-nebula/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/flameshine/algorithm-nebula/tree/master/0242-valid-anagram) |
+| [0274-h-index](https://github.com/flameshine/algorithm-nebula/tree/master/0274-h-index) |
 | [0295-find-median-from-data-stream](https://github.com/flameshine/algorithm-nebula/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/flameshine/algorithm-nebula/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -771,4 +773,8 @@
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0208-implement-trie-prefix-tree) |
 | [1397-search-suggestions-system](https://github.com/flameshine/algorithm-nebula/tree/master/1397-search-suggestions-system) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/flameshine/algorithm-nebula/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
