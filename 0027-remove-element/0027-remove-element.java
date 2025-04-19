@@ -4,9 +4,9 @@ class Solution {
         
         var result = 0;
 
-        for (var i = 0; i < nums.length; i++) {
-            if (nums[i] != val) {
-                nums[result++] = nums[i];
+        for (var n : nums) {
+            if (n != val) {
+                nums[result++] = n;
             }
         }
 
