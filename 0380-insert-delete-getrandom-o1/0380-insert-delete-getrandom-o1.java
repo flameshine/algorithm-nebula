@@ -1,17 +1,17 @@
 class RandomizedSet {
 
-    private Map<Integer, Integer> valuesToIndices;
-    private List<Integer> values;
-    private Random random;
+    private final Map<Integer, Integer> valuesToIndices;
+    private final List<Integer> values;
+    private final Random random;
 
     public RandomizedSet() {
         this.valuesToIndices = new HashMap<>();
         this.values = new ArrayList<>();
-        this.random = new Random();
+        this.random = new Random(); 
     }
-
+    
     public boolean insert(int val) {
-
+        
         if (valuesToIndices.containsKey(val)) {
             return false;
         }
@@ -24,16 +24,16 @@ class RandomizedSet {
     }
     
     public boolean remove(int val) {
-
+        
         if (!valuesToIndices.containsKey(val)) {
             return false;
         }
 
         var index = valuesToIndices.get(val);
-        var lastElement = values.get(values.size() - 1);
+        var last = values.get(values.size() - 1);
 
-        values.set(index, lastElement);
-        valuesToIndices.put(lastElement, index);
+        values.set(index, last);
+        valuesToIndices.put(last, index);
         values.remove(values.size() - 1);
         valuesToIndices.remove(val);
 
@@ -41,7 +41,7 @@ class RandomizedSet {
     }
     
     public int getRandom() {
-        var randomIndex = random.nextInt(values.size());
-        return values.get(randomIndex);
+        var index = random.nextInt(values.size());
+        return values.get(index);
     }
 }
