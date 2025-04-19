@@ -1,7 +1,7 @@
 class Solution {
 
     public int removeDuplicates(int[] nums) {
-        
+
         var result = 2;
 
         for (var i = 2; i < nums.length; i++) {
