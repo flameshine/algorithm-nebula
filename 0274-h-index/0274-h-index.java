@@ -1,7 +1,7 @@
 class Solution {
 
     public int hIndex(int[] citations) {
-
+        
         Arrays.sort(citations);
 
         for (var i = 0; i < citations.length; i++) {
