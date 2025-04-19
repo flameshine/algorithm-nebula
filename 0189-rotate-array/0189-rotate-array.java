@@ -2,25 +2,18 @@ class Solution {
 
     public void rotate(int[] nums, int k) {
 
-        if (nums.length <= 1 || k == 0) {
-            return;
-        }
+        k %= nums.length;
 
-        k = k % nums.length;
-        
-        var temporary = new int[nums.length];
-        var j = 0;
+        reverse(nums, 0, nums.length - 1);
+        reverse(nums, 0, k - 1);
+        reverse(nums, k, nums.length - 1);
+    }
 
-        for (var i = nums.length - k; i < nums.length; i++) {
-            temporary[j++] = nums[i];
-        }
-
-        for (var i = 0; i < nums.length - k; i++) {
-            temporary[j + i] = nums[i];
-        }
-
-        for (var i = 0; i < nums.length; i++) {
-            nums[i] = temporary[i];
+    private static void reverse(int[] nums, int start, int end) {
+        while (start < end) {
+            var tmp = nums[start];
+            nums[start++] = nums[end];
+            nums[end--] = tmp;
         }
     }
 }
