@@ -23,7 +23,7 @@ class Solution {
         for (var i = 0; i < nums.length; i++) {
             result[i] = prefix[i] * suffix[i];
         }
-        
+
         return result;
     }
 }
