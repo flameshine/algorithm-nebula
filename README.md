@@ -305,6 +305,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/flameshine/algorithm-nebula/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0006-zigzag-conversion](https://github.com/flameshine/algorithm-nebula/tree/master/0006-zigzag-conversion) |
 | [0013-roman-to-integer](https://github.com/flameshine/algorithm-nebula/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/flameshine/algorithm-nebula/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/flameshine/algorithm-nebula/tree/master/0022-generate-parentheses) |
