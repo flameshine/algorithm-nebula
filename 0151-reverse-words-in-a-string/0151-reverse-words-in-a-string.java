@@ -2,20 +2,18 @@ class Solution {
 
     public String reverseWords(String s) {
         
-        if (s == null || s.isBlank()) {
-            return "";
+        var result = new StringBuilder();
+        var words = s.trim().split("\\s+");
+
+        for (var i = words.length - 1; i >= 0; --i) {
+
+            result.append(words[i]);
+
+            if (i != 0) {
+                result.append(' ');
+            }
         }
 
-        var words = s.replaceAll("\s+", " ").split(" ");
-        var i = 0;
-        var j = words.length - 1;
-
-        while (i < j) {
-            var tmp = words[i];
-            words[i++] = words[j];
-            words[j--] = tmp;
-        }
-
-        return String.join(" ", words).trim();
+        return result.toString();
     }
 }
