@@ -22,10 +22,6 @@ class Solution {
             }
         }
 
-        for (var j = 1; j < rows.length; j++) {
-            rows[0].append(rows[j]);
-        }
-
-        return rows[0].toString();
+        return String.join("", rows);
     }
 }
