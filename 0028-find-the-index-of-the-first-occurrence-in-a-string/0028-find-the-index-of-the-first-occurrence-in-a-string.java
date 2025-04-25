@@ -2,19 +2,21 @@ class Solution {
     
     public int strStr(String haystack, String needle) {
 
-        for (var i = 0; i <= haystack.length() - needle.length(); i++) {
+        for (var i = 0;; i++) {
+            for (var j = 0;; j++) {
 
-            var builder = new StringBuilder();
+                if (j == needle.length()) {
+                    return i;
+                }
 
-            for (var j = i; j < i + needle.length(); j++) {
-                builder.append(haystack.charAt(j));
-            }
+                if (i + j == haystack.length()) {
+                    return -1;
+                }
 
-            if (builder.toString().equals(needle)) {
-                return i;
+                if (needle.charAt(j) != haystack.charAt(i + j)) {
+                    break;
+                }
             }
         }
-
-        return -1;
     }
 }
