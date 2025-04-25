@@ -111,6 +111,7 @@
 | [0055-jump-game](https://github.com/flameshine/algorithm-nebula/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/flameshine/algorithm-nebula/tree/master/0057-insert-interval) |
 | [0066-plus-one](https://github.com/flameshine/algorithm-nebula/tree/master/0066-plus-one) |
+| [0068-text-justification](https://github.com/flameshine/algorithm-nebula/tree/master/0068-text-justification) |
 | [0074-search-a-2d-matrix](https://github.com/flameshine/algorithm-nebula/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/flameshine/algorithm-nebula/tree/master/0078-subsets) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -313,6 +314,7 @@
 | [0038-count-and-say](https://github.com/flameshine/algorithm-nebula/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/flameshine/algorithm-nebula/tree/master/0058-length-of-last-word) |
+| [0068-text-justification](https://github.com/flameshine/algorithm-nebula/tree/master/0068-text-justification) |
 | [0072-edit-distance](https://github.com/flameshine/algorithm-nebula/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/flameshine/algorithm-nebula/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/flameshine/algorithm-nebula/tree/master/0125-valid-palindrome) |
@@ -745,6 +747,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/flameshine/algorithm-nebula/tree/master/0068-text-justification) |
 | [0735-asteroid-collision](https://github.com/flameshine/algorithm-nebula/tree/master/0735-asteroid-collision) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 | [2470-removing-stars-from-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/2470-removing-stars-from-a-string) |
