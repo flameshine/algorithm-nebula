@@ -1,15 +1,19 @@
 class Solution {
 
     public boolean isSubsequence(String s, String t) {
+
+        if (s.isBlank() || t.isBlank()) {
+            return false;
+        }
         
-        var pointer = 0;
+        var i = 0;
 
         for (var c : t.toCharArray()) {
-            if (pointer < s.length() && s.charAt(pointer) == c) {
-                ++pointer;
-            } 
+            if (s.charAt(i) == c) {
+                ++i;
+            }
         }
 
-        return pointer == s.length();
+        return i == s.length();
     }
 }
