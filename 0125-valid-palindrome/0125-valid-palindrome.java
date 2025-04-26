@@ -15,11 +15,9 @@ class Solution {
             } else if (!Character.isLetterOrDigit(rightChar)) {
                 --right;
             } else {
-
                 if (Character.toLowerCase(leftChar) != Character.toLowerCase(rightChar)) {
                     return false;
                 }
-
                 ++left;
                 --right;
             }
