@@ -109,6 +109,7 @@
 | [0047-permutations-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/flameshine/algorithm-nebula/tree/master/0055-jump-game) |
+| [0056-merge-intervals](https://github.com/flameshine/algorithm-nebula/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/flameshine/algorithm-nebula/tree/master/0057-insert-interval) |
 | [0066-plus-one](https://github.com/flameshine/algorithm-nebula/tree/master/0066-plus-one) |
 | [0068-text-justification](https://github.com/flameshine/algorithm-nebula/tree/master/0068-text-justification) |
@@ -285,6 +286,7 @@
 | [0015-3sum](https://github.com/flameshine/algorithm-nebula/tree/master/0015-3sum) |
 | [0047-permutations-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/flameshine/algorithm-nebula/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/flameshine/algorithm-nebula/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/flameshine/algorithm-nebula/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/0215-kth-largest-element-in-an-array) |
