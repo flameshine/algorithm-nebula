@@ -1,24 +1,22 @@
 class Solution {
 
-    public int maxArea(int[] heights) {
+    public int maxArea(int[] height) {
         
         var left = 0;
-        var right = heights.length - 1;
-        var result = 0;
+        var right = height.length - 1;
+        var area = 0;
 
         while (left < right) {
 
-            var area = Math.min(heights[left], heights[right]) * (right - left);
-            
-            result = Math.max(result, area);
+            area = Math.max(area, Math.min(height[left], height[right]) * (right - left));
 
-            if (heights[left] < heights[right]) {
+            if (height[left] < height[right]) {
                 ++left;
             } else {
                 --right;
             }
         }
 
-        return result;
+        return area;
     }
 }
