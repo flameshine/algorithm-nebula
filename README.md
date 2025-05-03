@@ -178,6 +178,7 @@
 | [2123-the-number-of-weak-characters-in-the-game](https://github.com/flameshine/algorithm-nebula/tree/master/2123-the-number-of-weak-characters-in-the-game) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/flameshine/algorithm-nebula/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/flameshine/algorithm-nebula/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/flameshine/algorithm-nebula/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/flameshine/algorithm-nebula/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/flameshine/algorithm-nebula/tree/master/2636-maximum-subsequence-score) |
@@ -276,6 +277,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/flameshine/algorithm-nebula/tree/master/1046-max-consecutive-ones-iii) |
 | [1397-search-suggestions-system](https://github.com/flameshine/algorithm-nebula/tree/master/1397-search-suggestions-system) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/flameshine/algorithm-nebula/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/flameshine/algorithm-nebula/tree/master/2394-count-subarrays-with-score-less-than-k) |
 ## Sorting
 |  |
 | ------- |
@@ -373,6 +375,7 @@
 | [0724-find-pivot-index](https://github.com/flameshine/algorithm-nebula/tree/master/0724-find-pivot-index) |
 | [1046-max-consecutive-ones-iii](https://github.com/flameshine/algorithm-nebula/tree/master/1046-max-consecutive-ones-iii) |
 | [1833-find-the-highest-altitude](https://github.com/flameshine/algorithm-nebula/tree/master/1833-find-the-highest-altitude) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/flameshine/algorithm-nebula/tree/master/2394-count-subarrays-with-score-less-than-k) |
 ## Linked List
 |  |
 | ------- |
@@ -545,6 +548,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/flameshine/algorithm-nebula/tree/master/1046-max-consecutive-ones-iii) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/flameshine/algorithm-nebula/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/flameshine/algorithm-nebula/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/flameshine/algorithm-nebula/tree/master/2394-count-subarrays-with-score-less-than-k) |
 ## Database
 |  |
 | ------- |
