@@ -419,6 +419,7 @@
 | [1146-greatest-common-divisor-of-strings](https://github.com/flameshine/algorithm-nebula/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/flameshine/algorithm-nebula/tree/master/1236-n-th-tribonacci-number) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/flameshine/algorithm-nebula/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2850-construct-the-longest-new-string](https://github.com/flameshine/algorithm-nebula/tree/master/2850-construct-the-longest-new-string) |
 ## Recursion
 |  |
 | ------- |
@@ -515,6 +516,7 @@
 | [1341-split-a-string-in-balanced-strings](https://github.com/flameshine/algorithm-nebula/tree/master/1341-split-a-string-in-balanced-strings) |
 | [2123-the-number-of-weak-characters-in-the-game](https://github.com/flameshine/algorithm-nebula/tree/master/2123-the-number-of-weak-characters-in-the-game) |
 | [2636-maximum-subsequence-score](https://github.com/flameshine/algorithm-nebula/tree/master/2636-maximum-subsequence-score) |
+| [2850-construct-the-longest-new-string](https://github.com/flameshine/algorithm-nebula/tree/master/2850-construct-the-longest-new-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -537,6 +539,7 @@
 | [1250-longest-common-subsequence](https://github.com/flameshine/algorithm-nebula/tree/master/1250-longest-common-subsequence) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/flameshine/algorithm-nebula/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [2850-construct-the-longest-new-string](https://github.com/flameshine/algorithm-nebula/tree/master/2850-construct-the-longest-new-string) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -814,4 +817,8 @@
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/flameshine/algorithm-nebula/tree/master/0380-insert-delete-getrandom-o1) |
+## Brainteaser
+|  |
+| ------- |
+| [2850-construct-the-longest-new-string](https://github.com/flameshine/algorithm-nebula/tree/master/2850-construct-the-longest-new-string) |
 <!---LeetCode Topics End-->
