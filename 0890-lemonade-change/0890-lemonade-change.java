@@ -4,7 +4,6 @@ class Solution {
         
         var balance5 = 0;
         var balance10 = 0;
-        var balance20 = 0;
 
         for (var b : bills) {
             switch (b) {
@@ -27,8 +26,6 @@ class Solution {
                     } else {
                         return false;
                     }
-
-                    ++balance20;
                 }
             }
         }
