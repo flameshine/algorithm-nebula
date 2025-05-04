@@ -158,6 +158,7 @@
 | [0792-binary-search](https://github.com/flameshine/algorithm-nebula/tree/master/0792-binary-search) |
 | [0870-magic-squares-in-grid](https://github.com/flameshine/algorithm-nebula/tree/master/0870-magic-squares-in-grid) |
 | [0883-car-fleet](https://github.com/flameshine/algorithm-nebula/tree/master/0883-car-fleet) |
+| [0890-lemonade-change](https://github.com/flameshine/algorithm-nebula/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/flameshine/algorithm-nebula/tree/master/0907-koko-eating-bananas) |
 | [1014-k-closest-points-to-origin](https://github.com/flameshine/algorithm-nebula/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/flameshine/algorithm-nebula/tree/master/1036-rotting-oranges) |
@@ -512,6 +513,7 @@
 | [0649-dota2-senate](https://github.com/flameshine/algorithm-nebula/tree/master/0649-dota2-senate) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/flameshine/algorithm-nebula/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0778-reorganize-string](https://github.com/flameshine/algorithm-nebula/tree/master/0778-reorganize-string) |
+| [0890-lemonade-change](https://github.com/flameshine/algorithm-nebula/tree/master/0890-lemonade-change) |
 | [1026-string-without-aaa-or-bbb](https://github.com/flameshine/algorithm-nebula/tree/master/1026-string-without-aaa-or-bbb) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/flameshine/algorithm-nebula/tree/master/1341-split-a-string-in-balanced-strings) |
 | [2123-the-number-of-weak-characters-in-the-game](https://github.com/flameshine/algorithm-nebula/tree/master/2123-the-number-of-weak-characters-in-the-game) |
