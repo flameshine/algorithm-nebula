@@ -1,10 +1,6 @@
 class Solution {
 
     public List<List<Integer>> threeSum(int[] nums) {
-        
-        if (nums.length == 0) {
-            return List.of();
-        }
 
         Arrays.sort(nums);
         
@@ -20,14 +16,12 @@ class Solution {
             var k = nums.length - 1;
 
             while (j < k) {
-
+                
                 var sum = nums[i] + nums[j] + nums[k];
 
                 if (sum == 0) {
 
-                    result.add(
-                        List.of(nums[i], nums[j], nums[k])
-                    );
+                    result.add(List.of(nums[i], nums[j], nums[k]));
 
                     ++j;
 
