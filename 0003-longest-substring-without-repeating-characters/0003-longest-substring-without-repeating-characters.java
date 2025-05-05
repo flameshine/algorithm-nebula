@@ -1,10 +1,6 @@
 class Solution {
 
     public int lengthOfLongestSubstring(String s) {
-
-        if (s == null || s.isEmpty()) {
-            return 0;
-        }
         
         var i = 0;
         var j = 0;
