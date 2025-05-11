@@ -147,6 +147,7 @@
 | [0399-evaluate-division](https://github.com/flameshine/algorithm-nebula/tree/master/0399-evaluate-division) |
 | [0435-non-overlapping-intervals](https://github.com/flameshine/algorithm-nebula/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/flameshine/algorithm-nebula/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0494-target-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0494-target-sum) |
 | [0500-keyboard-row](https://github.com/flameshine/algorithm-nebula/tree/master/0500-keyboard-row) |
 | [0605-can-place-flowers](https://github.com/flameshine/algorithm-nebula/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
@@ -538,6 +539,7 @@
 | [0338-counting-bits](https://github.com/flameshine/algorithm-nebula/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/flameshine/algorithm-nebula/tree/master/0392-is-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/flameshine/algorithm-nebula/tree/master/0435-non-overlapping-intervals) |
+| [0494-target-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0494-target-sum) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/flameshine/algorithm-nebula/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/flameshine/algorithm-nebula/tree/master/0747-min-cost-climbing-stairs) |
 | [0806-domino-and-tromino-tiling](https://github.com/flameshine/algorithm-nebula/tree/master/0806-domino-and-tromino-tiling) |
@@ -609,6 +611,7 @@
 | [0047-permutations-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/flameshine/algorithm-nebula/tree/master/0078-subsets) |
 | [0216-combination-sum-iii](https://github.com/flameshine/algorithm-nebula/tree/master/0216-combination-sum-iii) |
+| [0494-target-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0494-target-sum) |
 ## Bit Manipulation
 |  |
 | ------- |
