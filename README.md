@@ -679,6 +679,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0332-reconstruct-itinerary](https://github.com/flameshine/algorithm-nebula/tree/master/0332-reconstruct-itinerary) |
 | [0399-evaluate-division](https://github.com/flameshine/algorithm-nebula/tree/master/0399-evaluate-division) |
 | [0437-path-sum-iii](https://github.com/flameshine/algorithm-nebula/tree/master/0437-path-sum-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0543-diameter-of-binary-tree) |
@@ -790,6 +791,7 @@
 ## Graph
 |  |
 | ------- |
+| [0332-reconstruct-itinerary](https://github.com/flameshine/algorithm-nebula/tree/master/0332-reconstruct-itinerary) |
 | [0399-evaluate-division](https://github.com/flameshine/algorithm-nebula/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/flameshine/algorithm-nebula/tree/master/0547-number-of-provinces) |
 | [0871-keys-and-rooms](https://github.com/flameshine/algorithm-nebula/tree/master/0871-keys-and-rooms) |
@@ -831,4 +833,8 @@
 |  |
 | ------- |
 | [2850-construct-the-longest-new-string](https://github.com/flameshine/algorithm-nebula/tree/master/2850-construct-the-longest-new-string) |
+## Eulerian Circuit
+|  |
+| ------- |
+| [0332-reconstruct-itinerary](https://github.com/flameshine/algorithm-nebula/tree/master/0332-reconstruct-itinerary) |
 <!---LeetCode Topics End-->
