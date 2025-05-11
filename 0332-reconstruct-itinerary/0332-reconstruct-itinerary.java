@@ -27,6 +27,6 @@ class Solution {
             dfs(arrivals.poll(), flights, path);
         }
 
-        path.add(0, departure);
+        path.addFirst(departure);
     }
 }
