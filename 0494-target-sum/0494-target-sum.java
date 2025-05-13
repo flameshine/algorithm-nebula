@@ -1,18 +1,22 @@
 class Solution {
 
     public int findTargetSumWays(int[] nums, int target) {
-        return findTargetSumWays(nums, target, 0, 0);
+        return findTargetSumWays(nums, target, nums.length - 1, 0);
     }
 
     private static int findTargetSumWays(int[] nums, int target, int i, int sum) {
 
-        if (i >= nums.length) {
-            return sum == target ? 1 : 0;
+        if (i < 0 && sum == target) {
+            return 1;
         }
 
-        var substruct = findTargetSumWays(nums, target, i + 1, sum - nums[i]);
-        var add = findTargetSumWays(nums, target, i + 1, sum + nums[i]);
+        if (i < 0) {
+            return 0;
+        }
 
-        return substruct + add;
+        var add = findTargetSumWays(nums, target, i - 1, sum + nums[i]);
+        var substruct = findTargetSumWays(nums, target, i - 1, sum - nums[i]);
+
+        return add + substruct;
     }
 }
