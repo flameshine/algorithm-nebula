@@ -159,6 +159,7 @@
 | [0739-daily-temperatures](https://github.com/flameshine/algorithm-nebula/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/flameshine/algorithm-nebula/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/flameshine/algorithm-nebula/tree/master/0792-binary-search) |
+| [0833-bus-routes](https://github.com/flameshine/algorithm-nebula/tree/master/0833-bus-routes) |
 | [0870-magic-squares-in-grid](https://github.com/flameshine/algorithm-nebula/tree/master/0870-magic-squares-in-grid) |
 | [0883-car-fleet](https://github.com/flameshine/algorithm-nebula/tree/master/0883-car-fleet) |
 | [0890-lemonade-change](https://github.com/flameshine/algorithm-nebula/tree/master/0890-lemonade-change) |
@@ -219,6 +220,7 @@
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/flameshine/algorithm-nebula/tree/master/0778-reorganize-string) |
+| [0833-bus-routes](https://github.com/flameshine/algorithm-nebula/tree/master/0833-bus-routes) |
 | [0870-magic-squares-in-grid](https://github.com/flameshine/algorithm-nebula/tree/master/0870-magic-squares-in-grid) |
 | [1023-time-based-key-value-store](https://github.com/flameshine/algorithm-nebula/tree/master/1023-time-based-key-value-store) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/flameshine/algorithm-nebula/tree/master/1112-find-words-that-can-be-formed-by-characters) |
@@ -713,6 +715,7 @@
 | [0399-evaluate-division](https://github.com/flameshine/algorithm-nebula/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/flameshine/algorithm-nebula/tree/master/0547-number-of-provinces) |
 | [0617-merge-two-binary-trees](https://github.com/flameshine/algorithm-nebula/tree/master/0617-merge-two-binary-trees) |
+| [0833-bus-routes](https://github.com/flameshine/algorithm-nebula/tree/master/0833-bus-routes) |
 | [0871-keys-and-rooms](https://github.com/flameshine/algorithm-nebula/tree/master/0871-keys-and-rooms) |
 | [1005-univalued-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1005-univalued-binary-tree) |
 | [1036-rotting-oranges](https://github.com/flameshine/algorithm-nebula/tree/master/1036-rotting-oranges) |
