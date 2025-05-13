@@ -21,19 +21,19 @@ class Solution {
             return previouslyComputedChange;
         }
 
-        var change = -1;
+        var result = -1;
 
         for (var i = 0; i < coins.length; i++) {
 
-            var coin = coinChange(coins, amount - coins[i], memory);
+            var change = coinChange(coins, amount - coins[i], memory);
             
-            if (coin >= 0) {
-                change = change < 0 ? coin + 1 : Math.min(change, coin + 1);
+            if (change >= 0) {
+                result = result < 0 ? change + 1 : Math.min(result, change + 1);
             }
         }
 
-        memory.put(amount, change);
+        memory.put(amount, result);
 
-        return change;
+        return result;
     }
 }
