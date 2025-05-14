@@ -155,6 +155,7 @@
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
 | [0643-maximum-average-subarray-i](https://github.com/flameshine/algorithm-nebula/tree/master/0643-maximum-average-subarray-i) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/flameshine/algorithm-nebula/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0721-accounts-merge](https://github.com/flameshine/algorithm-nebula/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/flameshine/algorithm-nebula/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/flameshine/algorithm-nebula/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/flameshine/algorithm-nebula/tree/master/0739-daily-temperatures) |
@@ -221,6 +222,7 @@
 | [0500-keyboard-row](https://github.com/flameshine/algorithm-nebula/tree/master/0500-keyboard-row) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
+| [0721-accounts-merge](https://github.com/flameshine/algorithm-nebula/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/flameshine/algorithm-nebula/tree/master/0778-reorganize-string) |
 | [0833-bus-routes](https://github.com/flameshine/algorithm-nebula/tree/master/0833-bus-routes) |
 | [0870-magic-squares-in-grid](https://github.com/flameshine/algorithm-nebula/tree/master/0870-magic-squares-in-grid) |
@@ -309,6 +311,7 @@
 | [0435-non-overlapping-intervals](https://github.com/flameshine/algorithm-nebula/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/flameshine/algorithm-nebula/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0621-task-scheduler](https://github.com/flameshine/algorithm-nebula/tree/master/0621-task-scheduler) |
+| [0721-accounts-merge](https://github.com/flameshine/algorithm-nebula/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/flameshine/algorithm-nebula/tree/master/0778-reorganize-string) |
 | [0883-car-fleet](https://github.com/flameshine/algorithm-nebula/tree/master/0883-car-fleet) |
 | [1014-k-closest-points-to-origin](https://github.com/flameshine/algorithm-nebula/tree/master/1014-k-closest-points-to-origin) |
@@ -351,6 +354,7 @@
 | [0500-keyboard-row](https://github.com/flameshine/algorithm-nebula/tree/master/0500-keyboard-row) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
 | [0649-dota2-senate](https://github.com/flameshine/algorithm-nebula/tree/master/0649-dota2-senate) |
+| [0721-accounts-merge](https://github.com/flameshine/algorithm-nebula/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/flameshine/algorithm-nebula/tree/master/0778-reorganize-string) |
 | [1023-time-based-key-value-store](https://github.com/flameshine/algorithm-nebula/tree/master/1023-time-based-key-value-store) |
 | [1026-string-without-aaa-or-bbb](https://github.com/flameshine/algorithm-nebula/tree/master/1026-string-without-aaa-or-bbb) |
@@ -463,6 +467,7 @@
 | [0200-number-of-islands](https://github.com/flameshine/algorithm-nebula/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/flameshine/algorithm-nebula/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/flameshine/algorithm-nebula/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/flameshine/algorithm-nebula/tree/master/0721-accounts-merge) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -697,6 +702,7 @@
 | [0547-number-of-provinces](https://github.com/flameshine/algorithm-nebula/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/flameshine/algorithm-nebula/tree/master/0617-merge-two-binary-trees) |
+| [0721-accounts-merge](https://github.com/flameshine/algorithm-nebula/tree/master/0721-accounts-merge) |
 | [0871-keys-and-rooms](https://github.com/flameshine/algorithm-nebula/tree/master/0871-keys-and-rooms) |
 | [0904-leaf-similar-trees](https://github.com/flameshine/algorithm-nebula/tree/master/0904-leaf-similar-trees) |
 | [1005-univalued-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1005-univalued-binary-tree) |
@@ -720,6 +726,7 @@
 | [0399-evaluate-division](https://github.com/flameshine/algorithm-nebula/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/flameshine/algorithm-nebula/tree/master/0547-number-of-provinces) |
 | [0617-merge-two-binary-trees](https://github.com/flameshine/algorithm-nebula/tree/master/0617-merge-two-binary-trees) |
+| [0721-accounts-merge](https://github.com/flameshine/algorithm-nebula/tree/master/0721-accounts-merge) |
 | [0833-bus-routes](https://github.com/flameshine/algorithm-nebula/tree/master/0833-bus-routes) |
 | [0871-keys-and-rooms](https://github.com/flameshine/algorithm-nebula/tree/master/0871-keys-and-rooms) |
 | [1005-univalued-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1005-univalued-binary-tree) |
