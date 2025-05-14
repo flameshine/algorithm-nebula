@@ -6,12 +6,8 @@ class Solution {
 
     private static int findTargetSumWays(int[] nums, int target, int i, int sum) {
 
-        if (i >= nums.length && sum == target) {
-            return 1;
-        }
-
         if (i >= nums.length) {
-            return 0;
+            return sum == target ? 1 : 0;
         }
 
         var negative = findTargetSumWays(nums, target, i + 1, sum - nums[i]);
