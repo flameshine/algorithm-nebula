@@ -175,6 +175,7 @@
 | [1319-unique-number-of-occurrences](https://github.com/flameshine/algorithm-nebula/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/flameshine/algorithm-nebula/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1397-search-suggestions-system](https://github.com/flameshine/algorithm-nebula/tree/master/1397-search-suggestions-system) |
+| [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/flameshine/algorithm-nebula/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/flameshine/algorithm-nebula/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/flameshine/algorithm-nebula/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/flameshine/algorithm-nebula/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
@@ -450,6 +451,7 @@
 | [0200-number-of-islands](https://github.com/flameshine/algorithm-nebula/tree/master/0200-number-of-islands) |
 | [0870-magic-squares-in-grid](https://github.com/flameshine/algorithm-nebula/tree/master/0870-magic-squares-in-grid) |
 | [1036-rotting-oranges](https://github.com/flameshine/algorithm-nebula/tree/master/1036-rotting-oranges) |
+| [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/flameshine/algorithm-nebula/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/flameshine/algorithm-nebula/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/flameshine/algorithm-nebula/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/flameshine/algorithm-nebula/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -723,6 +725,7 @@
 | [1005-univalued-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1005-univalued-binary-tree) |
 | [1036-rotting-oranges](https://github.com/flameshine/algorithm-nebula/tree/master/1036-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/flameshine/algorithm-nebula/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/flameshine/algorithm-nebula/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/flameshine/algorithm-nebula/tree/master/2038-nearest-exit-from-entrance-in-maze) |
