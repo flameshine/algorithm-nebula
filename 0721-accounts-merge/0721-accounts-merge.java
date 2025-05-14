@@ -7,44 +7,32 @@ class Solution {
 
         for (var i = 0; i < accounts.size(); i++) {
 
-            var accountId = i;
-            var accountDetails = accounts.get(accountId);
+            var accountDetails = accounts.get(i);
 
-            emailToAccounts.computeIfAbsent(accountId, k -> new HashSet<>());
+            emailToAccounts.computeIfAbsent(i, k -> new TreeSet<>(String::compareTo));
 
             for (var j = 1; j < accountDetails.size(); j++) {
 
                 var email = accountDetails.get(j);
 
-                if (emailGroup.containsKey(email) && emailGroup.get(email) != accountId) {
+                if (emailGroup.containsKey(email) && emailGroup.get(email) != i) {
 
                     var previousAccountId = emailGroup.get(email);
+                    var previousEmails = emailToAccounts.get(previousAccountId);
 
-                    emailToAccounts.get(accountId).addAll(emailToAccounts.get(previousAccountId));
+                    emailToAccounts.get(i).addAll(previousEmails);
 
-                    for (var e : emailToAccounts.get(previousAccountId)) {
-                        emailGroup.put(e, accountId);
+                    for (var e : previousEmails) {
+                        emailGroup.put(e, i);
                     }
+
+                    emailToAccounts.remove(previousAccountId);
+
+                } else {
+                    emailGroup.put(email, i);
+                    emailToAccounts.get(i).add(email);
                 }
-
-                emailGroup.put(email, accountId);
-                emailToAccounts.get(accountId).add(email);
             }
-        }
-
-        emailToAccounts.clear();
-
-        for (var entry : emailGroup.entrySet()) {
-
-            var accountId = entry.getValue();
-            var email = entry.getKey();
-
-            emailToAccounts.computeIfAbsent(
-                accountId,
-                k -> new TreeSet<>((a, b) -> a.compareTo(b))
-            );
-
-            emailToAccounts.get(accountId).add(email);
         }
 
         List<List<String>> result = new ArrayList<>();
