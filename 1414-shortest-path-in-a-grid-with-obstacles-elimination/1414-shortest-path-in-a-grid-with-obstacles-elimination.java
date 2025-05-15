@@ -7,9 +7,9 @@ class Solution {
         var m = grid.length;
         var n = grid[0].length;
 
-        Deque<int[]> queue = new LinkedList<>();
+        Queue<int[]> queue = new LinkedList<>();
 
-        queue.offerLast(new int[] { 0, 0, 0 });
+        queue.offer(new int[] { 0, 0, 0 });
 
         var visited = new int[m][n];
 
@@ -54,7 +54,7 @@ class Solution {
 
                     visited[newX][newY] = newK;
 
-                    queue.offerLast(new int[] { newX, newY, newK });
+                    queue.offer(new int[] { newX, newY, newK });
                 }
             }
 
