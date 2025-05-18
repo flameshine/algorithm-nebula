@@ -199,6 +199,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/flameshine/algorithm-nebula/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/flameshine/algorithm-nebula/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/flameshine/algorithm-nebula/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0030-substring-with-concatenation-of-all-words](https://github.com/flameshine/algorithm-nebula/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0036-valid-sudoku](https://github.com/flameshine/algorithm-nebula/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/flameshine/algorithm-nebula/tree/master/0076-minimum-window-substring) |
@@ -333,6 +334,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/flameshine/algorithm-nebula/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/flameshine/algorithm-nebula/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0030-substring-with-concatenation-of-all-words](https://github.com/flameshine/algorithm-nebula/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0038-count-and-say](https://github.com/flameshine/algorithm-nebula/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/flameshine/algorithm-nebula/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/flameshine/algorithm-nebula/tree/master/0058-length-of-last-word) |
@@ -577,6 +579,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/flameshine/algorithm-nebula/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0030-substring-with-concatenation-of-all-words](https://github.com/flameshine/algorithm-nebula/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0076-minimum-window-substring](https://github.com/flameshine/algorithm-nebula/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/flameshine/algorithm-nebula/tree/master/0239-sliding-window-maximum) |
