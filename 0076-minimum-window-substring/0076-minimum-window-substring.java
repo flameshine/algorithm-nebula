@@ -5,56 +5,37 @@ class Solution {
         if (t.length() > s.length()) {
             return "";
         }
-
-        Map<Character, Integer> frequencies = new HashMap<>();
-
-        for (var c : t.toCharArray()) {
-            frequencies.merge(c, 1, Integer::sum);
-        }
-
-        var count = frequencies.size();
-        var minLength = Integer.MAX_VALUE;
+        
+        var map = new int[128];
+        var count = t.length();
         var left = 0;
         var right = 0;
-        var result = "";
+        var minStart = 0;
+        var minLength = Integer.MAX_VALUE;
+
+        for (var c : t.toCharArray()) {
+            map[c]++;
+        }
 
         while (right < s.length()) {
 
-            var endChar = s.charAt(right++);
-            
-            if (frequencies.containsKey(endChar)) {
-                frequencies.merge(endChar, -1, Integer::sum);
-                if (frequencies.get(endChar) == 0) {
-                    --count;
-                }
-            }
-
-            if (count > 0) {
-                continue;
+            if (map[s.charAt(right++)]-- > 0) {
+                --count;
             }
 
             while (count == 0) {
 
-                var startChar = s.charAt(left++);
-
-                if (frequencies.containsKey(startChar)) {
-
-                    frequencies.merge(startChar, 1, Integer::sum);
-
-                    if (frequencies.get(startChar) > 0) {
-                        ++count;
-                    }
+                if (right - left < minLength) {
+                    minStart = left;
+                    minLength = right - left;
                 }
-            }
 
-            var distance = right - left;
-
-            if (distance < minLength) {
-                result = s.substring(left - 1, right);
-                minLength = distance;
+                if (map[s.charAt(left++)]++ == 0) {
+                    ++count;
+                }
             }
         }
 
-        return minLength != Integer.MAX_VALUE ? result : ""; 
+        return minLength == Integer.MAX_VALUE ? "" : s.substring(minStart, minStart + minLength);
     }
 }
