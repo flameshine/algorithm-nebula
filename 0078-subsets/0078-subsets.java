@@ -12,15 +12,12 @@ class Solution {
         int[] nums,
         int index
     ) {
+        result.add(new ArrayList<>(subset));
 
-        if (index == nums.length) {
-            result.add(new ArrayList<>(subset));
-            return;
+        for (var i = index; i < nums.length; i++) {
+            subset.add(nums[i]);
+            backtrack(result, subset, nums, i + 1);
+            subset.remove(subset.size() - 1);
         }
-
-        subset.add(nums[index]);
-        backtrack(result, subset, nums, index + 1);
-        subset.remove(subset.size() - 1);
-        backtrack(result, subset, nums, index + 1);
     } 
 }
