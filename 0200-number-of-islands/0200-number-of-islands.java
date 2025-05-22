@@ -1,32 +1,32 @@
 class Solution {
 
     public int numIslands(char[][] grid) {
-        
-        var result = 0;
+
+        var islands = 0;
 
         for (var i = 0; i < grid.length; i++) {
             for (var j = 0; j < grid[0].length; j++) {
                 if (grid[i][j] == '1') {
-                    ++result;
-                    clearRestOfTheIsland(grid, i, j);
+                    ++islands;
+                    clearRestOfTheLand(grid, i, j);
                 }
             }
         }
 
-        return result;
+        return islands;
     }
 
-    private static void clearRestOfTheIsland(char[][] grid, int i, int j) {
+    private static void clearRestOfTheLand(char[][] grid, int i, int j) {
 
-        if (i < 0 || j < 0 || i >= grid.length || j >= grid[0].length || grid[i][j] == '0') {
+        if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] == '0') {
             return;
         }
 
         grid[i][j] = '0';
 
-        clearRestOfTheIsland(grid, i + 1, j);
-        clearRestOfTheIsland(grid, i - 1, j);
-        clearRestOfTheIsland(grid, i, j + 1);
-        clearRestOfTheIsland(grid, i, j - 1);
+        clearRestOfTheLand(grid, i + 1, j);
+        clearRestOfTheLand(grid, i - 1, j);
+        clearRestOfTheLand(grid, i, j + 1);
+        clearRestOfTheLand(grid, i, j - 1);
     }
 }
