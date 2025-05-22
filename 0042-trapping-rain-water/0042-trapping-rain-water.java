@@ -2,7 +2,7 @@ class Solution {
 
     public int trap(int[] height) {
         
-                if (height.length == 0) {
+        if (height.length == 0) {
             return 0;
         }
         
