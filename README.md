@@ -193,6 +193,7 @@
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/flameshine/algorithm-nebula/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/flameshine/algorithm-nebula/tree/master/2636-maximum-subsequence-score) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/flameshine/algorithm-nebula/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 ## Hash Table
 |  |
 | ------- |
@@ -596,6 +597,7 @@
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/flameshine/algorithm-nebula/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/flameshine/algorithm-nebula/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/flameshine/algorithm-nebula/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/flameshine/algorithm-nebula/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 ## Database
 |  |
 | ------- |
