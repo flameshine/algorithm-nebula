@@ -2,24 +2,18 @@ class Solution {
 
     public String minRemoveToMakeValid(String s) {
         
-        var openingCount = 0;
-        var closingCount = 0;
+        var count = 0;
 
         Stack<Character> stack = new Stack<>();
 
         for (var c : s.toCharArray()) {
-
             if (c == '(') {
-                ++openingCount;
-            }
-
-            if (c == ')') {
-                ++closingCount;
-            }
-
-            if (closingCount > openingCount) {
-                --closingCount;
-            } else {
+                ++count;
+                stack.push(c);
+            } else if (c == ')' && count > 0) {
+                --count;
+                stack.push(c);
+            } else if (c != ')') {
                 stack.push(c);
             }
         }
@@ -30,8 +24,8 @@ class Solution {
 
             var c = stack.pop();
 
-            if (openingCount > closingCount && c == '(') {
-                --openingCount;
+            if (c == '(' && count > 0) {
+                --count;
             } else {
                 resultBuilder.append(c);
             }
