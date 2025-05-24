@@ -8,10 +8,6 @@ class Solution {
         
         for (var bracket : brackets) {
 
-            // if (income <= 0) {
-            //     break;
-            // }
-
             var taxableAmount = 0;
 
             if (remainingTaxableIncome > bracket[0] - taxedValue) {
