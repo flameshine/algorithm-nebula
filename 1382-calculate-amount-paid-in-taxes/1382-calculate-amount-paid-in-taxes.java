@@ -8,15 +8,9 @@ class Solution {
         
         for (var bracket : brackets) {
 
-            if (income <= 0) {
-                break;
-            }
-
-            // brackets = [[3,50],[7,10],[12,25]], income = 10
-            // 0: remainingTaxableIncome = 10, taxedValue = 0, taxesPaid = 0
-            // 1: remainingTaxableIncome = 7, taxedValue = 3, taxesPaid = 1.5
-            // 2: remainingTaxableIncome = 3, taxedValue = 7, taxesPaid = 1.9
-            // 3: remainingTaxableIncome = 0, taxedValue = 10, taxesPaid = 2.65
+            // if (income <= 0) {
+            //     break;
+            // }
 
             var taxableAmount = 0;
 
