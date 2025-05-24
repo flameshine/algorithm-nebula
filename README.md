@@ -177,6 +177,7 @@
 | [1256-rank-transform-of-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/1256-rank-transform-of-an-array) |
 | [1293-three-consecutive-odds](https://github.com/flameshine/algorithm-nebula/tree/master/1293-three-consecutive-odds) |
 | [1319-unique-number-of-occurrences](https://github.com/flameshine/algorithm-nebula/tree/master/1319-unique-number-of-occurrences) |
+| [1382-calculate-amount-paid-in-taxes](https://github.com/flameshine/algorithm-nebula/tree/master/1382-calculate-amount-paid-in-taxes) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/flameshine/algorithm-nebula/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1397-search-suggestions-system](https://github.com/flameshine/algorithm-nebula/tree/master/1397-search-suggestions-system) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/flameshine/algorithm-nebula/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
@@ -829,6 +830,7 @@
 | ------- |
 | [0068-text-justification](https://github.com/flameshine/algorithm-nebula/tree/master/0068-text-justification) |
 | [0735-asteroid-collision](https://github.com/flameshine/algorithm-nebula/tree/master/0735-asteroid-collision) |
+| [1382-calculate-amount-paid-in-taxes](https://github.com/flameshine/algorithm-nebula/tree/master/1382-calculate-amount-paid-in-taxes) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 | [2470-removing-stars-from-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/2470-removing-stars-from-a-string) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/flameshine/algorithm-nebula/tree/master/2553-total-cost-to-hire-k-workers) |
