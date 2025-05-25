@@ -2,41 +2,33 @@ class Solution {
 
     public List<Integer> findAnagrams(String s, String p) {
         
-        Map<Character, Integer> pFrequencies = new HashMap<>();
+        var pFrequencies = new int[26];
 
         for (var c : p.toCharArray()) {
-            pFrequencies.merge(c, 1, Integer::sum);
+            pFrequencies[c - 'a']++;
         }
 
         List<Integer> result = new ArrayList<>();
-        Map<Character, Integer> currentFrequencies = new HashMap<>();
 
+        var currentFrequencies = new int[26];
         var i = 0;
         var j = 0;
 
         while (j < s.length()) {
 
-            if (currentFrequencies.equals(pFrequencies)) {
+            if (Arrays.equals(pFrequencies, currentFrequencies)) {
                 result.add(i);
             }
 
             if (j - i == p.length()) {
-
-                var iChar = s.charAt(i);
-
-                currentFrequencies.merge(iChar, -1, Integer::sum);
-
-                if (currentFrequencies.get(iChar) == 0) {
-                    currentFrequencies.remove(iChar);
-                }
-
+                currentFrequencies[s.charAt(i) - 'a']--;
                 ++i;
             }
 
-            currentFrequencies.merge(s.charAt(j++), 1, Integer::sum);
+            currentFrequencies[s.charAt(j++) - 'a']++;
         }
 
-        if (currentFrequencies.equals(pFrequencies)) {
+        if (Arrays.equals(pFrequencies, currentFrequencies)) {
             result.add(i);
         }
 
