@@ -225,6 +225,7 @@
 | [0355-design-twitter](https://github.com/flameshine/algorithm-nebula/tree/master/0355-design-twitter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/flameshine/algorithm-nebula/tree/master/0380-insert-delete-getrandom-o1) |
 | [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0500-keyboard-row](https://github.com/flameshine/algorithm-nebula/tree/master/0500-keyboard-row) |
 | [0560-subarray-sum-equals-k](https://github.com/flameshine/algorithm-nebula/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
@@ -359,6 +360,7 @@
 | [0394-decode-string](https://github.com/flameshine/algorithm-nebula/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/flameshine/algorithm-nebula/tree/master/0399-evaluate-division) |
 | [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/flameshine/algorithm-nebula/tree/master/0443-string-compression) |
 | [0500-keyboard-row](https://github.com/flameshine/algorithm-nebula/tree/master/0500-keyboard-row) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
@@ -596,6 +598,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/flameshine/algorithm-nebula/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/flameshine/algorithm-nebula/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/flameshine/algorithm-nebula/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/flameshine/algorithm-nebula/tree/master/0643-maximum-average-subarray-i) |
 | [1046-max-consecutive-ones-iii](https://github.com/flameshine/algorithm-nebula/tree/master/1046-max-consecutive-ones-iii) |
