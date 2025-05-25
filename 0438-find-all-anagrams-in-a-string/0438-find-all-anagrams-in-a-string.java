@@ -21,8 +21,7 @@ class Solution {
             }
 
             if (j - i == p.length()) {
-                currentFrequencies[s.charAt(i) - 'a']--;
-                ++i;
+                currentFrequencies[s.charAt(i++) - 'a']--;
             }
 
             currentFrequencies[s.charAt(j++) - 'a']++;
