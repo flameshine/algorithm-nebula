@@ -352,6 +352,7 @@
 | [0140-word-break-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0140-word-break-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0208-implement-trie-prefix-tree) |
+| [0224-basic-calculator](https://github.com/flameshine/algorithm-nebula/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/flameshine/algorithm-nebula/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/flameshine/algorithm-nebula/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -394,6 +395,7 @@
 | [0143-reorder-list](https://github.com/flameshine/algorithm-nebula/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/flameshine/algorithm-nebula/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/flameshine/algorithm-nebula/tree/master/0155-min-stack) |
+| [0224-basic-calculator](https://github.com/flameshine/algorithm-nebula/tree/master/0224-basic-calculator) |
 | [0394-decode-string](https://github.com/flameshine/algorithm-nebula/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/flameshine/algorithm-nebula/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/flameshine/algorithm-nebula/tree/master/0739-daily-temperatures) |
@@ -446,6 +448,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/flameshine/algorithm-nebula/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/flameshine/algorithm-nebula/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/flameshine/algorithm-nebula/tree/master/0202-happy-number) |
+| [0224-basic-calculator](https://github.com/flameshine/algorithm-nebula/tree/master/0224-basic-calculator) |
 | [0380-insert-delete-getrandom-o1](https://github.com/flameshine/algorithm-nebula/tree/master/0380-insert-delete-getrandom-o1) |
 | [0870-magic-squares-in-grid](https://github.com/flameshine/algorithm-nebula/tree/master/0870-magic-squares-in-grid) |
 | [1014-k-closest-points-to-origin](https://github.com/flameshine/algorithm-nebula/tree/master/1014-k-closest-points-to-origin) |
@@ -462,6 +465,7 @@
 | [0050-powx-n](https://github.com/flameshine/algorithm-nebula/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/flameshine/algorithm-nebula/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/0206-reverse-linked-list) |
+| [0224-basic-calculator](https://github.com/flameshine/algorithm-nebula/tree/master/0224-basic-calculator) |
 | [0394-decode-string](https://github.com/flameshine/algorithm-nebula/tree/master/0394-decode-string) |
 ## Matrix
 |  |
