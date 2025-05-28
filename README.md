@@ -196,6 +196,7 @@
 | [2553-total-cost-to-hire-k-workers](https://github.com/flameshine/algorithm-nebula/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/flameshine/algorithm-nebula/tree/master/2636-maximum-subsequence-score) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/flameshine/algorithm-nebula/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
+| [3356-shortest-uncommon-substring-in-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/3356-shortest-uncommon-substring-in-an-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -243,6 +244,7 @@
 | [1798-max-number-of-k-sum-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2413-smallest-number-in-infinite-set](https://github.com/flameshine/algorithm-nebula/tree/master/2413-smallest-number-in-infinite-set) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
+| [3356-shortest-uncommon-substring-in-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/3356-shortest-uncommon-substring-in-an-array) |
 ## Two Pointers
 |  |
 | ------- |
@@ -385,6 +387,7 @@
 | [2304-cells-in-a-range-on-an-excel-sheet](https://github.com/flameshine/algorithm-nebula/tree/master/2304-cells-in-a-range-on-an-excel-sheet) |
 | [2470-removing-stars-from-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/2470-removing-stars-from-a-string) |
 | [2580-circular-sentence](https://github.com/flameshine/algorithm-nebula/tree/master/2580-circular-sentence) |
+| [3356-shortest-uncommon-substring-in-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/3356-shortest-uncommon-substring-in-an-array) |
 ## Stack
 |  |
 | ------- |
@@ -879,6 +882,7 @@
 | [0140-word-break-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0208-implement-trie-prefix-tree) |
 | [1397-search-suggestions-system](https://github.com/flameshine/algorithm-nebula/tree/master/1397-search-suggestions-system) |
+| [3356-shortest-uncommon-substring-in-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/3356-shortest-uncommon-substring-in-an-array) |
 ## Counting Sort
 |  |
 | ------- |
