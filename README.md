@@ -390,6 +390,7 @@
 | [2470-removing-stars-from-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/2470-removing-stars-from-a-string) |
 | [2580-circular-sentence](https://github.com/flameshine/algorithm-nebula/tree/master/2580-circular-sentence) |
 | [3356-shortest-uncommon-substring-in-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/3356-shortest-uncommon-substring-in-an-array) |
+| [3451-string-compression-iii](https://github.com/flameshine/algorithm-nebula/tree/master/3451-string-compression-iii) |
 ## Stack
 |  |
 | ------- |
