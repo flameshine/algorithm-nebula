@@ -1,5 +1,7 @@
 class RecentCounter {
 
+    private static final int RANGE = 3000;
+
     private final Queue<Integer> queue;
 
     public RecentCounter() {
@@ -7,12 +9,12 @@ class RecentCounter {
     }
     
     public int ping(int t) {
-
-        while (!queue.isEmpty() && queue.peek() < t - 3000) {
-            queue.poll();
-        }
         
         queue.add(t);
+
+        while (queue.peek() < t - RANGE) {
+            queue.poll();
+        }
 
         return queue.size();
     }
