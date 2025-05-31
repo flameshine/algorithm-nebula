@@ -4,12 +4,10 @@ class Solution {
 
         List<Integer> result = new ArrayList<>();
         
-        var n = matrix.length;
-        var m = matrix[0].length;
         var left = 0;
-        var right = m - 1;
+        var right = matrix[0].length - 1;
         var top = 0;
-        var bottom = n - 1;
+        var bottom = matrix.length - 1;
 
         while (left <= right && top <= bottom) {
 
