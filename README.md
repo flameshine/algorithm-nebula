@@ -245,6 +245,7 @@
 | [1392-find-the-difference-of-two-arrays](https://github.com/flameshine/algorithm-nebula/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1777-determine-if-two-strings-are-close](https://github.com/flameshine/algorithm-nebula/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/1798-max-number-of-k-sum-pairs) |
+| [1905-design-authentication-manager](https://github.com/flameshine/algorithm-nebula/tree/master/1905-design-authentication-manager) |
 | [2413-smallest-number-in-infinite-set](https://github.com/flameshine/algorithm-nebula/tree/master/2413-smallest-number-in-infinite-set) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 | [3356-shortest-uncommon-substring-in-an-array](https://github.com/flameshine/algorithm-nebula/tree/master/3356-shortest-uncommon-substring-in-an-array) |
@@ -440,6 +441,7 @@
 | [0206-reverse-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/0328-odd-even-linked-list) |
 | [0355-design-twitter](https://github.com/flameshine/algorithm-nebula/tree/master/0355-design-twitter) |
+| [1905-design-authentication-manager](https://github.com/flameshine/algorithm-nebula/tree/master/1905-design-authentication-manager) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/flameshine/algorithm-nebula/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Math
@@ -648,6 +650,7 @@
 | [0937-online-stock-span](https://github.com/flameshine/algorithm-nebula/tree/master/0937-online-stock-span) |
 | [0969-number-of-recent-calls](https://github.com/flameshine/algorithm-nebula/tree/master/0969-number-of-recent-calls) |
 | [1023-time-based-key-value-store](https://github.com/flameshine/algorithm-nebula/tree/master/1023-time-based-key-value-store) |
+| [1905-design-authentication-manager](https://github.com/flameshine/algorithm-nebula/tree/master/1905-design-authentication-manager) |
 | [2413-smallest-number-in-infinite-set](https://github.com/flameshine/algorithm-nebula/tree/master/2413-smallest-number-in-infinite-set) |
 ## Backtracking
 |  |
@@ -674,6 +677,7 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/flameshine/algorithm-nebula/tree/master/0146-lru-cache) |
+| [1905-design-authentication-manager](https://github.com/flameshine/algorithm-nebula/tree/master/1905-design-authentication-manager) |
 ## Merge Sort
 |  |
 | ------- |
