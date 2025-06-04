@@ -2,30 +2,32 @@ class Solution {
 
     public String longestPalindrome(String s) {
         
-        var chars = s.toCharArray();
-        var start = 0;
-        var end = 0;
+        var result = "";
 
-        for (var i = 0; i < chars.length; i++) {
+        for (var i = 0; i < s.length(); i++) {
 
-            var length = Math.max(expand(chars, i, i), expand(chars, i, i + 1));
+            var odd = expand(s, i, i);
+            var even = expand(s, i, i + 1);
 
-            if (length > end - start + 1) {
-                start = i - (length - 1) / 2;
-                end = i + length / 2;
+            if (odd.length() > result.length()) {
+                result = odd;
+            }
+
+            if (even.length() > result.length()) {
+                result = even;
             }
         }
 
-        return s.substring(start, end + 1);
+        return result;
     }
 
-    private static int expand(char[] chars, int i, int j) {
+    private static String expand(String s, int i, int j) {
 
-        while (i >= 0 && j < chars.length && chars[i] == chars[j]) {
+        while (i >= 0 && j < s.length() && s.charAt(i) == s.charAt(j)) {
             --i;
             ++j;
         }
 
-        return j - i - 1;
+        return s.substring(i + 1, j);
     }
 }
