@@ -10,8 +10,6 @@ class Solution {
             }
         }
 
-        while (pointer <= nums.length - 1) {
-            nums[pointer++] = 0;
-        }
+        Arrays.fill(nums, pointer, nums.length, 0);
     }
 }
