@@ -1,7 +1,7 @@
 class Solution {
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-
+        
         var n1 = nums1.length;
         var n2 = nums2.length;
 
@@ -10,7 +10,7 @@ class Solution {
         }
 
         var n = n1 + n2;
-        var half = (n1 + n2 + 1) >> 1;
+        var half = (n1 + n2 + 1) / 2;
         var left = 0;
         var right = n1;
 
@@ -23,12 +23,14 @@ class Solution {
             var n2LeftPartition = n2Middle > 0 ? nums2[n2Middle - 1] : Integer.MIN_VALUE;
             var n2RightPartition = n2Middle < n2 ? nums2[n2Middle] : Integer.MAX_VALUE;
 
-            if (n2LeftPartition <= n1RightPartition && n1LeftPartition <= n2RightPartition) {
+            if (n1LeftPartition <= n2RightPartition && n2LeftPartition <= n1RightPartition) {
+
                 if (n % 2 == 1) {
                     return (double) Math.max(n1LeftPartition, n2LeftPartition);
                 } else {
                     return (Math.max(n1LeftPartition, n2LeftPartition) + Math.min(n1RightPartition, n2RightPartition)) / 2d;
                 }
+
             } else if (n1LeftPartition > n2RightPartition) {
                 right = n1Middle - 1;
             } else {
