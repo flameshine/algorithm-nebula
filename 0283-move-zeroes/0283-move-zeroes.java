@@ -2,14 +2,16 @@ class Solution {
 
     public void moveZeroes(int[] nums) {
         
-        var lastZeroIndex = 0;
+        var pointer = 0;
 
-        for (var i = 0; i < nums.length; i++) {
-            if (nums[i] != 0) {
-                var tmp = nums[i];
-                nums[i] = 0;
-                nums[lastZeroIndex++] = tmp;
+        for (var n : nums) {
+            if (n != 0) {
+                nums[pointer++] = n;
             }
+        }
+
+        while (pointer <= nums.length - 1) {
+            nums[pointer++] = 0;
         }
     }
 }
