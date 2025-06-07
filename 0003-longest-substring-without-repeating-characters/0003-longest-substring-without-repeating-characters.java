@@ -9,14 +9,12 @@ class Solution {
         Set<Character> seen = new HashSet<>();
 
         while (j < s.length()) {
-
             if (seen.contains(s.charAt(j))) {
                 seen.remove(s.charAt(i++));
             } else {
                 seen.add(s.charAt(j++));
+                result = Math.max(result, seen.size());
             }
-
-            result = Math.max(result, seen.size());
         }
 
         return result;
