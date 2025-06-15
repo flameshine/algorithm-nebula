@@ -1,34 +1,22 @@
 class Solution {
 
     public List<List<Integer>> permute(int[] nums) {
-
-        if (nums.length == 0) {
-            return List.of();
-        }
-
         List<List<Integer>> result = new ArrayList<>();
-
-        createPermutation(result, new ArrayList<>(), nums, 0);
-
+        permute(nums, 0, result, new ArrayList<>());
         return result;
     }
 
-    private static void createPermutation(
-        List<List<Integer>> result,
-        List<Integer> permutation,
-        int[] nums,
-        int index
-    ) {
+    private static void permute(int[] nums, int index, List<List<Integer>> result, List<Integer> current) {
 
-        if (permutation.size() == nums.length) {
-            result.add(permutation);
+        if (current.size() == nums.length) {
+            result.add(current);
             return;
         }
 
-        for (var i = 0; i <= permutation.size(); i++) {
-            List<Integer> updated = new ArrayList<>(permutation);
-            updated.add(i, nums[index]);
-            createPermutation(result, updated, nums, index + 1);
+        for (var i = 0; i <= current.size(); i++) {
+            List<Integer> permutation = new ArrayList<>(current);
+            permutation.add(i, nums[index]);
+            permute(nums, index + 1, result, permutation);
         }
     }
 }
