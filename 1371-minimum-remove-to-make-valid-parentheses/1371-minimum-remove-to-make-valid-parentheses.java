@@ -1,7 +1,7 @@
 class Solution {
 
     public String minRemoveToMakeValid(String s) {
-        
+
         var count = 0;
 
         Stack<Character> stack = new Stack<>();
@@ -18,19 +18,18 @@ class Solution {
             }
         }
 
-        var resultBuilder = new StringBuilder();
+        var builder = new StringBuilder();
 
         while (!stack.isEmpty()) {
-
             var c = stack.pop();
-
             if (c == '(' && count > 0) {
                 --count;
             } else {
-                resultBuilder.append(c);
+                builder.append(c);
             }
         }
 
-        return resultBuilder.reverse().toString();
+        return builder.reverse()
+            .toString();
     }
 }
