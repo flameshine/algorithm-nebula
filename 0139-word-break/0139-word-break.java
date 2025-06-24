@@ -19,7 +19,6 @@ class Solution {
             var substring = s.substring(0, i + 1);
 
             if (words.contains(substring) && wordBreak(s.substring(i + 1), words, memory)) {
-                memory.put(s, true);
                 return true;
             }
         }
