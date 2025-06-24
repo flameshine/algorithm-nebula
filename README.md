@@ -148,6 +148,7 @@
 | [0322-coin-change](https://github.com/flameshine/algorithm-nebula/tree/master/0322-coin-change) |
 | [0334-increasing-triplet-subsequence](https://github.com/flameshine/algorithm-nebula/tree/master/0334-increasing-triplet-subsequence) |
 | [0347-top-k-frequent-elements](https://github.com/flameshine/algorithm-nebula/tree/master/0347-top-k-frequent-elements) |
+| [0349-intersection-of-two-arrays](https://github.com/flameshine/algorithm-nebula/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/flameshine/algorithm-nebula/tree/master/0380-insert-delete-getrandom-o1) |
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/flameshine/algorithm-nebula/tree/master/0381-insert-delete-getrandom-o1-duplicates-allowed) |
@@ -229,6 +230,7 @@
 | [0242-valid-anagram](https://github.com/flameshine/algorithm-nebula/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/flameshine/algorithm-nebula/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/flameshine/algorithm-nebula/tree/master/0347-top-k-frequent-elements) |
+| [0349-intersection-of-two-arrays](https://github.com/flameshine/algorithm-nebula/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0355-design-twitter](https://github.com/flameshine/algorithm-nebula/tree/master/0355-design-twitter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/flameshine/algorithm-nebula/tree/master/0380-insert-delete-getrandom-o1) |
@@ -280,6 +282,7 @@
 | [0287-find-the-duplicate-number](https://github.com/flameshine/algorithm-nebula/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/flameshine/algorithm-nebula/tree/master/0295-find-median-from-data-stream) |
 | [0345-reverse-vowels-of-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/0345-reverse-vowels-of-a-string) |
+| [0349-intersection-of-two-arrays](https://github.com/flameshine/algorithm-nebula/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0392-is-subsequence](https://github.com/flameshine/algorithm-nebula/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/flameshine/algorithm-nebula/tree/master/0443-string-compression) |
@@ -305,6 +308,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/flameshine/algorithm-nebula/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/flameshine/algorithm-nebula/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/flameshine/algorithm-nebula/tree/master/0287-find-the-duplicate-number) |
+| [0349-intersection-of-two-arrays](https://github.com/flameshine/algorithm-nebula/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0374-guess-number-higher-or-lower](https://github.com/flameshine/algorithm-nebula/tree/master/0374-guess-number-higher-or-lower) |
 | [0792-binary-search](https://github.com/flameshine/algorithm-nebula/tree/master/0792-binary-search) |
@@ -329,6 +333,7 @@
 | [0274-h-index](https://github.com/flameshine/algorithm-nebula/tree/master/0274-h-index) |
 | [0295-find-median-from-data-stream](https://github.com/flameshine/algorithm-nebula/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/flameshine/algorithm-nebula/tree/master/0347-top-k-frequent-elements) |
+| [0349-intersection-of-two-arrays](https://github.com/flameshine/algorithm-nebula/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0435-non-overlapping-intervals](https://github.com/flameshine/algorithm-nebula/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/flameshine/algorithm-nebula/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
