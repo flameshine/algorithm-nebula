@@ -423,6 +423,7 @@
 | [0155-min-stack](https://github.com/flameshine/algorithm-nebula/tree/master/0155-min-stack) |
 | [0224-basic-calculator](https://github.com/flameshine/algorithm-nebula/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0227-basic-calculator-ii) |
+| [0341-flatten-nested-list-iterator](https://github.com/flameshine/algorithm-nebula/tree/master/0341-flatten-nested-list-iterator) |
 | [0394-decode-string](https://github.com/flameshine/algorithm-nebula/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/flameshine/algorithm-nebula/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/flameshine/algorithm-nebula/tree/master/0739-daily-temperatures) |
@@ -658,6 +659,7 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/flameshine/algorithm-nebula/tree/master/0239-sliding-window-maximum) |
+| [0341-flatten-nested-list-iterator](https://github.com/flameshine/algorithm-nebula/tree/master/0341-flatten-nested-list-iterator) |
 | [0649-dota2-senate](https://github.com/flameshine/algorithm-nebula/tree/master/0649-dota2-senate) |
 | [0969-number-of-recent-calls](https://github.com/flameshine/algorithm-nebula/tree/master/0969-number-of-recent-calls) |
 ## Monotonic Queue
@@ -672,6 +674,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/flameshine/algorithm-nebula/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0341-flatten-nested-list-iterator](https://github.com/flameshine/algorithm-nebula/tree/master/0341-flatten-nested-list-iterator) |
 | [0355-design-twitter](https://github.com/flameshine/algorithm-nebula/tree/master/0355-design-twitter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/flameshine/algorithm-nebula/tree/master/0380-insert-delete-getrandom-o1) |
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/flameshine/algorithm-nebula/tree/master/0381-insert-delete-getrandom-o1-duplicates-allowed) |
@@ -732,6 +735,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0341-flatten-nested-list-iterator](https://github.com/flameshine/algorithm-nebula/tree/master/0341-flatten-nested-list-iterator) |
 | [0437-path-sum-iii](https://github.com/flameshine/algorithm-nebula/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/flameshine/algorithm-nebula/tree/master/0450-delete-node-in-a-bst) |
 | [0513-find-bottom-left-tree-value](https://github.com/flameshine/algorithm-nebula/tree/master/0513-find-bottom-left-tree-value) |
@@ -768,6 +772,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/flameshine/algorithm-nebula/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0332-reconstruct-itinerary](https://github.com/flameshine/algorithm-nebula/tree/master/0332-reconstruct-itinerary) |
+| [0341-flatten-nested-list-iterator](https://github.com/flameshine/algorithm-nebula/tree/master/0341-flatten-nested-list-iterator) |
 | [0399-evaluate-division](https://github.com/flameshine/algorithm-nebula/tree/master/0399-evaluate-division) |
 | [0437-path-sum-iii](https://github.com/flameshine/algorithm-nebula/tree/master/0437-path-sum-iii) |
 | [0513-find-bottom-left-tree-value](https://github.com/flameshine/algorithm-nebula/tree/master/0513-find-bottom-left-tree-value) |
@@ -952,4 +957,8 @@
 |  |
 | ------- |
 | [0210-course-schedule-ii](https://github.com/flameshine/algorithm-nebula/tree/master/0210-course-schedule-ii) |
+## Iterator
+|  |
+| ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/flameshine/algorithm-nebula/tree/master/0341-flatten-nested-list-iterator) |
 <!---LeetCode Topics End-->
