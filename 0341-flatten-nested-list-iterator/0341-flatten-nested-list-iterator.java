@@ -15,24 +15,21 @@
  */
 public class NestedIterator implements Iterator<Integer> {
 
-    private final List<Integer> flattenedList;
-
-    private int lastIndex;
+    private final Queue<Integer> queue;
 
     public NestedIterator(List<NestedInteger> nestedList) {
-        this.flattenedList = new ArrayList<>();
-        this.lastIndex = 0;
+        this.queue = new LinkedList<>();
         addAllItems(nestedList);
     }
 
     @Override
     public Integer next() {
-        return flattenedList.get(lastIndex++);
+        return queue.poll();
     }
 
     @Override
     public boolean hasNext() {
-        return flattenedList.size() > lastIndex;
+        return !queue.isEmpty();
     }
 
     private void addAllItems(List<NestedInteger> list) {
@@ -43,7 +40,7 @@ public class NestedIterator implements Iterator<Integer> {
 
         for (var i : list) {
             if (i.isInteger()) {
-                flattenedList.add(i.getInteger());
+                queue.add(i.getInteger());
             } else {
                 addAllItems(i.getList());
             }
