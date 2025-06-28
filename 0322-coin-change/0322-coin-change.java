@@ -1,40 +1,21 @@
 class Solution {
 
     public int coinChange(int[] coins, int amount) {
-        Map<Integer, Integer> memory = new HashMap<>();
-        var result = coinChange(coins, amount, memory);
-        return result == Integer.MAX_VALUE ? -1 : result;
-    }
 
-    private static int coinChange(int[] coins, int amount, Map<Integer, Integer> memory) {
+        var dp = new int[amount + 1];
 
-        if (amount == 0) {
-            return 0;
-        }
+        Arrays.fill(dp, amount + 1);
 
-        if (amount < 0) {
-            return Integer.MAX_VALUE;
-        }
+        dp[0] = 0;
 
-        var previouslyComputedChange = memory.get(amount);
-
-        if (previouslyComputedChange != null) {
-            return previouslyComputedChange;
-        }
-
-        var result = Integer.MAX_VALUE;
-
-        for (var i = 0; i < coins.length; i++) {
-
-            var change = coinChange(coins, amount - coins[i], memory);
-            
-            if (change != Integer.MAX_VALUE) {
-                result = Math.min(result, change + 1);
+        for (var i = 1; i <= amount; i++) {
+            for (var c : coins) {
+                if (i >= c) {
+                    dp[i] = Math.min(dp[i], dp[i - c] + 1);
+                }
             }
         }
 
-        memory.put(amount, result);
-
-        return result;
+        return dp[amount] > amount ? -1 : dp[amount];
     }
 }
