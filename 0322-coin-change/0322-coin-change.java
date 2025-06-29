@@ -1,21 +1,35 @@
 class Solution {
 
     public int coinChange(int[] coins, int amount) {
+        var cache = new int[amount + 1];
+        Arrays.fill(cache, -1);
+        var result = coinChange(coins, amount, cache);
+        return result == Integer.MAX_VALUE ? -1 : result;
+    }
+    
+    private static int coinChange(int[] coins, int amount, int[] cache) {
+        
+        if (amount == 0) {
+            return 0;
+        }
 
-        var dp = new int[amount + 1];
+        if (amount < 0) {
+            return Integer.MAX_VALUE;
+        }
 
-        Arrays.fill(dp, amount + 1);
+        if (cache[amount] != -1) {
+            return cache[amount];
+        }
 
-        dp[0] = 0;
+        var change = Integer.MAX_VALUE;
 
-        for (var i = 1; i <= amount; i++) {
-            for (var c : coins) {
-                if (i >= c) {
-                    dp[i] = Math.min(dp[i], dp[i - c] + 1);
-                }
+        for (var i = 0; i < coins.length; i++) {
+            var c = coinChange(coins, amount - coins[i], cache);
+            if (c != Integer.MAX_VALUE) {
+                change = Math.min(change, c + 1);
             }
         }
 
-        return dp[amount] > amount ? -1 : dp[amount];
+        return cache[amount] = change;
     }
 }
