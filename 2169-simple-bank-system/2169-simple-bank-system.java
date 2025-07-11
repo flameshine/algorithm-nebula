@@ -1,10 +1,8 @@
 class Bank {
 
     private final Map<Integer, Long> accounts;
-    private final int n;
 
     public Bank(long[] balance) {
-        this.n = balance.length;
         this.accounts = IntStream.range(0, balance.length)
             .boxed()
             .collect(Collectors.toMap(k -> k + 1, v -> balance[v]));
@@ -12,7 +10,7 @@ class Bank {
     
     public boolean transfer(int account1, int account2, long money) {
         
-        if (account1 > n || account2 > n) {
+        if (!accounts.containsKey(account1) || !accounts.containsKey(account2)) {
             return false;
         }
 
@@ -27,7 +25,7 @@ class Bank {
     
     public boolean deposit(int account, long money) {
         
-        if (account > n) {
+        if (!accounts.containsKey(account)) {
             return false;
         }
 
@@ -38,7 +36,7 @@ class Bank {
     
     public boolean withdraw(int account, long money) {
         
-        if (account > n) {
+        if (!accounts.containsKey(account)) {
             return false;
         }
 
