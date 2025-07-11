@@ -195,6 +195,7 @@
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/flameshine/algorithm-nebula/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2123-the-number-of-weak-characters-in-the-game](https://github.com/flameshine/algorithm-nebula/tree/master/2123-the-number-of-weak-characters-in-the-game) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/flameshine/algorithm-nebula/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2169-simple-bank-system](https://github.com/flameshine/algorithm-nebula/tree/master/2169-simple-bank-system) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/flameshine/algorithm-nebula/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/flameshine/algorithm-nebula/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/flameshine/algorithm-nebula/tree/master/2394-count-subarrays-with-score-less-than-k) |
@@ -253,6 +254,7 @@
 | [1777-determine-if-two-strings-are-close](https://github.com/flameshine/algorithm-nebula/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1905-design-authentication-manager](https://github.com/flameshine/algorithm-nebula/tree/master/1905-design-authentication-manager) |
+| [2169-simple-bank-system](https://github.com/flameshine/algorithm-nebula/tree/master/2169-simple-bank-system) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/flameshine/algorithm-nebula/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2413-smallest-number-in-infinite-set](https://github.com/flameshine/algorithm-nebula/tree/master/2413-smallest-number-in-infinite-set) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
@@ -686,6 +688,7 @@
 | [0969-number-of-recent-calls](https://github.com/flameshine/algorithm-nebula/tree/master/0969-number-of-recent-calls) |
 | [1023-time-based-key-value-store](https://github.com/flameshine/algorithm-nebula/tree/master/1023-time-based-key-value-store) |
 | [1905-design-authentication-manager](https://github.com/flameshine/algorithm-nebula/tree/master/1905-design-authentication-manager) |
+| [2169-simple-bank-system](https://github.com/flameshine/algorithm-nebula/tree/master/2169-simple-bank-system) |
 | [2413-smallest-number-in-infinite-set](https://github.com/flameshine/algorithm-nebula/tree/master/2413-smallest-number-in-infinite-set) |
 ## Backtracking
 |  |
@@ -896,6 +899,7 @@
 | [0068-text-justification](https://github.com/flameshine/algorithm-nebula/tree/master/0068-text-justification) |
 | [0735-asteroid-collision](https://github.com/flameshine/algorithm-nebula/tree/master/0735-asteroid-collision) |
 | [1382-calculate-amount-paid-in-taxes](https://github.com/flameshine/algorithm-nebula/tree/master/1382-calculate-amount-paid-in-taxes) |
+| [2169-simple-bank-system](https://github.com/flameshine/algorithm-nebula/tree/master/2169-simple-bank-system) |
 | [2428-equal-row-and-column-pairs](https://github.com/flameshine/algorithm-nebula/tree/master/2428-equal-row-and-column-pairs) |
 | [2470-removing-stars-from-a-string](https://github.com/flameshine/algorithm-nebula/tree/master/2470-removing-stars-from-a-string) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/flameshine/algorithm-nebula/tree/master/2553-total-cost-to-hire-k-workers) |
