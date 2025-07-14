@@ -4,26 +4,28 @@ class Solution {
         return wordBreak(s, new HashSet<>(wordDict), new HashMap<>());
     }
 
-    private static boolean wordBreak(String s, Set<String> words, Map<String, Boolean> memory) {
+    private static boolean wordBreak(String s, Set<String> dictionary, Map<String, Boolean> cache) {
 
-        if (s.length() == 0) {
+        if (s.isEmpty()) {
             return true;
         }
 
-        if (memory.containsKey(s)) {
-            return memory.get(s);
+        if (cache.containsKey(s)) {
+            return cache.get(s);
         }
 
         for (var i = 0; i < s.length(); i++) {
 
-            var substring = s.substring(0, i + 1);
+            var prefix = s.substring(0, i + 1);
+            var suffix = s.substring(i + 1);
 
-            if (words.contains(substring) && wordBreak(s.substring(i + 1), words, memory)) {
+            if (dictionary.contains(prefix) && wordBreak(suffix, dictionary, cache)) {
+                cache.put(s, true);
                 return true;
             }
         }
 
-        memory.put(s, false);
+        cache.put(s, false);
 
         return false;
     }
